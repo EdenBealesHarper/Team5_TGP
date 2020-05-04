@@ -1,0 +1,1242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2020-05-04T15:30:18.583+01:00
+  initializedAtString: 2020-05-04T15:30:18.583+01:00
+  entries:
+  - path: Team5 - TGP\Assets\Plugins.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins.meta
+    projectPath: Assets\Plugins.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub.meta
+    projectPath: Assets\Plugins\GitHub.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor.meta
+    projectPath: Assets\Plugins\GitHub\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\credits.txt
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\credits.txt
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\credits.txt.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\credits.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\eula.txt
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\eula.txt
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\eula.txt.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\eula.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\libsfw.bundle
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\libsfw.bundle
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\libsfw.so
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\libsfw.so
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\sfw.net.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\sfw.net.dll
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\System.Threading.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\System.Threading.dll
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\x64.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\x64.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\x86.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\x86.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\APIUpdater\project-dependencies.graph
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\APIUpdater\project-dependencies.graph
+    projectPath: Library\APIUpdater\project-dependencies.graph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ArtifactDB
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\Artifacts\05\05522326da8da6ae5767efec7dbc844e
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\05\05522326da8da6ae5767efec7dbc844e
+    projectPath: Library\Artifacts\05\05522326da8da6ae5767efec7dbc844e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\0d\0dc2d87e837a22413ec19fa64826235a
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\0d\0dc2d87e837a22413ec19fa64826235a
+    projectPath: Library\Artifacts\0d\0dc2d87e837a22413ec19fa64826235a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\15\1514e2a0e610c3f4dd87c9ee8b7d1daa
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\15\1514e2a0e610c3f4dd87c9ee8b7d1daa
+    projectPath: Library\Artifacts\15\1514e2a0e610c3f4dd87c9ee8b7d1daa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\1d\1d6a681a0923f1dc546ad1fa41085354
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\1d\1d6a681a0923f1dc546ad1fa41085354
+    projectPath: Library\Artifacts\1d\1d6a681a0923f1dc546ad1fa41085354
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\1e\1e07e0a7f1fecc0ba5d000641f583bff
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\1e\1e07e0a7f1fecc0ba5d000641f583bff
+    projectPath: Library\Artifacts\1e\1e07e0a7f1fecc0ba5d000641f583bff
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+    projectPath: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\24\244dda71bd3a4b99b885d4e6c35be003
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\24\244dda71bd3a4b99b885d4e6c35be003
+    projectPath: Library\Artifacts\24\244dda71bd3a4b99b885d4e6c35be003
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\24\24c6ea1de51f8425abc3162c0cfec6f8
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\24\24c6ea1de51f8425abc3162c0cfec6f8
+    projectPath: Library\Artifacts\24\24c6ea1de51f8425abc3162c0cfec6f8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\31\31e2884578e4120f1df61aa0c8747e9e
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\31\31e2884578e4120f1df61aa0c8747e9e
+    projectPath: Library\Artifacts\31\31e2884578e4120f1df61aa0c8747e9e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\46\46824eb8215389a5db7c4197bf4c1809
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\46\46824eb8215389a5db7c4197bf4c1809
+    projectPath: Library\Artifacts\46\46824eb8215389a5db7c4197bf4c1809
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\47\47e33dc0886092e9d78e27f25bd4d1ef
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\47\47e33dc0886092e9d78e27f25bd4d1ef
+    projectPath: Library\Artifacts\47\47e33dc0886092e9d78e27f25bd4d1ef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\49\492e6979aada1aa324464c62ba2b5c5f
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\49\492e6979aada1aa324464c62ba2b5c5f
+    projectPath: Library\Artifacts\49\492e6979aada1aa324464c62ba2b5c5f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\53\53b2dae63fc21f1371e4c4fa0faa30c8
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\53\53b2dae63fc21f1371e4c4fa0faa30c8
+    projectPath: Library\Artifacts\53\53b2dae63fc21f1371e4c4fa0faa30c8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\5e\5e80521ff875e018fc96d16cf8073bdb
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\5e\5e80521ff875e018fc96d16cf8073bdb
+    projectPath: Library\Artifacts\5e\5e80521ff875e018fc96d16cf8073bdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\73\734364cf1b176eee174fe11322470787
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\73\734364cf1b176eee174fe11322470787
+    projectPath: Library\Artifacts\73\734364cf1b176eee174fe11322470787
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\75\75aa016964e850a478be7665a12401ce
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\75\75aa016964e850a478be7665a12401ce
+    projectPath: Library\Artifacts\75\75aa016964e850a478be7665a12401ce
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\78\78eb3f8343fe9d723961db4a45865086
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\78\78eb3f8343fe9d723961db4a45865086
+    projectPath: Library\Artifacts\78\78eb3f8343fe9d723961db4a45865086
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\7c\7c39585f85e42f67b618502e42f6c18e
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\7c\7c39585f85e42f67b618502e42f6c18e
+    projectPath: Library\Artifacts\7c\7c39585f85e42f67b618502e42f6c18e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\81\8171f7d797369334eb434b41e30983a4
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\81\8171f7d797369334eb434b41e30983a4
+    projectPath: Library\Artifacts\81\8171f7d797369334eb434b41e30983a4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\83\83493030e71bab0c16b13d4ef6487d6f
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\83\83493030e71bab0c16b13d4ef6487d6f
+    projectPath: Library\Artifacts\83\83493030e71bab0c16b13d4ef6487d6f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\84\8426f6c7f58f17d691f0d55bd3ef6c5f
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\84\8426f6c7f58f17d691f0d55bd3ef6c5f
+    projectPath: Library\Artifacts\84\8426f6c7f58f17d691f0d55bd3ef6c5f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\8f\8f3ed435f0eebf191ee35d23afdc6d74
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\8f\8f3ed435f0eebf191ee35d23afdc6d74
+    projectPath: Library\Artifacts\8f\8f3ed435f0eebf191ee35d23afdc6d74
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\9f\9fe8560d97a80b8c706b16c3ef2c3290
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\9f\9fe8560d97a80b8c706b16c3ef2c3290
+    projectPath: Library\Artifacts\9f\9fe8560d97a80b8c706b16c3ef2c3290
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\a8\a834ca4e7f3ff0302cba92e50a1cdd60
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\a8\a834ca4e7f3ff0302cba92e50a1cdd60
+    projectPath: Library\Artifacts\a8\a834ca4e7f3ff0302cba92e50a1cdd60
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\ab\ab54c713cb2ee0fbcc44e1723dd64ad9
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\ab\ab54c713cb2ee0fbcc44e1723dd64ad9
+    projectPath: Library\Artifacts\ab\ab54c713cb2ee0fbcc44e1723dd64ad9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\b0\b0efbbdea12de3b2127ae6e490752a74
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\b0\b0efbbdea12de3b2127ae6e490752a74
+    projectPath: Library\Artifacts\b0\b0efbbdea12de3b2127ae6e490752a74
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\be\be2e2ea86556c47df42586898029fb98
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\be\be2e2ea86556c47df42586898029fb98
+    projectPath: Library\Artifacts\be\be2e2ea86556c47df42586898029fb98
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\c7\c7ff9b8430a6e668dbcee30b6ec92e26
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\c7\c7ff9b8430a6e668dbcee30b6ec92e26
+    projectPath: Library\Artifacts\c7\c7ff9b8430a6e668dbcee30b6ec92e26
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\cf\cf4c2ecb49dcec03dcee73ca7f5c225c
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\cf\cf4c2ecb49dcec03dcee73ca7f5c225c
+    projectPath: Library\Artifacts\cf\cf4c2ecb49dcec03dcee73ca7f5c225c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\d1\d1c09701ce98e246ca759cc0fc0b9fd7
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\d1\d1c09701ce98e246ca759cc0fc0b9fd7
+    projectPath: Library\Artifacts\d1\d1c09701ce98e246ca759cc0fc0b9fd7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\d2\d2a2e8c22d1ef2766db9ebfd85d718f8
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\d2\d2a2e8c22d1ef2766db9ebfd85d718f8
+    projectPath: Library\Artifacts\d2\d2a2e8c22d1ef2766db9ebfd85d718f8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\d6\d66cf51ef8ffd197a96d633a946b6dcd
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\d6\d66cf51ef8ffd197a96d633a946b6dcd
+    projectPath: Library\Artifacts\d6\d66cf51ef8ffd197a96d633a946b6dcd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\d7\d763441409559f0d117ca4d7ec698d1d
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\d7\d763441409559f0d117ca4d7ec698d1d
+    projectPath: Library\Artifacts\d7\d763441409559f0d117ca4d7ec698d1d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\e2\e251c63530ed84c4caeef78110e51f75
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\e2\e251c63530ed84c4caeef78110e51f75
+    projectPath: Library\Artifacts\e2\e251c63530ed84c4caeef78110e51f75
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\e2\e2c0b008167ed3f6c1de4987b9528891
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\e2\e2c0b008167ed3f6c1de4987b9528891
+    projectPath: Library\Artifacts\e2\e2c0b008167ed3f6c1de4987b9528891
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\e4\e4661234e5e6fce3fe8b2878dd519172
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\e4\e4661234e5e6fce3fe8b2878dd519172
+    projectPath: Library\Artifacts\e4\e4661234e5e6fce3fe8b2878dd519172
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\e4\e4f9172fac44ce915361a8325943cafa
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\e4\e4f9172fac44ce915361a8325943cafa
+    projectPath: Library\Artifacts\e4\e4f9172fac44ce915361a8325943cafa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\ea\eaedf0e32277cf4de744a8e8831af9ed
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\ea\eaedf0e32277cf4de744a8e8831af9ed
+    projectPath: Library\Artifacts\ea\eaedf0e32277cf4de744a8e8831af9ed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\f8\f852c1221a97568db1ca9ba548c736fb
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\f8\f852c1221a97568db1ca9ba548c736fb
+    projectPath: Library\Artifacts\f8\f852c1221a97568db1ca9ba548c736fb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\f9\f9d45e8b6a6e9535802edbf672d9cdc8
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\f9\f9d45e8b6a6e9535802edbf672d9cdc8
+    projectPath: Library\Artifacts\f9\f9d45e8b6a6e9535802edbf672d9cdc8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\fe\feadc1fbbce37bdaa8b62bb8ac379e4f
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\fe\feadc1fbbce37bdaa8b62bb8ac379e4f
+    projectPath: Library\Artifacts\fe\feadc1fbbce37bdaa8b62bb8ac379e4f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\EditorInstance.json
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\gfu\cache\gitlocks.yaml
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\gfu\cache\repoinfo.yaml
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+    projectPath: Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.Monetization.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\SourceAssetDB
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\SourceAssetDB
+    projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\StateCache\Hierarchy\29e651-mainStage.json
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\StateCache\Hierarchy\29e651-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\29e651-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Temp\UnityLockfile
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-03067f57bed3e3c41adc6c76e2f00924
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-03067f57bed3e3c41adc6c76e2f00924
+    projectPath: Temp\UnityTempFile-03067f57bed3e3c41adc6c76e2f00924
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-039023e093c9e6f478d5e24b1bca85d9
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-039023e093c9e6f478d5e24b1bca85d9
+    projectPath: Temp\UnityTempFile-039023e093c9e6f478d5e24b1bca85d9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-0658200b03ab05349acb6b637d73b2aa
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-0658200b03ab05349acb6b637d73b2aa
+    projectPath: Temp\UnityTempFile-0658200b03ab05349acb6b637d73b2aa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-0804e43e28e098346a4d6d32a38c37de
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-0804e43e28e098346a4d6d32a38c37de
+    projectPath: Temp\UnityTempFile-0804e43e28e098346a4d6d32a38c37de
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-0956d0bcf53b8d041a7cd1bd4089f105
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-0956d0bcf53b8d041a7cd1bd4089f105
+    projectPath: Temp\UnityTempFile-0956d0bcf53b8d041a7cd1bd4089f105
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-0ec1209d49b8aba40868c66e95d37eb0
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-0ec1209d49b8aba40868c66e95d37eb0
+    projectPath: Temp\UnityTempFile-0ec1209d49b8aba40868c66e95d37eb0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-0ee7d9af0520b324b938a52b924211bc
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-0ee7d9af0520b324b938a52b924211bc
+    projectPath: Temp\UnityTempFile-0ee7d9af0520b324b938a52b924211bc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-10689404c1a5c1d46b5d2c700fbc8cf0
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-10689404c1a5c1d46b5d2c700fbc8cf0
+    projectPath: Temp\UnityTempFile-10689404c1a5c1d46b5d2c700fbc8cf0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-118d108541845a443a148375b306b2ff
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-118d108541845a443a148375b306b2ff
+    projectPath: Temp\UnityTempFile-118d108541845a443a148375b306b2ff
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-146650a1300ff8f459a0af998095c864
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-146650a1300ff8f459a0af998095c864
+    projectPath: Temp\UnityTempFile-146650a1300ff8f459a0af998095c864
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-15c26cf7e69a64f4d819c8fc4f2659b9
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-15c26cf7e69a64f4d819c8fc4f2659b9
+    projectPath: Temp\UnityTempFile-15c26cf7e69a64f4d819c8fc4f2659b9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-165807711e546674f90fd71be14a9cf7
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-165807711e546674f90fd71be14a9cf7
+    projectPath: Temp\UnityTempFile-165807711e546674f90fd71be14a9cf7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-1820401885f7d554e8f1e91584e2e279
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-1820401885f7d554e8f1e91584e2e279
+    projectPath: Temp\UnityTempFile-1820401885f7d554e8f1e91584e2e279
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-1a36761701ee1de45ae0bc48e689c4e6
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-1a36761701ee1de45ae0bc48e689c4e6
+    projectPath: Temp\UnityTempFile-1a36761701ee1de45ae0bc48e689c4e6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-1b6a1e40059d51a4db38fd0b87e5a01b
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-1b6a1e40059d51a4db38fd0b87e5a01b
+    projectPath: Temp\UnityTempFile-1b6a1e40059d51a4db38fd0b87e5a01b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-20654fcbb78bfe540bdcef3ae692a75e
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-20654fcbb78bfe540bdcef3ae692a75e
+    projectPath: Temp\UnityTempFile-20654fcbb78bfe540bdcef3ae692a75e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-2762f6f0ca78581499148659387cce65
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-2762f6f0ca78581499148659387cce65
+    projectPath: Temp\UnityTempFile-2762f6f0ca78581499148659387cce65
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-2870eb83770a2f84bac0a42d86e26523
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-2870eb83770a2f84bac0a42d86e26523
+    projectPath: Temp\UnityTempFile-2870eb83770a2f84bac0a42d86e26523
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-2c29cdf7017f6ba42b28a44b616473f7
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-2c29cdf7017f6ba42b28a44b616473f7
+    projectPath: Temp\UnityTempFile-2c29cdf7017f6ba42b28a44b616473f7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-2da76a1b37c2ba94c955ee71e06ea327
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-2da76a1b37c2ba94c955ee71e06ea327
+    projectPath: Temp\UnityTempFile-2da76a1b37c2ba94c955ee71e06ea327
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-323655bb30efe8c41a710255d4449c2e
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-323655bb30efe8c41a710255d4449c2e
+    projectPath: Temp\UnityTempFile-323655bb30efe8c41a710255d4449c2e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-36448e68cd5c0514c901f34a0cd455b8
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-36448e68cd5c0514c901f34a0cd455b8
+    projectPath: Temp\UnityTempFile-36448e68cd5c0514c901f34a0cd455b8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-3b46c8ecf1b0759469160683f13b04d8
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-3b46c8ecf1b0759469160683f13b04d8
+    projectPath: Temp\UnityTempFile-3b46c8ecf1b0759469160683f13b04d8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-3dd1284dac56f3a4c8c79604e1b4f2db
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-3dd1284dac56f3a4c8c79604e1b4f2db
+    projectPath: Temp\UnityTempFile-3dd1284dac56f3a4c8c79604e1b4f2db
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-3e220ff87c22803419b0c57f2f3bb2da
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-3e220ff87c22803419b0c57f2f3bb2da
+    projectPath: Temp\UnityTempFile-3e220ff87c22803419b0c57f2f3bb2da
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-40d75c91b24fc1548b184a11c5c39747
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-40d75c91b24fc1548b184a11c5c39747
+    projectPath: Temp\UnityTempFile-40d75c91b24fc1548b184a11c5c39747
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-437c28aee88959b40aeb4ab60d713c38
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-437c28aee88959b40aeb4ab60d713c38
+    projectPath: Temp\UnityTempFile-437c28aee88959b40aeb4ab60d713c38
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-46617e9e5665a4f449d274b7d468b1ed
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-46617e9e5665a4f449d274b7d468b1ed
+    projectPath: Temp\UnityTempFile-46617e9e5665a4f449d274b7d468b1ed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-4887fcb0acb8385408e1263b83e36ba5
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-4887fcb0acb8385408e1263b83e36ba5
+    projectPath: Temp\UnityTempFile-4887fcb0acb8385408e1263b83e36ba5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-4d350ff70d77af44e9e6a731576e9d79
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-4d350ff70d77af44e9e6a731576e9d79
+    projectPath: Temp\UnityTempFile-4d350ff70d77af44e9e6a731576e9d79
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-557ca896281c36a42a674f8efb6d2f3a
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-557ca896281c36a42a674f8efb6d2f3a
+    projectPath: Temp\UnityTempFile-557ca896281c36a42a674f8efb6d2f3a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-5ad884de80a73ab4e8d5dd862af09f32
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-5ad884de80a73ab4e8d5dd862af09f32
+    projectPath: Temp\UnityTempFile-5ad884de80a73ab4e8d5dd862af09f32
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-5fe31606353bdc04b8eae7c1b99541d5
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-5fe31606353bdc04b8eae7c1b99541d5
+    projectPath: Temp\UnityTempFile-5fe31606353bdc04b8eae7c1b99541d5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-64fc19a3033b5d640b594ac71f67d6d8
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-64fc19a3033b5d640b594ac71f67d6d8
+    projectPath: Temp\UnityTempFile-64fc19a3033b5d640b594ac71f67d6d8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-728757509e7d68543ac2b1e3e227c409
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-728757509e7d68543ac2b1e3e227c409
+    projectPath: Temp\UnityTempFile-728757509e7d68543ac2b1e3e227c409
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-754d38073b9c72e4e8cc33b5739ae31e
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-754d38073b9c72e4e8cc33b5739ae31e
+    projectPath: Temp\UnityTempFile-754d38073b9c72e4e8cc33b5739ae31e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-7a967454831dc10459722a4cf3e70fa3
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-7a967454831dc10459722a4cf3e70fa3
+    projectPath: Temp\UnityTempFile-7a967454831dc10459722a4cf3e70fa3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-7c65b69a75736194684579c24aa12d27
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-7c65b69a75736194684579c24aa12d27
+    projectPath: Temp\UnityTempFile-7c65b69a75736194684579c24aa12d27
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-7ca1ce813f63ed8448ae0310953ff266
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-7ca1ce813f63ed8448ae0310953ff266
+    projectPath: Temp\UnityTempFile-7ca1ce813f63ed8448ae0310953ff266
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-7d85927ed5903304fb4feda3a96a0f88
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-7d85927ed5903304fb4feda3a96a0f88
+    projectPath: Temp\UnityTempFile-7d85927ed5903304fb4feda3a96a0f88
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-7d8d85dd1068a034b8795353fc9bbf9a
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-7d8d85dd1068a034b8795353fc9bbf9a
+    projectPath: Temp\UnityTempFile-7d8d85dd1068a034b8795353fc9bbf9a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-80a6028c5f68f5841962cbf111c46215
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-80a6028c5f68f5841962cbf111c46215
+    projectPath: Temp\UnityTempFile-80a6028c5f68f5841962cbf111c46215
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-858ef0ee0db0aa24082e189f77f83c0b
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-858ef0ee0db0aa24082e189f77f83c0b
+    projectPath: Temp\UnityTempFile-858ef0ee0db0aa24082e189f77f83c0b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-9032c8e26024d984bb8980e5c0ef4244
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-9032c8e26024d984bb8980e5c0ef4244
+    projectPath: Temp\UnityTempFile-9032c8e26024d984bb8980e5c0ef4244
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-9161fa9651520eb4bbb691b4a9298a73
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-9161fa9651520eb4bbb691b4a9298a73
+    projectPath: Temp\UnityTempFile-9161fa9651520eb4bbb691b4a9298a73
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-96250c412d1c9e947945b4849a0bd4b6
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-96250c412d1c9e947945b4849a0bd4b6
+    projectPath: Temp\UnityTempFile-96250c412d1c9e947945b4849a0bd4b6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-9a0649fa9e2af954694454f6d13d4457
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-9a0649fa9e2af954694454f6d13d4457
+    projectPath: Temp\UnityTempFile-9a0649fa9e2af954694454f6d13d4457
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-a0900de686b8e354e8b5cbf0c7c3685b
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-a0900de686b8e354e8b5cbf0c7c3685b
+    projectPath: Temp\UnityTempFile-a0900de686b8e354e8b5cbf0c7c3685b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-a91b9efc91e94e942a6625540626abbf
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-a91b9efc91e94e942a6625540626abbf
+    projectPath: Temp\UnityTempFile-a91b9efc91e94e942a6625540626abbf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-ab5dbba1983084846bc24f6ba30bdc83
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-ab5dbba1983084846bc24f6ba30bdc83
+    projectPath: Temp\UnityTempFile-ab5dbba1983084846bc24f6ba30bdc83
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-afa7f61da171ea34a9446767ab0b3c23
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-afa7f61da171ea34a9446767ab0b3c23
+    projectPath: Temp\UnityTempFile-afa7f61da171ea34a9446767ab0b3c23
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-b43fe2d3d55e09b4aa6038fa15307dc7
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-b43fe2d3d55e09b4aa6038fa15307dc7
+    projectPath: Temp\UnityTempFile-b43fe2d3d55e09b4aa6038fa15307dc7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-b461cb888585ac049b7397bee38ed976
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-b461cb888585ac049b7397bee38ed976
+    projectPath: Temp\UnityTempFile-b461cb888585ac049b7397bee38ed976
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-b9ad02bf86466ab4984bcd44cf1f1d3c
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-b9ad02bf86466ab4984bcd44cf1f1d3c
+    projectPath: Temp\UnityTempFile-b9ad02bf86466ab4984bcd44cf1f1d3c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-c1bc8200c92036a4988129b539a6e495
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-c1bc8200c92036a4988129b539a6e495
+    projectPath: Temp\UnityTempFile-c1bc8200c92036a4988129b539a6e495
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-c380be16680c1a1499c9b676b12baca2
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-c380be16680c1a1499c9b676b12baca2
+    projectPath: Temp\UnityTempFile-c380be16680c1a1499c9b676b12baca2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-c6e44a98a38bd49408452e1b54f86ff5
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-c6e44a98a38bd49408452e1b54f86ff5
+    projectPath: Temp\UnityTempFile-c6e44a98a38bd49408452e1b54f86ff5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-c91cadc337e2d5141800f7b43b781ef3
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-c91cadc337e2d5141800f7b43b781ef3
+    projectPath: Temp\UnityTempFile-c91cadc337e2d5141800f7b43b781ef3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-caaea4450aa0da24c9c3173952fa3082
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-caaea4450aa0da24c9c3173952fa3082
+    projectPath: Temp\UnityTempFile-caaea4450aa0da24c9c3173952fa3082
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-d307caac6f729154f8336da8c4ee88ad
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-d307caac6f729154f8336da8c4ee88ad
+    projectPath: Temp\UnityTempFile-d307caac6f729154f8336da8c4ee88ad
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-d7a76868e32418944893038df2535a53
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-d7a76868e32418944893038df2535a53
+    projectPath: Temp\UnityTempFile-d7a76868e32418944893038df2535a53
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-e3824937b8b85a149b23b73b88225b37
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-e3824937b8b85a149b23b73b88225b37
+    projectPath: Temp\UnityTempFile-e3824937b8b85a149b23b73b88225b37
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-e57e8a6f5b0872d439f36fd651f8d0c8
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-e57e8a6f5b0872d439f36fd651f8d0c8
+    projectPath: Temp\UnityTempFile-e57e8a6f5b0872d439f36fd651f8d0c8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-eac768e8451503542825b971e7dbcf0a
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-eac768e8451503542825b971e7dbcf0a
+    projectPath: Temp\UnityTempFile-eac768e8451503542825b971e7dbcf0a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-f446b1cfaf1c5e741a912c910542ff5e
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-f446b1cfaf1c5e741a912c910542ff5e
+    projectPath: Temp\UnityTempFile-f446b1cfaf1c5e741a912c910542ff5e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-f4870dce069c413468e2414d030de275
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-f4870dce069c413468e2414d030de275
+    projectPath: Temp\UnityTempFile-f4870dce069c413468e2414d030de275
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-fb11b3aa6502b864484966f16ffae446
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-fb11b3aa6502b864484966f16ffae446
+    projectPath: Temp\UnityTempFile-fb11b3aa6502b864484966f16ffae446
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-ff28d1ad9a3797f408096b5b0d69dbad
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-ff28d1ad9a3797f408096b5b0d69dbad
+    projectPath: Temp\UnityTempFile-ff28d1ad9a3797f408096b5b0d69dbad
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
