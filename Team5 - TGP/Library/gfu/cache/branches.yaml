@@ -13,14 +13,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-05-04T15:31:30.212+01:00
-  initializedAtString: 2020-05-04T15:30:29.585+01:00
-  localBranches:
-  - name: master
-    tracking: origin/master
-  remoteBranches:
-  - name: origin/master
-    tracking: '[None]'
+  lastUpdatedAtString: 2020-05-04T15:37:06.393+01:00
+  initializedAtString: 2020-05-04T15:37:06.370+01:00
+  localBranches: []
+  remoteBranches: []
   remotes:
   - name: origin
     url: https://github.com/EdenBealesHarper/Team5_TGP.git
@@ -30,27 +26,15 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys:
-    - master
-    values:
-    - name: master
-      remote:
-        name: origin
-        url: https://github.com/EdenBealesHarper/Team5_TGP.git
-      trackingBranch: master
+    keys: []
+    values: []
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
-    - Values:
-      - master
+    - Values: []
     subKeyValues:
-    - Values:
-      - name: master
-        remote:
-          name: origin
-          url: https://github.com/EdenBealesHarper/Team5_TGP.git
-        trackingBranch: 
+    - Values: []
   configRemotes:
     keys:
     - origin
