@@ -31,7 +31,12 @@ public class Powers_Main : MonoBehaviour
         {
             string nameNoPU = other.gameObject.name;
             nameNoPU.Replace("PU_", string.Empty);
-            knownUpgrades.Add(nameNoPU);
+
+            if (!knownUpgrades.Contains(nameNoPU))
+            {
+                knownUpgrades.Add(nameNoPU);
+                Destroy(other.gameObject);
+            }
         }
     }
 
