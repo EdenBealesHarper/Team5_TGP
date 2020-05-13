@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-05-11T14:48:20.624+01:00
-  initializedAtString: 2020-05-11T14:48:20.624+01:00
+  lastUpdatedAtString: 2020-05-13T14:24:34.373+01:00
+  initializedAtString: 2020-05-13T14:24:34.373+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/EdenBealesHarper/Team5_TGP.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: PlayerCharacter
+    tracking: origin/PlayerCharacter
   currentConfigBranch:
-    name: master
+    name: PlayerCharacter
     remote:
       name: origin
       url: https://github.com/EdenBealesHarper/Team5_TGP.git
-    trackingBranch: master
+    trackingBranch: PlayerCharacter
   currentConfigRemote:
     name: origin
     url: https://github.com/EdenBealesHarper/Team5_TGP.git
