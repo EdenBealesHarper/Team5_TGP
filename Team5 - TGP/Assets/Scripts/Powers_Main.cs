@@ -9,46 +9,73 @@ public class Powers_Main : MonoBehaviour
     public List<string> slottedUpgrades = new List<string>();
     public List<string> knownUpgrades = new List<string>();
 
+    private Springer_CharacterController CharControl;
+
     void Start()
     {
-
+        CharControl = GetComponent<Springer_CharacterController>();
     }
 
     void Update()
     {
         foreach (string upgrade in slottedUpgrades)
         {
-            if (upgrade == "SPEED20")
+            if (upgrade == "PU_ENGINE")
             {
-                print("SPEED20");
+                boostEngine();
             }
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
+        print("Hmm Colliding?");
+
         if (other.gameObject.name.StartsWith("PU_"))
         {
-            string nameNoPU = other.gameObject.name;
-            nameNoPU.Replace("PU_", string.Empty);
-
-            if (!knownUpgrades.Contains(nameNoPU))
+            if (!knownUpgrades.Contains(other.gameObject.name))
             {
-                knownUpgrades.Add(nameNoPU);
+                knownUpgrades.Add(other.gameObject.name);
                 Destroy(other.gameObject);
+
+                slotUpgrade(other.gameObject.name);
             }
+        }
+    }
+
+    public void boostEngine()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            //LERP speed up to value
+            //Increase fire counter
+
+            //Add LERP speed back to normal when release
+
+            CharControl.SpeedModifier = 10.0f;
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            CharControl.SpeedModifier = 1.0f;
         }
     }
 
     public void slotUpgrade(string upgradeName)
     {
-        if (!slottedUpgrades.Contains(upgradeName))
+        if (knownUpgrades.Contains(upgradeName))
         {
-            slottedUpgrades.Add(upgradeName);
+            if (!slottedUpgrades.Contains(upgradeName))
+            {
+                slottedUpgrades.Add(upgradeName);
+            }
+            else
+            {
+                print("Upgrade Already Slotted");
+            }
         }
-        else 
+        else
         {
-            print("Upgrade Already Slotted");
+            print("Sorry, you don't know that upgrade");
         }
     }
 }

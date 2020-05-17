@@ -8,19 +8,19 @@ public class Springer_CharacterController : MonoBehaviour
     private GameObject MeshObject;
 
     [SerializeField]
-    private float MaxSpeed = 10f;                    // The fastest the player can travel in the x axis.
+    public float MaxSpeed = 10f;                    // The fastest the player can travel in the x axis.
 
-    private float SpeedModifier = 1f;               //Used to adjust the speed, multiplies current speed by the modifier
+    public float SpeedModifier = 1f;               //Used to adjust the speed, multiplies current speed by the modifier
 
     [SerializeField]
-    private float JumpForce = 400f;                  // Amount of force added when the player jumps.
+    public float JumpForce = 400f;                  // Amount of force added when the player jumps.
 
-    private float FallMultiplier = 2.5f;
+    public float FallMultiplier = 2.5f;
 
-    private float LowJumpMultiplier = 2f;
+    public float LowJumpMultiplier = 2f;
 
     [Range(0, 1)] [SerializeField]
-    private float m_CrouchSpeed = .36f;  // Amount of maxSpeed applied to crouching movement. 1 = 100%
+    public float m_CrouchSpeed = .36f;  // Amount of maxSpeed applied to crouching movement. 1 = 100%
 
     [SerializeField]
     private bool bAirControl = false;                 // Whether or not a player can steer while jumping;
