@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 7
+<<<<<<< HEAD
   lastUpdatedAtString: 2020-05-17T12:31:22.830+01:00
   initializedAtString: 2020-05-17T10:38:35.027+01:00
+=======
+  lastUpdatedAtString: 2020-05-18T14:38:04.526+01:00
+  initializedAtString: 2020-05-18T04:18:59.632+01:00
+>>>>>>> PlayerCharacter
   gitLocks: []

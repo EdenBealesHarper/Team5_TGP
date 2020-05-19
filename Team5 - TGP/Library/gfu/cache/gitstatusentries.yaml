@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
+<<<<<<< HEAD
   lastUpdatedAtString: 2020-05-17T12:31:22.837+01:00
   initializedAtString: 2020-05-17T10:38:35.789+01:00
   entries:
@@ -340,102 +341,769 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+=======
+  lastUpdatedAtString: 2020-05-18T14:38:04.540+01:00
+  initializedAtString: 2020-05-18T04:18:59.644+01:00
+  entries:
+  - path: Team5 - TGP\Assets\Characters\CommonScripts.meta
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\CommonScripts.meta
+    projectPath: Assets\Characters\CommonScripts.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\CommonScripts\Health.cs
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\CommonScripts\Health.cs
+    projectPath: Assets\Characters\CommonScripts\Health.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\CommonScripts\Health.cs.meta
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\CommonScripts\Health.cs.meta
+    projectPath: Assets\Characters\CommonScripts\Health.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\Springer\Player3D.prefab
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Player3D.prefab
+    projectPath: Assets\Characters\Springer\Player3D.prefab
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Assets\Characters\Springer\Player3D.prefab.meta
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Player3D.prefab.meta
+    projectPath: Assets\Characters\Springer\Player3D.prefab.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Assets\Characters\Springer\Scripts\Springer_CharacterController.cs
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Scripts\Springer_CharacterController.cs
+    projectPath: Assets\Characters\Springer\Scripts\Springer_CharacterController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Assets\Characters\Springer\Scripts\Springer_WeaponManager.cs
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Scripts\Springer_WeaponManager.cs
+    projectPath: Assets\Characters\Springer\Scripts\Springer_WeaponManager.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\Springer\Scripts\Springer_WeaponManager.cs.meta
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Scripts\Springer_WeaponManager.cs.meta
+    projectPath: Assets\Characters\Springer\Scripts\Springer_WeaponManager.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\Springer\Springer.prefab
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Springer.prefab
+    projectPath: Assets\Characters\Springer\Springer.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\Springer\Springer.prefab.meta
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Springer.prefab.meta
+    projectPath: Assets\Characters\Springer\Springer.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\Springer\Weapons.meta
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Weapons.meta
+    projectPath: Assets\Characters\Springer\Weapons.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\Springer\Weapons\Model.meta
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Weapons\Model.meta
+    projectPath: Assets\Characters\Springer\Weapons\Model.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\Springer\Weapons\Model\BaseCannon.obj
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Weapons\Model\BaseCannon.obj
+    projectPath: Assets\Characters\Springer\Weapons\Model\BaseCannon.obj
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\Springer\Weapons\Model\BaseCannon.obj.meta
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Weapons\Model\BaseCannon.obj.meta
+    projectPath: Assets\Characters\Springer\Weapons\Model\BaseCannon.obj.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\Springer\Weapons\Springer's Arm.asset
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Weapons\Springer's
+      Arm.asset
+    projectPath: Assets\Characters\Springer\Weapons\Springer's Arm.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\Springer\Weapons\Springer's Arm.asset.meta
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Weapons\Springer's
+      Arm.asset.meta
+    projectPath: Assets\Characters\Springer\Weapons\Springer's Arm.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\Springer\Weapons\Weapon.cs
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Weapons\Weapon.cs
+    projectPath: Assets\Characters\Springer\Weapons\Weapon.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Characters\Springer\Weapons\Weapon.cs.meta
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Characters\Springer\Weapons\Weapon.cs.meta
+    projectPath: Assets\Characters\Springer\Weapons\Weapon.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Scenes\SampleScene.unity
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\APIUpdater\project-dependencies.graph
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\APIUpdater\project-dependencies.graph
+    projectPath: Library\APIUpdater\project-dependencies.graph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ArtifactDB
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\Artifacts\05\05522326da8da6ae5767efec7dbc844e
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\05\05522326da8da6ae5767efec7dbc844e
+    projectPath: Library\Artifacts\05\05522326da8da6ae5767efec7dbc844e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\0d\0d4b67a85a3c76c2f85326410507f5f9
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\0d\0d4b67a85a3c76c2f85326410507f5f9
+    projectPath: Library\Artifacts\0d\0d4b67a85a3c76c2f85326410507f5f9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\11\11a0ca5be0e7f1ba546010eaf5dd2fd0
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\11\11a0ca5be0e7f1ba546010eaf5dd2fd0
+    projectPath: Library\Artifacts\11\11a0ca5be0e7f1ba546010eaf5dd2fd0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\1c\1c2cbeed4ffd3f4ddd7aaa4a79085d92
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\1c\1c2cbeed4ffd3f4ddd7aaa4a79085d92
+    projectPath: Library\Artifacts\1c\1c2cbeed4ffd3f4ddd7aaa4a79085d92
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\24\24c6ea1de51f8425abc3162c0cfec6f8
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\24\24c6ea1de51f8425abc3162c0cfec6f8
+    projectPath: Library\Artifacts\24\24c6ea1de51f8425abc3162c0cfec6f8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\2d\2d71b3b131b23bea8c540ecf90168eb8
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\2d\2d71b3b131b23bea8c540ecf90168eb8
+    projectPath: Library\Artifacts\2d\2d71b3b131b23bea8c540ecf90168eb8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\31\3171911fb0ba7c6a710949645ce8606a
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\31\3171911fb0ba7c6a710949645ce8606a
+    projectPath: Library\Artifacts\31\3171911fb0ba7c6a710949645ce8606a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\34\341a14b4f14909506ec0e44e4129df79
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\34\341a14b4f14909506ec0e44e4129df79
+    projectPath: Library\Artifacts\34\341a14b4f14909506ec0e44e4129df79
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\34\34fdd0cedc287c02b1e07914c1541081
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\34\34fdd0cedc287c02b1e07914c1541081
+    projectPath: Library\Artifacts\34\34fdd0cedc287c02b1e07914c1541081
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\36\362d10bff436fc4d0d2a849fa7e1de0a
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\36\362d10bff436fc4d0d2a849fa7e1de0a
+    projectPath: Library\Artifacts\36\362d10bff436fc4d0d2a849fa7e1de0a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\3e\3ed02106d9a06094786eec1dc3025c00
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\3e\3ed02106d9a06094786eec1dc3025c00
+    projectPath: Library\Artifacts\3e\3ed02106d9a06094786eec1dc3025c00
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\40\40d8a5b924347634c0b498a157a9dab1
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\40\40d8a5b924347634c0b498a157a9dab1
+    projectPath: Library\Artifacts\40\40d8a5b924347634c0b498a157a9dab1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\49\492e6979aada1aa324464c62ba2b5c5f
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\49\492e6979aada1aa324464c62ba2b5c5f
+    projectPath: Library\Artifacts\49\492e6979aada1aa324464c62ba2b5c5f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\55\55f553784219927283b35ca5817991dc
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\55\55f553784219927283b35ca5817991dc
+    projectPath: Library\Artifacts\55\55f553784219927283b35ca5817991dc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\62\62353dfde5e901a8c9182ee03ef28935
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\62\62353dfde5e901a8c9182ee03ef28935
+    projectPath: Library\Artifacts\62\62353dfde5e901a8c9182ee03ef28935
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\62\623b366e16cd2fa672f5375540641864
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\62\623b366e16cd2fa672f5375540641864
+    projectPath: Library\Artifacts\62\623b366e16cd2fa672f5375540641864
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\65\658310badf0c19adc98d191bca0f2a3f
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\65\658310badf0c19adc98d191bca0f2a3f
+    projectPath: Library\Artifacts\65\658310badf0c19adc98d191bca0f2a3f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\66\66baef8b90ea1d7a3854d2dcf3f86ac8
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\66\66baef8b90ea1d7a3854d2dcf3f86ac8
+    projectPath: Library\Artifacts\66\66baef8b90ea1d7a3854d2dcf3f86ac8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\73\734364cf1b176eee174fe11322470787
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\73\734364cf1b176eee174fe11322470787
+    projectPath: Library\Artifacts\73\734364cf1b176eee174fe11322470787
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\76\7630f350feb91ec570ff855ac80d65de
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\76\7630f350feb91ec570ff855ac80d65de
+    projectPath: Library\Artifacts\76\7630f350feb91ec570ff855ac80d65de
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\7c\7c39585f85e42f67b618502e42f6c18e
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\7c\7c39585f85e42f67b618502e42f6c18e
+    projectPath: Library\Artifacts\7c\7c39585f85e42f67b618502e42f6c18e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\82\821bd361e2e1e8aea53f08f43650eb3d
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\82\821bd361e2e1e8aea53f08f43650eb3d
+    projectPath: Library\Artifacts\82\821bd361e2e1e8aea53f08f43650eb3d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\88\883ced4a1c114d7d6d7c239fe7a1cc94
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\88\883ced4a1c114d7d6d7c239fe7a1cc94
+    projectPath: Library\Artifacts\88\883ced4a1c114d7d6d7c239fe7a1cc94
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\8b\8beec1d3a6278ac4b8ad6e2e38e33269
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\8b\8beec1d3a6278ac4b8ad6e2e38e33269
+    projectPath: Library\Artifacts\8b\8beec1d3a6278ac4b8ad6e2e38e33269
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\8f\8f3ed435f0eebf191ee35d23afdc6d74
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\8f\8f3ed435f0eebf191ee35d23afdc6d74
+    projectPath: Library\Artifacts\8f\8f3ed435f0eebf191ee35d23afdc6d74
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\92\923395e34ed3b49280a1d0c78c1f55f6
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\92\923395e34ed3b49280a1d0c78c1f55f6
+    projectPath: Library\Artifacts\92\923395e34ed3b49280a1d0c78c1f55f6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\96\96d99d7b3f2d9832cef4fadb6797d1a8
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\96\96d99d7b3f2d9832cef4fadb6797d1a8
+    projectPath: Library\Artifacts\96\96d99d7b3f2d9832cef4fadb6797d1a8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\9f\9fe8560d97a80b8c706b16c3ef2c3290
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\9f\9fe8560d97a80b8c706b16c3ef2c3290
+    projectPath: Library\Artifacts\9f\9fe8560d97a80b8c706b16c3ef2c3290
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\ab\abc5817e2ff3211a4ade8522e39b1a31
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\ab\abc5817e2ff3211a4ade8522e39b1a31
+    projectPath: Library\Artifacts\ab\abc5817e2ff3211a4ade8522e39b1a31
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\b0\b0efbbdea12de3b2127ae6e490752a74
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\b0\b0efbbdea12de3b2127ae6e490752a74
+    projectPath: Library\Artifacts\b0\b0efbbdea12de3b2127ae6e490752a74
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\b4\b48f3ed11adb3a10a3e62a562a81682c
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\b4\b48f3ed11adb3a10a3e62a562a81682c
+    projectPath: Library\Artifacts\b4\b48f3ed11adb3a10a3e62a562a81682c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\c7\c726ccd5fc9c53de09bbad0f990d3bbd
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\c7\c726ccd5fc9c53de09bbad0f990d3bbd
+    projectPath: Library\Artifacts\c7\c726ccd5fc9c53de09bbad0f990d3bbd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\c8\c897b3da4785a788d02d75052f9f55c5
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\c8\c897b3da4785a788d02d75052f9f55c5
+    projectPath: Library\Artifacts\c8\c897b3da4785a788d02d75052f9f55c5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\ce\ce23f675952f465cc627c30d828d434f
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\ce\ce23f675952f465cc627c30d828d434f
+    projectPath: Library\Artifacts\ce\ce23f675952f465cc627c30d828d434f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\d1\d1c09701ce98e246ca759cc0fc0b9fd7
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\d1\d1c09701ce98e246ca759cc0fc0b9fd7
+    projectPath: Library\Artifacts\d1\d1c09701ce98e246ca759cc0fc0b9fd7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\d2\d28b760eca52fd055af659f038b97d28
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\d2\d28b760eca52fd055af659f038b97d28
+    projectPath: Library\Artifacts\d2\d28b760eca52fd055af659f038b97d28
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\d4\d4b81694b0beafc955e1868833ba5046
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\d4\d4b81694b0beafc955e1868833ba5046
+    projectPath: Library\Artifacts\d4\d4b81694b0beafc955e1868833ba5046
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\d6\d60e697e458bf0bd6449ba24ef561b3e
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\d6\d60e697e458bf0bd6449ba24ef561b3e
+    projectPath: Library\Artifacts\d6\d60e697e458bf0bd6449ba24ef561b3e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\d7\d76e0a7b2fde6f6971da286c5017a9a3
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\d7\d76e0a7b2fde6f6971da286c5017a9a3
+    projectPath: Library\Artifacts\d7\d76e0a7b2fde6f6971da286c5017a9a3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\d7\d76ea0760c328d32e70f939f3a0776cc
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\d7\d76ea0760c328d32e70f939f3a0776cc
+    projectPath: Library\Artifacts\d7\d76ea0760c328d32e70f939f3a0776cc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\df\df6e251fa5e41f90b2e3f41e726fce1e
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\df\df6e251fa5e41f90b2e3f41e726fce1e
+    projectPath: Library\Artifacts\df\df6e251fa5e41f90b2e3f41e726fce1e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\e4\e4661234e5e6fce3fe8b2878dd519172
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\e4\e4661234e5e6fce3fe8b2878dd519172
+    projectPath: Library\Artifacts\e4\e4661234e5e6fce3fe8b2878dd519172
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\e5\e5b67a909d20104988b834e2fdcc4253
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\e5\e5b67a909d20104988b834e2fdcc4253
+    projectPath: Library\Artifacts\e5\e5b67a909d20104988b834e2fdcc4253
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\ea\eaedf0e32277cf4de744a8e8831af9ed
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\ea\eaedf0e32277cf4de744a8e8831af9ed
+    projectPath: Library\Artifacts\ea\eaedf0e32277cf4de744a8e8831af9ed
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\f4\f46e193ae4052fab743727769114d78a
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\f4\f46e193ae4052fab743727769114d78a
+    projectPath: Library\Artifacts\f4\f46e193ae4052fab743727769114d78a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\fe\feadc1fbbce37bdaa8b62bb8ac379e4f
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\fe\feadc1fbbce37bdaa8b62bb8ac379e4f
+    projectPath: Library\Artifacts\fe\feadc1fbbce37bdaa8b62bb8ac379e4f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\CurrentLayout-default.dwlt
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+>>>>>>> PlayerCharacter
   - path: Team5 - TGP\Library\EditorInstance.json
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\EditorInstance.json
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Team5 - TGP\Library\gfu\cache\branches.yaml
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Team5 - TGP\Library\gfu\cache\gitlocks.yaml
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\gitlocks.yaml
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Team5 - TGP\Library\gfu\cache\gitlog.yaml
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Team5 - TGP\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team5 - TGP\Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team5 - TGP\Library\gfu\cache\gituser.yaml
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\gituser.yaml
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\gfu\cache\gituser.yaml
     projectPath: Library\gfu\cache\gituser.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team5 - TGP\Library\gfu\cache\repoinfo.yaml
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\repoinfo.yaml
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team5 - TGP\Library\InspectorExpandedItems.asset
+<<<<<<< HEAD
     fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\InspectorExpandedItems.asset
+=======
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\InspectorExpandedItems.asset
+>>>>>>> PlayerCharacter
     projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team5 - TGP\Library\SceneVisibilityState.asset
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\SceneVisibilityState.asset
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team5 - TGP\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+<<<<<<< HEAD
+=======
+  - path: Team5 - TGP\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+    projectPath: Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.Monetization.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+>>>>>>> PlayerCharacter
   - path: Team5 - TGP\Library\SourceAssetDB
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\SourceAssetDB
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team5 - TGP\Library\StateCache\Hierarchy\dd8ffd-mainStage.json
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\StateCache\Hierarchy\dd8ffd-mainStage.json
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\StateCache\Hierarchy\dd8ffd-mainStage.json
     projectPath: Library\StateCache\Hierarchy\dd8ffd-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team5 - TGP\Library\StateCache\SceneView\1289a7-mainStage.json
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\StateCache\SceneView\1289a7-mainStage.json
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\StateCache\SceneView\1289a7-mainStage.json
     projectPath: Library\StateCache\SceneView\1289a7-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+<<<<<<< HEAD
   - path: Team5 - TGP\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+=======
+  - path: Team5 - TGP\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+>>>>>>> PlayerCharacter
     projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+<<<<<<< HEAD
   - path: Team5 - TGP\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+=======
+  - path: Team5 - TGP\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+>>>>>>> PlayerCharacter
     projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Team5 - TGP\Temp\__Backupscenes\0.backup
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\__Backupscenes\0.backup
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Team5 - TGP\Temp\UnityLockfile
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityLockfile
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Temp\UnityTempFile-0c80f8035ba1c1b4ba4b96715f07ecfb
     fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-0c80f8035ba1c1b4ba4b96715f07ecfb
     projectPath: Temp\UnityTempFile-0c80f8035ba1c1b4ba4b96715f07ecfb
@@ -679,6 +1347,83 @@ MonoBehaviour:
   - path: Team5 - TGP\Temp\UnityTempFile-ee6a089af1b12264d83bada1f31d83f1
     fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-ee6a089af1b12264d83bada1f31d83f1
     projectPath: Temp\UnityTempFile-ee6a089af1b12264d83bada1f31d83f1
+=======
+  - path: Team5 - TGP\Temp\UnityTempFile-12a534830054b1943abe7749d50f1d79
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-12a534830054b1943abe7749d50f1d79
+    projectPath: Temp\UnityTempFile-12a534830054b1943abe7749d50f1d79
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-1bdcf50e7ff1945428e6fedb5e5910e5
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-1bdcf50e7ff1945428e6fedb5e5910e5
+    projectPath: Temp\UnityTempFile-1bdcf50e7ff1945428e6fedb5e5910e5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-2b0cdab3c3debcf4fad4fe9fa117cf15
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-2b0cdab3c3debcf4fad4fe9fa117cf15
+    projectPath: Temp\UnityTempFile-2b0cdab3c3debcf4fad4fe9fa117cf15
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-79ba6193d05005042afcb6fb253d9767
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-79ba6193d05005042afcb6fb253d9767
+    projectPath: Temp\UnityTempFile-79ba6193d05005042afcb6fb253d9767
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-7a582081feec9fa498dbce4a60f4ae85
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-7a582081feec9fa498dbce4a60f4ae85
+    projectPath: Temp\UnityTempFile-7a582081feec9fa498dbce4a60f4ae85
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-8479443c7c2db0440ad91c8011280ab9
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-8479443c7c2db0440ad91c8011280ab9
+    projectPath: Temp\UnityTempFile-8479443c7c2db0440ad91c8011280ab9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-8b7e4d2b3f3091242a3bd3d73d50ba21
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-8b7e4d2b3f3091242a3bd3d73d50ba21
+    projectPath: Temp\UnityTempFile-8b7e4d2b3f3091242a3bd3d73d50ba21
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-8c36cc60aa76f1a4295d011be5d8462c
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-8c36cc60aa76f1a4295d011be5d8462c
+    projectPath: Temp\UnityTempFile-8c36cc60aa76f1a4295d011be5d8462c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-cabaf3bbe6845e843af088bbeeeb7eb8
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-cabaf3bbe6845e843af088bbeeeb7eb8
+    projectPath: Temp\UnityTempFile-cabaf3bbe6845e843af088bbeeeb7eb8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-ccce1fa5b8d4f924896221aaf442ea9e
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-ccce1fa5b8d4f924896221aaf442ea9e
+    projectPath: Temp\UnityTempFile-ccce1fa5b8d4f924896221aaf442ea9e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-d1a4471d3092a5d499be51b959628096
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-d1a4471d3092a5d499be51b959628096
+    projectPath: Temp\UnityTempFile-d1a4471d3092a5d499be51b959628096
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-d4d4ec68da5ec7a44bdca71fe68ab999
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-d4d4ec68da5ec7a44bdca71fe68ab999
+    projectPath: Temp\UnityTempFile-d4d4ec68da5ec7a44bdca71fe68ab999
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Temp\UnityTempFile-d97caee5eb694df4b9df1f57cb81600a
+    fullPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityTempFile-d97caee5eb694df4b9df1f57cb81600a
+    projectPath: Temp\UnityTempFile-d97caee5eb694df4b9df1f57cb81600a
+>>>>>>> PlayerCharacter
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

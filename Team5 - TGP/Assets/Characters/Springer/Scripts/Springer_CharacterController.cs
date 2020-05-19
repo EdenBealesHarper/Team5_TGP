@@ -44,6 +44,7 @@ public class Springer_CharacterController : MonoBehaviour
     
     private Springer_AimController AimController;
 
+   public float LocalScale;
 
     private void Awake()
     {
@@ -106,10 +107,11 @@ public class Springer_CharacterController : MonoBehaviour
            else if (bIsWeaponActive && !FacingRight) Anim.SetFloat("Speed", -Movement);
            else Anim.SetFloat("Speed", Mathf.Abs(Movement));
 
+
             Anim.SetInteger("Run", (int)(Movement * 10));
 
             // Move the character
-            rb.velocity = new Vector2(Movement * MaxSpeed, rb.velocity.y);
+            rb.velocity = new Vector2((Movement * MaxSpeed) * SpeedModifier, rb.velocity.y);
 
             // If the input is moving the player right and the player is facing left...
             if (Movement > 0 && !FacingRight)
@@ -179,6 +181,8 @@ public class Springer_CharacterController : MonoBehaviour
         if (bIsWeaponActive)
         {
 
+
+
             Vector3 CharacterPosOnScreen = Camera.main.WorldToScreenPoint(transform.position);
             Vector2 ScreenPos = Input.mousePosition;
             if (ScreenPos.x > (CharacterPosOnScreen.x))
@@ -186,7 +190,7 @@ public class Springer_CharacterController : MonoBehaviour
                 FacingRight = true;
                 // Multiply the player's x local scale by -1.
                 Vector3 theScale = transform.localScale;
-                theScale.x = 1;
+                theScale.x = LocalScale;
                 transform.localScale = theScale;
                 
             }
@@ -195,7 +199,7 @@ public class Springer_CharacterController : MonoBehaviour
                 FacingRight = false;
                 // Multiply the player's x local scale by -1.
                 Vector3 theScale = transform.localScale;
-                theScale.x = -1;
+                theScale.x = LocalScale * -1;
                 transform.localScale = theScale;
             }
 
