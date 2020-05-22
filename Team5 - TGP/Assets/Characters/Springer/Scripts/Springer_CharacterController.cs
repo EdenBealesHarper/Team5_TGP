@@ -8,6 +8,9 @@ public class Springer_CharacterController : MonoBehaviour
     private GameObject MeshObject;
 
     [SerializeField]
+    private GameObject Cam;
+
+    [SerializeField]
     public float MaxSpeed = 10f;                    // The fastest the player can travel in the x axis.
 
     public float SpeedModifier = 1f;               //Used to adjust the speed, multiplies current speed by the modifier
@@ -43,6 +46,7 @@ public class Springer_CharacterController : MonoBehaviour
 
     
     private Springer_AimController AimController;
+    private FollowCamera FollowCam;
 
    public float LocalScale;
 
@@ -54,6 +58,7 @@ public class Springer_CharacterController : MonoBehaviour
         Anim = MeshObject.GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         AimController = MeshObject.GetComponent<Springer_AimController>();
+        FollowCam = Cam.GetComponent<FollowCamera>();
     }
 
     // Start is called before the first frame update
@@ -165,6 +170,7 @@ public class Springer_CharacterController : MonoBehaviour
     {
         bIsWeaponActive = !bIsWeaponActive;
         AimController.ToggleWeaponState(bIsWeaponActive);
+        FollowCam.ToggleCameraMode(bIsWeaponActive);
         if (bIsWeaponActive)
         {
             Anim.SetLayerWeight(1, 1.0f);
@@ -204,5 +210,11 @@ public class Springer_CharacterController : MonoBehaviour
             }
 
         }
+    }
+
+
+    void SetSpeedModifier(float NewMod)
+    {
+        SpeedModifier = NewMod;
     }
 }
