@@ -11,9 +11,12 @@ public class Powers_Main : MonoBehaviour
 
     private Springer_CharacterController CharControl;
 
+    public bool dirty;
+
     void Start()
     {
         CharControl = GetComponent<Springer_CharacterController>();
+        dirty = false;
     }
 
     void Update()
@@ -67,6 +70,7 @@ public class Powers_Main : MonoBehaviour
             if (!slottedUpgrades.Contains(upgradeName))
             {
                 slottedUpgrades.Add(upgradeName);
+                dirty = true;
             }
             else
             {

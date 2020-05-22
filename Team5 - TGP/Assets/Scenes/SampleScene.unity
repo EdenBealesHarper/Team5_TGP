@@ -736,5 +736,28 @@ PrefabInstance:
       propertyPath: m_Name
       value: Springer
       objectReference: {fileID: 0}
+    - target: {fileID: 2425458802690467055, guid: 0a9967c0613e1f34db262e2c8688b16f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a9967c0613e1f34db262e2c8688b16f, type: 3}
+--- !u!1 &2425458803281561019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2425458802690467055, guid: 0a9967c0613e1f34db262e2c8688b16f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2425458803281561018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2425458803281561020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2425458803281561019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1156353dd0998458b57b887bf94d78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

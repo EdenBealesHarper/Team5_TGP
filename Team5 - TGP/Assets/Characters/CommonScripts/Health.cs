@@ -10,7 +10,8 @@ public class Health : MonoBehaviour
 
     void Start()
     {
-        
+        TotalHealth = 10f; // TODO placeholder
+        CurrentHealth = TotalHealth;
     }
 
     // Update is called once per frame
@@ -28,8 +29,12 @@ public class Health : MonoBehaviour
         }
     }
 
-    void UpdateHealthBar()
+    public float GetCurrentHealth()
     {
-
+        return CurrentHealth;
+    }
+    public float GetTotalHealth()
+    {
+        return TotalHealth;
     }
 }
