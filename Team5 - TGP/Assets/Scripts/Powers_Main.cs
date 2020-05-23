@@ -9,6 +9,11 @@ public class Powers_Main : MonoBehaviour
     public List<string> slottedUpgrades = new List<string>();
     public List<string> knownUpgrades = new List<string>();
 
+    public int fireTime = 0;
+    public int fireMax = 1000;
+
+    public bool onFire = false;
+
     private Springer_CharacterController CharControl;
 
     public bool dirty;
@@ -23,7 +28,7 @@ public class Powers_Main : MonoBehaviour
     {
         foreach (string upgrade in slottedUpgrades)
         {
-            if (upgrade == "PU_ENGINE")
+            if (upgrade == "ENGINE")
             {
                 boostEngine();
             }
@@ -34,7 +39,7 @@ public class Powers_Main : MonoBehaviour
     {
         print("Hmm Colliding?");
 
-        if (other.gameObject.name.StartsWith("PU_"))
+        if(other.gameObject.tag == "UPGRADE")
         {
             if (!knownUpgrades.Contains(other.gameObject.name))
             {
@@ -43,23 +48,6 @@ public class Powers_Main : MonoBehaviour
 
                 slotUpgrade(other.gameObject.name);
             }
-        }
-    }
-
-    public void boostEngine()
-    {
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            //LERP speed up to value
-            //Increase fire counter
-
-            //Add LERP speed back to normal when release
-
-            CharControl.SpeedModifier = 10.0f;
-        }
-        else if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            CharControl.SpeedModifier = 1.0f;
         }
     }
 
@@ -80,6 +68,39 @@ public class Powers_Main : MonoBehaviour
         else
         {
             print("Sorry, you don't know that upgrade");
+        }
+    }
+
+    public void boostEngine()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            print("Zoomin");
+
+            fireTime++;
+
+            CharControl.SpeedModifier = 1.5f;
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            CharControl.SpeedModifier = 1.0f;
+        }
+        else
+        {
+            if (fireTime > 0)
+            {
+                fireTime--;
+            }
+        }
+
+        if (fireTime >= fireMax)
+        {
+            //Deal Damage and set on fire
+            onFire = true;
+        }
+        else 
+        {
+            onFire = false;
         }
     }
 }
