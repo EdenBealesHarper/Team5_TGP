@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,12 +14,14 @@ public class UI_HUD : MonoBehaviour
     private Sprite[] healthFill = new Sprite[3];
 
     private Powers_Main powers;
+    private float previousFireTime;
 
     [SerializeField]
     private GameObject[] powersDisplay; // todo make dynamic if necessary
+    [SerializeField]
+    private GameObject fireFill;
 
     private Sprite[] powerSprites = new Sprite[2]; //todo get actual images
-
 
     // Start is called before the first frame update
     void Start()
@@ -38,10 +40,8 @@ public class UI_HUD : MonoBehaviour
             powerSprites[0] = Resources.Load<Sprite>("UI/blank");
             powerSprites[1] = Resources.Load<Sprite>("UI/occupied");
 
-            previousHealth = 0;
-            UpdateHealth();
-
-            UpdatePowers();
+            previousHealth = 0f;
+            previousFireTime = powers.fireMax;
         }
         else Debug.Log("Player character not found");
     }
@@ -51,6 +51,7 @@ public class UI_HUD : MonoBehaviour
     {
         UpdateHealth();
         UpdatePowers();
+        UpdateFire();
     }
 
     private void UpdateHealth()
@@ -68,12 +69,14 @@ public class UI_HUD : MonoBehaviour
             {
                 healthBar.sprite = healthFill[2];
             }
-            else if (percentageHealth <= 0.5f && (previousHealth <= 0.2f || previousHealth > 0.5f))
+            else if (percentageHealth > 0.2f && percentageHealth <= 0.5f && (previousHealth <= 0.2f || previousHealth > 0.5f))
             {
                 healthBar.sprite = healthFill[1];
             }
-            else
+            else if (percentageHealth > 0.5f && previousHealth <= 0.5f)
+            {
                 healthBar.sprite = healthFill[0];
+            }
 
             healthBar.fillAmount = percentageHealth;
 
@@ -110,5 +113,29 @@ public class UI_HUD : MonoBehaviour
         }
     }
 
-    // TODO effects
+    private void UpdateFire()
+    {
+        if (previousFireTime != powers.fireTime)
+        {
+            float firePercentage = (float)powers.fireTime / powers.fireMax;
+
+            if (firePercentage >= 1f && previousFireTime > powers.fireMax)
+            {
+                // do nothing
+            }
+            else if (firePercentage >= 1f && previousFireTime < powers.fireMax) // increasing past max
+            {
+                fireFill.GetComponent<RectTransform>().anchorMax = new Vector2(1f, 1f);
+                fireFill.GetComponent<Image>().color = new Color(0.95f, 0f, 0f, 0.7f);
+            }
+            else if (firePercentage < 1f && previousFireTime >= powers.fireMax) // decreasing from max
+            {
+                fireFill.GetComponent<Image>().color = new Color(0.75f, 0f, 0f, 0.7f);
+            }
+            else
+                fireFill.GetComponent<RectTransform>().anchorMax = new Vector2(firePercentage,1f);
+
+            previousFireTime = powers.fireTime;
+        }
+    }
 }
