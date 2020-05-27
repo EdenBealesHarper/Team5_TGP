@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3c06eeefd24c4a47a7ef06ceb677a86, type: 3}
   m_Name: Springer's Arm
   m_EditorClassIdentifier: 
-  Projectile: {fileID: 0}
-  WeaponMesh: {fileID: 0}
+  Projectile: {fileID: 3566053744207394167, guid: e7a0eed1884142a428b349f650fcd4dc,
+    type: 3}
+  WeaponMesh: {fileID: -2432090755550338912, guid: 6f89220ede3d5894d81aa8a5773d31d6,
+    type: 3}
   WeaponName: Springer's Arm
   WeaponType: 0

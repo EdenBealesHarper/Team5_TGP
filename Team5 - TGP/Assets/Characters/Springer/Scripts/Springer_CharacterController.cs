@@ -10,6 +10,7 @@ public class Springer_CharacterController : MonoBehaviour
     [SerializeField]
     private GameObject Cam;
 
+
     [SerializeField]
     private float MaxSpeed = 10f;                    // The fastest the player can travel in the x axis.
 
@@ -22,8 +23,15 @@ public class Springer_CharacterController : MonoBehaviour
 
     private float LowJumpMultiplier = 2f;
 
-    [Range(0, 1)] [SerializeField]
-    private float m_CrouchSpeed = .36f;  // Amount of maxSpeed applied to crouching movement. 1 = 100%
+    [SerializeField]
+    private float WeaponTimer = 0.0f;               //How long it takes the player to return to non gun mode.
+
+    private float ActiveWeaponTimer = 0.0f;               //Gun mode timer
+
+
+
+
+  
 
     [SerializeField]
     private bool bAirControl = false;                 // Whether or not a player can steer while jumping;
@@ -47,6 +55,7 @@ public class Springer_CharacterController : MonoBehaviour
     
     private Springer_AimController AimController;
     private FollowCamera FollowCam;
+    private Springer_WeaponManager WeaponManager;
 
    public float LocalScale;
 
@@ -59,6 +68,7 @@ public class Springer_CharacterController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         AimController = MeshObject.GetComponent<Springer_AimController>();
         FollowCam = Cam.GetComponent<FollowCamera>();
+        WeaponManager = GetComponent<Springer_WeaponManager>();
     }
 
     // Start is called before the first frame update
@@ -70,12 +80,21 @@ public class Springer_CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
+
+
         Anim.ResetTrigger("Jump");
-        if (Input.GetButtonDown("DebugWeaponMode"))
+        CalculateFacingDirection();
+        if (Input.GetButtonDown("Fire1"))
         {
-            ToggleMode();
+            
+            WeaponManager.FireWeapon();
+
         }
-            CalculateFacingDirection();
+        WeaponMode(Input.GetButtonDown("Fire1"));
+
+       
         Move(Input.GetAxis("Horizontal"), Input.GetButton("Jump"));
     }
 
@@ -166,9 +185,9 @@ public class Springer_CharacterController : MonoBehaviour
         }
     }
 
-    void ToggleMode()
+    void UpdateWeaponMode()
     {
-        bIsWeaponActive = !bIsWeaponActive;
+      
         AimController.ToggleWeaponState(bIsWeaponActive);
         FollowCam.ToggleCameraMode(bIsWeaponActive);
         if (bIsWeaponActive)
@@ -179,6 +198,25 @@ public class Springer_CharacterController : MonoBehaviour
         {
             Anim.SetLayerWeight(1, 0.0f);
         }
+    }
+    void WeaponMode(bool bActive)
+    {
+        if (bActive)
+        {
+            bIsWeaponActive = true;
+           
+
+            ActiveWeaponTimer = WeaponTimer;
+
+        }
+
+        ActiveWeaponTimer -= Time.deltaTime;
+        if (ActiveWeaponTimer <= 0)
+        {
+            bIsWeaponActive = false;
+        }
+
+        UpdateWeaponMode();
     }
 
     void CalculateFacingDirection()
@@ -198,6 +236,7 @@ public class Springer_CharacterController : MonoBehaviour
                 Vector3 theScale = transform.localScale;
                 theScale.x = LocalScale;
                 transform.localScale = theScale;
+                WeaponManager.SetDirectionModifier(1);
                 
             }
             else if (ScreenPos.x < (CharacterPosOnScreen.x))
@@ -207,6 +246,7 @@ public class Springer_CharacterController : MonoBehaviour
                 Vector3 theScale = transform.localScale;
                 theScale.x = LocalScale * -1;
                 transform.localScale = theScale;
+                WeaponManager.SetDirectionModifier(-1);
             }
 
         }

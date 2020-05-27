@@ -5,30 +5,31 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     protected float CurrentHealth;
+    [SerializeField]
     protected float TotalHealth;
-    
 
-    void Start()
+
+    private void Start()
     {
-        
+        CurrentHealth = TotalHealth;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void TakeDamage(float Damage)
+  public virtual void TakeDamage(float Damage)
     {
         CurrentHealth -= Damage;
         if (CurrentHealth <= 0)
         {
             //ToDo On Death event
+            OnDeath();
         }
     }
 
     void UpdateHealthBar()
+    {
+
+    }
+
+    void OnDeath()
     {
 
     }
