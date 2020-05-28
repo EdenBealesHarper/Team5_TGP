@@ -22,15 +22,37 @@ public class Powers_Main : MonoBehaviour
     {
         CharControl = GetComponent<Springer_CharacterController>();
         dirty = false;
+
+        knownUpgrades.Add("ENGINE");
+        knownUpgrades.Add("CHARGEJUMP");
+        knownUpgrades.Add("DOUBLEJUMP");
+
+        slottedUpgrades.Add("ENGINE");
+        slottedUpgrades.Add("CHARGEJUMP");
+        slottedUpgrades.Add("DOUBLEJUMP");
     }
 
     void Update()
     {
         foreach (string upgrade in slottedUpgrades)
         {
-            if (upgrade == "ENGINE")
+            switch (upgrade)
             {
-                boostEngine();
+                case("ENGINE"):
+                    {
+                        boostEngine();
+                        break;
+                    }
+                case ("CHARGEJUMP"):
+                    {
+                        chargeJump();
+                        break;
+                    }
+                case ("DOUBLEJUMP"):
+                    {
+                        doubleJump();
+                        break;
+                    }
             }
         }
     }
@@ -102,6 +124,30 @@ public class Powers_Main : MonoBehaviour
         {
             onFire = false;
         }
+    }
+
+    public void chargeJump()
+    {
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            print("Charging Jump");
+
+            if (CharControl.JumpForce <= 600f)
+            {
+                CharControl.JumpForce++;
+            }
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftControl))
+        {
+            print("Release");
+
+            CharControl.JumpForce = 400f;
+        }
+    }
+
+    public void doubleJump()
+    {
+        
     }
 }
 
