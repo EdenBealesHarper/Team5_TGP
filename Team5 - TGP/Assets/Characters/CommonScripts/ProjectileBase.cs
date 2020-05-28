@@ -7,16 +7,24 @@ public class ProjectileBase : MonoBehaviour
     public float Speed;
     public float Damage;
 
-    public float Lifetime;
+    public float Lifetime = 6f;
 
-    private float Dir;
-    private Rigidbody2D rb;
+    protected float Dir;
+    protected Rigidbody2D rb;
+
+    [SerializeField]
+    protected EWeaponType Type;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
+        OnFire();
+    }
+
+    public virtual void OnFire()
+    {
         rb.velocity = transform.right * Speed * Dir;
     }
 
@@ -45,3 +53,4 @@ public class ProjectileBase : MonoBehaviour
         Target.TakeDamage(Damage);
     }
 }
+

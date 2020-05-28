@@ -86,13 +86,11 @@ public class Springer_CharacterController : MonoBehaviour
 
         Anim.ResetTrigger("Jump");
         CalculateFacingDirection();
-        if (Input.GetButtonDown("Fire1"))
-        {
-            
-            WeaponManager.FireWeapon();
 
-        }
-        WeaponMode(Input.GetButtonDown("Fire1"));
+
+
+        WeaponManager.FireWeapon(Input.GetButton("Fire1"));
+        WeaponMode(Input.GetButton("Fire1"));
 
        
         Move(Input.GetAxis("Horizontal"), Input.GetButton("Jump"));
