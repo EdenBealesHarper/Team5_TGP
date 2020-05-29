@@ -23,6 +23,16 @@ public class UI_HUD : MonoBehaviour
 
     private Sprite[] powerSprites = new Sprite[2]; //todo get actual images
 
+    [SerializeField]
+    private Button[] pauseButtons = new Button[3];
+
+    private bool effectsDirty;
+
+    [SerializeField]
+    private GameObject effectsDisplay;
+    private Dictionary<string, GameObject> effectImages = new Dictionary<string, GameObject>();
+    private List<GameObject> currentEffects = new List<GameObject>();
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,8 +50,13 @@ public class UI_HUD : MonoBehaviour
             powerSprites[0] = Resources.Load<Sprite>("UI/blank");
             powerSprites[1] = Resources.Load<Sprite>("UI/occupied");
 
+            effectImages.Add("burning", Resources.Load<GameObject>("UI/Effect_Fire"));
+
             previousHealth = 0f;
             previousFireTime = powers.fireMax;
+            effectsDirty = true;
+
+            InitialisePauseScreen();
         }
         else Debug.Log("Player character not found");
     }
@@ -49,8 +64,10 @@ public class UI_HUD : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        CheckPaused();
         UpdateHealth();
         UpdatePowers();
+        UpdateEffects();
         UpdateFire();
     }
 
@@ -138,4 +155,62 @@ public class UI_HUD : MonoBehaviour
             previousFireTime = powers.fireTime;
         }
     }
+
+    // TODO proper effects system; give effects individual sprites
+    private void UpdateEffects()
+    {
+        // on fire
+        if (powers.onFire && !currentEffects.Contains(effectImages["burning"]))
+        {
+            currentEffects.Add(effectImages["burning"]);
+            effectsDirty = true;
+        }
+        else if (!powers.onFire && currentEffects.Contains(effectImages["burning"]))
+        {
+            currentEffects.Remove(effectImages["burning"]);
+            effectsDirty = true;
+        }
+
+        if (effectsDirty)
+        {
+            // clear
+            foreach (Transform child in effectsDisplay.transform)
+            {
+                Destroy(child.gameObject);
+            }
+
+            // refill
+            if (currentEffects.Count > 0)
+            {
+                for (int i = 0; i < currentEffects.Count; i++)
+                {
+                    Instantiate(currentEffects[i], effectsDisplay.transform);
+                }
+            }
+
+            effectsDirty = false;
+        }
+    }
+
+    #region pause functions
+    private void CheckPaused()
+    {
+        if (GameManager.Instance().isPaused() != pauseButtons[0].gameObject.activeInHierarchy)
+        {
+            pauseButtons[0].transform.parent.gameObject.SetActive(GameManager.Instance().isPaused());
+        }
+    }
+
+    private void InitialisePauseScreen()
+    {
+        // resume
+        pauseButtons[0].onClick.AddListener(() => GameManager.Instance().SetPause(false));
+
+        // main menu
+        pauseButtons[1].onClick.AddListener(GameManager.Instance().GameMenu);
+
+        //quit
+        pauseButtons[2].onClick.AddListener(GameManager.Instance().GameQuit);
+    }
+    #endregion
 }
