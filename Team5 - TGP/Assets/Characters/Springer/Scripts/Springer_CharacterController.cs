@@ -18,6 +18,10 @@ public class Springer_CharacterController : MonoBehaviour
 
     [SerializeField]
     private float JumpForce = 400f;                  // Amount of force added when the player jumps.
+    [SerializeField]
+    private float DoubleJumpMultiplier_Falling  = 6;
+    [SerializeField]
+    private float DoubleJumpMultiplier_Jumping = 1.5f;
 
     private float FallMultiplier = 2.5f;
 
@@ -31,7 +35,7 @@ public class Springer_CharacterController : MonoBehaviour
 
 
 
-  
+
 
     [SerializeField]
     private bool bAirControl = false;                 // Whether or not a player can steer while jumping;
@@ -49,8 +53,17 @@ public class Springer_CharacterController : MonoBehaviour
     private Rigidbody2D rb;
     private bool FacingRight = true;  // For determining which way the player is currently facing.
 
+
+    public int JumpCount = 0;             // How many times the player has jumped after last touching the floor
+    [SerializeField]
+    private int MaxJumpCount = 1;   //The maximum amount of times the player can jump
+
+
     [SerializeField]
     private bool bIsWeaponActive;
+
+
+    private bool bJumpHeld = false;
 
     
     private Springer_AimController AimController;
@@ -74,7 +87,7 @@ public class Springer_CharacterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        MaxJumpCount = 2;  
     }
 
     // Update is called once per frame
@@ -106,7 +119,10 @@ public class Springer_CharacterController : MonoBehaviour
         for (int i = 0; i < colliders.Length; i++)
         {
             if (colliders[i].gameObject != gameObject)
+            {
                 bGrounded = true;
+                JumpCount = 0;
+            }
         }
         Anim.SetBool("Grounded", bGrounded);        
 
@@ -148,16 +164,37 @@ public class Springer_CharacterController : MonoBehaviour
                 Flip();
             }
         }
+
+
+       
         // If the player should jump...
-        if (bGrounded && bShouldJump && Anim.GetBool("Grounded"))
+        if (bShouldJump && ((Anim.GetBool("Grounded") && bGrounded) || JumpCount < MaxJumpCount && !bJumpHeld))
         {
+
             // Add a vertical force to the player.
+
+            if (bGrounded)
+            {
+                rb.AddForce(new Vector2(0f, JumpForce));
+            }
+            else if (rb.velocity.y < 0)
+            {
+                rb.AddForce(new Vector2(0f, (JumpForce * DoubleJumpMultiplier_Falling)));
+            }
+            else
+            {
+                rb.AddForce(new Vector2(0f, JumpForce * DoubleJumpMultiplier_Jumping));
+            }
+
             bGrounded = false;
             Anim.SetBool("Grounded", false);
             Anim.SetTrigger("Jump");
-            rb.AddForce(new Vector2(0f, JumpForce));
-        }
+           
 
+
+             JumpCount++;
+        }
+        IsJumpHeld(bShouldJump);
         if (rb.velocity.y < 0)
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (FallMultiplier - 1) * Time.deltaTime;
@@ -254,5 +291,16 @@ public class Springer_CharacterController : MonoBehaviour
     void SetSpeedModifier(float NewMod)
     {
         SpeedModifier = NewMod;
+    }
+
+    void SetMaxJumpCount(int NewCount)
+    {
+        MaxJumpCount = NewCount;
+    }
+
+
+    void IsJumpHeld(bool NewInput)
+    {
+        if (bJumpHeld != NewInput) bJumpHeld = NewInput;
     }
 }
