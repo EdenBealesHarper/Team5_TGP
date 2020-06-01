@@ -16,6 +16,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastUpdatedAtString: 2020-05-23T16:37:21.874+01:00
   initializedAtString: 2020-05-23T16:37:21.874+01:00
 =======
@@ -30,6 +31,10 @@ MonoBehaviour:
   lastUpdatedAtString: 2020-06-01T00:45:53.887+01:00
   initializedAtString: 2020-06-01T00:45:53.887+01:00
 >>>>>>> Level
+=======
+  lastUpdatedAtString: 2020-05-31T12:01:15.609+01:00
+  initializedAtString: 2020-05-31T12:01:15.609+01:00
+>>>>>>> Upgrades
   currentGitRemote:
     name: origin
     url: https://github.com/EdenBealesHarper/Team5_TGP.git
@@ -39,6 +44,7 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
+<<<<<<< HEAD
     name: Level
     tracking: origin/Level
   currentConfigBranch:
@@ -47,6 +53,16 @@ MonoBehaviour:
       name: origin
       url: https://github.com/EdenBealesHarper/Team5_TGP.git
     trackingBranch: Level
+=======
+    name: Upgrades
+    tracking: 
+  currentConfigBranch:
+    name: Upgrades
+    remote:
+      name: 
+      url: 
+    trackingBranch: 
+>>>>>>> Upgrades
   currentConfigRemote:
     name: origin
     url: https://github.com/EdenBealesHarper/Team5_TGP.git

@@ -16,6 +16,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastUpdatedAtString: 2020-05-23T17:02:32.773+01:00
   initializedAtString: 2020-05-23T16:37:22.788+01:00
 =======
@@ -9826,3 +9827,152 @@ MonoBehaviour:
     indexStatus: 1
     workTreeStatus: 1
 >>>>>>> Level
+=======
+  lastUpdatedAtString: 2020-05-31T12:13:38.930+01:00
+  initializedAtString: 2020-05-31T12:03:20.733+01:00
+  entries:
+  - path: Team5 - TGP\Library\ArtifactDB
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\Artifacts\14\1457f3bcee982e3df685bd65330e4384
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\14\1457f3bcee982e3df685bd65330e4384
+    projectPath: Library\Artifacts\14\1457f3bcee982e3df685bd65330e4384
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\25\253de406a9b1dbc6f921d3a1f8c4d522
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\25\253de406a9b1dbc6f921d3a1f8c4d522
+    projectPath: Library\Artifacts\25\253de406a9b1dbc6f921d3a1f8c4d522
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\2d\2dcd1513ddce4a5548a6c8ca19e18654
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\2d\2dcd1513ddce4a5548a6c8ca19e18654
+    projectPath: Library\Artifacts\2d\2dcd1513ddce4a5548a6c8ca19e18654
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\2f\2fb408516dca1db6d6419f466affe371
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\2f\2fb408516dca1db6d6419f466affe371
+    projectPath: Library\Artifacts\2f\2fb408516dca1db6d6419f466affe371
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\3b\3bbbde8f12ac3c70ef105dcfa452d95a
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\3b\3bbbde8f12ac3c70ef105dcfa452d95a
+    projectPath: Library\Artifacts\3b\3bbbde8f12ac3c70ef105dcfa452d95a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\42\4232f7b444960f069447f658a650a49b
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\42\4232f7b444960f069447f658a650a49b
+    projectPath: Library\Artifacts\42\4232f7b444960f069447f658a650a49b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\52\523619e6293ec8ed36be5c258ab25a81
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\52\523619e6293ec8ed36be5c258ab25a81
+    projectPath: Library\Artifacts\52\523619e6293ec8ed36be5c258ab25a81
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\67\67c204c8dd84411d4081654efad56c16
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\67\67c204c8dd84411d4081654efad56c16
+    projectPath: Library\Artifacts\67\67c204c8dd84411d4081654efad56c16
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\74\746b850a36229509f574a5bb2fbec9ef
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\74\746b850a36229509f574a5bb2fbec9ef
+    projectPath: Library\Artifacts\74\746b850a36229509f574a5bb2fbec9ef
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\75\756df798c22a8999af5be9e3d79c5659
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\75\756df798c22a8999af5be9e3d79c5659
+    projectPath: Library\Artifacts\75\756df798c22a8999af5be9e3d79c5659
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\98\98b6840f9bdca9441086a3eca583ece4
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\98\98b6840f9bdca9441086a3eca583ece4
+    projectPath: Library\Artifacts\98\98b6840f9bdca9441086a3eca583ece4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\a8\a8eebbf99b76d123820aafa783987355
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\a8\a8eebbf99b76d123820aafa783987355
+    projectPath: Library\Artifacts\a8\a8eebbf99b76d123820aafa783987355
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\b3\b336f6c57e298bc02cb7ca3956f7bfb6
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\b3\b336f6c57e298bc02cb7ca3956f7bfb6
+    projectPath: Library\Artifacts\b3\b336f6c57e298bc02cb7ca3956f7bfb6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\c0\c0e1444e6c9a8cf2e2e38972ae6a588b
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\c0\c0e1444e6c9a8cf2e2e38972ae6a588b
+    projectPath: Library\Artifacts\c0\c0e1444e6c9a8cf2e2e38972ae6a588b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\cc\cccb9605122d2a5fd429cde80e2decb6
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\cc\cccb9605122d2a5fd429cde80e2decb6
+    projectPath: Library\Artifacts\cc\cccb9605122d2a5fd429cde80e2decb6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\dc\dc0a50d76f31430f3faec43100bc76cd
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\Artifacts\dc\dc0a50d76f31430f3faec43100bc76cd
+    projectPath: Library\Artifacts\dc\dc0a50d76f31430f3faec43100bc76cd
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\EditorInstance.json
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\gfu\cache\gitlocks.yaml
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\gfu\cache\repoinfo.yaml
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\SourceAssetDB
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\SourceAssetDB
+    projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Temp\UnityLockfile
+    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+>>>>>>> Upgrades
