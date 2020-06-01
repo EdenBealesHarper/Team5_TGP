@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
+<<<<<<< HEAD
   lastUpdatedAtString: 2020-05-23T16:37:22.943+01:00
   initializedAtString: 2020-05-23T16:37:22.943+01:00
+=======
+  lastUpdatedAtString: 2020-05-31T19:01:56.087+01:00
+  initializedAtString: 2020-05-31T18:51:36.163+01:00
+>>>>>>> PlayerCharacter
   ahead: 0
   behind: 0

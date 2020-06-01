@@ -10,20 +10,41 @@ public class Springer_CharacterController : MonoBehaviour
     [SerializeField]
     private GameObject Cam;
 
+
     [SerializeField]
     public float MaxSpeed = 10f;                    // The fastest the player can travel in the x axis.
 
     public float SpeedModifier = 1f;               //Used to adjust the speed, multiplies current speed by the modifier
 
     [SerializeField]
+<<<<<<< HEAD
     public float JumpForce = 400f;                  // Amount of force added when the player jumps.
+=======
+    private float JumpForce = 400f;                  // Amount of force added when the player jumps.
+    [SerializeField]
+    private float DoubleJumpMultiplier_Falling  = 6;
+    [SerializeField]
+    private float DoubleJumpMultiplier_Jumping = 1.5f;
+>>>>>>> PlayerCharacter
 
     public float FallMultiplier = 2.5f;
 
     public float LowJumpMultiplier = 2f;
 
+<<<<<<< HEAD
     [Range(0, 1)] [SerializeField]
     public float m_CrouchSpeed = .36f;  // Amount of maxSpeed applied to crouching movement. 1 = 100%
+=======
+    [SerializeField]
+    private float WeaponTimer = 0.0f;               //How long it takes the player to return to non gun mode.
+
+    private float ActiveWeaponTimer = 0.0f;               //Gun mode timer
+
+
+
+
+
+>>>>>>> PlayerCharacter
 
     [SerializeField]
     private bool bAirControl = false;                 // Whether or not a player can steer while jumping;
@@ -41,12 +62,22 @@ public class Springer_CharacterController : MonoBehaviour
     private Rigidbody2D rb;
     private bool FacingRight = true;  // For determining which way the player is currently facing.
 
+
+    public int JumpCount = 0;             // How many times the player has jumped after last touching the floor
+    [SerializeField]
+    private int MaxJumpCount = 1;   //The maximum amount of times the player can jump
+
+
     [SerializeField]
     private bool bIsWeaponActive;
+
+
+    private bool bJumpHeld = false;
 
     
     private Springer_AimController AimController;
     private FollowCamera FollowCam;
+    private Springer_WeaponManager WeaponManager;
 
    public float LocalScale;
 
@@ -59,23 +90,31 @@ public class Springer_CharacterController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         AimController = MeshObject.GetComponent<Springer_AimController>();
         FollowCam = Cam.GetComponent<FollowCamera>();
+        WeaponManager = GetComponent<Springer_WeaponManager>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        MaxJumpCount = 2;  
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
+
+
         Anim.ResetTrigger("Jump");
-        if (Input.GetButtonDown("DebugWeaponMode"))
-        {
-            ToggleMode();
-        }
-            CalculateFacingDirection();
+        CalculateFacingDirection();
+
+
+
+        WeaponManager.FireWeapon(Input.GetButton("Fire1"));
+        WeaponMode(Input.GetButton("Fire1"));
+
+       
         Move(Input.GetAxis("Horizontal"), Input.GetButton("Jump"));
     }
 
@@ -89,7 +128,10 @@ public class Springer_CharacterController : MonoBehaviour
         for (int i = 0; i < colliders.Length; i++)
         {
             if (colliders[i].gameObject != gameObject)
+            {
                 bGrounded = true;
+                JumpCount = 0;
+            }
         }
         Anim.SetBool("Grounded", bGrounded);        
 
@@ -131,16 +173,37 @@ public class Springer_CharacterController : MonoBehaviour
                 Flip();
             }
         }
+
+
+       
         // If the player should jump...
-        if (bGrounded && bShouldJump && Anim.GetBool("Grounded"))
+        if (bShouldJump && ((Anim.GetBool("Grounded") && bGrounded) || JumpCount < MaxJumpCount && !bJumpHeld))
         {
+
             // Add a vertical force to the player.
+
+            if (bGrounded)
+            {
+                rb.AddForce(new Vector2(0f, JumpForce));
+            }
+            else if (rb.velocity.y < 0)
+            {
+                rb.AddForce(new Vector2(0f, (JumpForce * DoubleJumpMultiplier_Falling)));
+            }
+            else
+            {
+                rb.AddForce(new Vector2(0f, JumpForce * DoubleJumpMultiplier_Jumping));
+            }
+
             bGrounded = false;
             Anim.SetBool("Grounded", false);
             Anim.SetTrigger("Jump");
-            rb.AddForce(new Vector2(0f, JumpForce));
-        }
+           
 
+
+             JumpCount++;
+        }
+        IsJumpHeld(bShouldJump);
         if (rb.velocity.y < 0)
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (FallMultiplier - 1) * Time.deltaTime;
@@ -166,9 +229,9 @@ public class Springer_CharacterController : MonoBehaviour
         }
     }
 
-    void ToggleMode()
+    void UpdateWeaponMode()
     {
-        bIsWeaponActive = !bIsWeaponActive;
+      
         AimController.ToggleWeaponState(bIsWeaponActive);
         FollowCam.ToggleCameraMode(bIsWeaponActive);
         if (bIsWeaponActive)
@@ -179,6 +242,25 @@ public class Springer_CharacterController : MonoBehaviour
         {
             Anim.SetLayerWeight(1, 0.0f);
         }
+    }
+    void WeaponMode(bool bActive)
+    {
+        if (bActive)
+        {
+            bIsWeaponActive = true;
+           
+
+            ActiveWeaponTimer = WeaponTimer;
+
+        }
+
+        ActiveWeaponTimer -= Time.deltaTime;
+        if (ActiveWeaponTimer <= 0)
+        {
+            bIsWeaponActive = false;
+        }
+
+        UpdateWeaponMode();
     }
 
     void CalculateFacingDirection()
@@ -198,6 +280,7 @@ public class Springer_CharacterController : MonoBehaviour
                 Vector3 theScale = transform.localScale;
                 theScale.x = LocalScale;
                 transform.localScale = theScale;
+                WeaponManager.SetDirectionModifier(1);
                 
             }
             else if (ScreenPos.x < (CharacterPosOnScreen.x))
@@ -207,6 +290,7 @@ public class Springer_CharacterController : MonoBehaviour
                 Vector3 theScale = transform.localScale;
                 theScale.x = LocalScale * -1;
                 transform.localScale = theScale;
+                WeaponManager.SetDirectionModifier(-1);
             }
 
         }
@@ -216,5 +300,16 @@ public class Springer_CharacterController : MonoBehaviour
     void SetSpeedModifier(float NewMod)
     {
         SpeedModifier = NewMod;
+    }
+
+    void SetMaxJumpCount(int NewCount)
+    {
+        MaxJumpCount = NewCount;
+    }
+
+
+    void IsJumpHeld(bool NewInput)
+    {
+        if (bJumpHeld != NewInput) bJumpHeld = NewInput;
     }
 }

@@ -13,8 +13,8 @@ public class Weapon : ScriptableObject
    public string WeaponName;
    public EWeaponType WeaponType;
 
-    int Capacity;
-    float FireRate;
+    public int Capacity;
+   public float FireRate;
 
 
 
