@@ -15,6 +15,7 @@ MonoBehaviour:
   cacheType: 6
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastUpdatedAtString: 2020-05-23T17:02:32.773+01:00
   initializedAtString: 2020-05-23T16:37:22.788+01:00
 =======
@@ -7419,9 +7420,174 @@ MonoBehaviour:
   - path: Team5 - TGP\Library\ShaderCache\0\037f5c69f0e3bd0a5b867e69cd5ecb16.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\0\037f5c69f0e3bd0a5b867e69cd5ecb16.bin
     projectPath: Library\ShaderCache\0\037f5c69f0e3bd0a5b867e69cd5ecb16.bin
+=======
+  lastUpdatedAtString: 2020-06-01T00:45:54.649+01:00
+  initializedAtString: 2020-06-01T00:45:54.649+01:00
+  entries:
+  - path: Team5 - TGP\Assets\LevelAssets.meta
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets.meta
+    projectPath: Assets\LevelAssets.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\FloorPallet.prefab
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\FloorPallet.prefab
+    projectPath: Assets\LevelAssets\FloorPallet.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\FloorPallet.prefab.meta
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\FloorPallet.prefab.meta
+    projectPath: Assets\LevelAssets\FloorPallet.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest.png
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest.png
+    projectPath: Assets\LevelAssets\TileTest.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest.png.meta
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest.png.meta
+    projectPath: Assets\LevelAssets\TileTest.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest_0.asset
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest_0.asset
+    projectPath: Assets\LevelAssets\TileTest_0.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest_0.asset.meta
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest_0.asset.meta
+    projectPath: Assets\LevelAssets\TileTest_0.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest_1.asset
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest_1.asset
+    projectPath: Assets\LevelAssets\TileTest_1.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest_1.asset.meta
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest_1.asset.meta
+    projectPath: Assets\LevelAssets\TileTest_1.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest_2.asset
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest_2.asset
+    projectPath: Assets\LevelAssets\TileTest_2.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest_2.asset.meta
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest_2.asset.meta
+    projectPath: Assets\LevelAssets\TileTest_2.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest_3.asset
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest_3.asset
+    projectPath: Assets\LevelAssets\TileTest_3.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest_3.asset.meta
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest_3.asset.meta
+    projectPath: Assets\LevelAssets\TileTest_3.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest_4.asset
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest_4.asset
+    projectPath: Assets\LevelAssets\TileTest_4.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest_4.asset.meta
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest_4.asset.meta
+    projectPath: Assets\LevelAssets\TileTest_4.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest_5.asset
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest_5.asset
+    projectPath: Assets\LevelAssets\TileTest_5.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\LevelAssets\TileTest_5.asset.meta
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\LevelAssets\TileTest_5.asset.meta
+    projectPath: Assets\LevelAssets\TileTest_5.asset.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Scenes\testlevel.unity
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Scenes\testlevel.unity
+    projectPath: Assets\Scenes\testlevel.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Assets\Scenes\testlevel.unity.meta
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Assets\Scenes\testlevel.unity.meta
+    projectPath: Assets\Scenes\testlevel.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\APIUpdater\project-dependencies.graph
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\APIUpdater\project-dependencies.graph
+    projectPath: Library\APIUpdater\project-dependencies.graph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ArtifactDB
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\Artifacts\05\05522326da8da6ae5767efec7dbc844e
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\05\05522326da8da6ae5767efec7dbc844e
+    projectPath: Library\Artifacts\05\05522326da8da6ae5767efec7dbc844e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\0a\0ac9592e5515195ff3e7644b4a5c887a
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\0a\0ac9592e5515195ff3e7644b4a5c887a
+    projectPath: Library\Artifacts\0a\0ac9592e5515195ff3e7644b4a5c887a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\0c\0c040cab7b8514d794915cd359088b3b
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\0c\0c040cab7b8514d794915cd359088b3b
+    projectPath: Library\Artifacts\0c\0c040cab7b8514d794915cd359088b3b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\0f\0f9f8f6b57781ed1d3bb679a53ee3d12
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\0f\0f9f8f6b57781ed1d3bb679a53ee3d12
+    projectPath: Library\Artifacts\0f\0f9f8f6b57781ed1d3bb679a53ee3d12
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\10\1092186ed04be1371d3e36b7e219dd19
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\10\1092186ed04be1371d3e36b7e219dd19
+    projectPath: Library\Artifacts\10\1092186ed04be1371d3e36b7e219dd19
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\12\12e1d50c1f43f2dc32fcbbbce154c54e
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\12\12e1d50c1f43f2dc32fcbbbce154c54e
+    projectPath: Library\Artifacts\12\12e1d50c1f43f2dc32fcbbbce154c54e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Library\ShaderCache\0\073ed81ebfc71fb24c57401762102d9d.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\0\073ed81ebfc71fb24c57401762102d9d.bin
     projectPath: Library\ShaderCache\0\073ed81ebfc71fb24c57401762102d9d.bin
@@ -7437,15 +7603,63 @@ MonoBehaviour:
   - path: Team5 - TGP\Library\ShaderCache\0\0a4c89da2d98e1ade5b4b6900386ce11.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\0\0a4c89da2d98e1ade5b4b6900386ce11.bin
     projectPath: Library\ShaderCache\0\0a4c89da2d98e1ade5b4b6900386ce11.bin
+=======
+  - path: Team5 - TGP\Library\Artifacts\14\148e35db722cd166b31fc971d8eeff86
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\14\148e35db722cd166b31fc971d8eeff86
+    projectPath: Library\Artifacts\14\148e35db722cd166b31fc971d8eeff86
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\18\1890ef9404431bc8d16cb96d57e8e47d
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\18\1890ef9404431bc8d16cb96d57e8e47d
+    projectPath: Library\Artifacts\18\1890ef9404431bc8d16cb96d57e8e47d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\1b\1b19adb002eea0cce0ee75486771f39d
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\1b\1b19adb002eea0cce0ee75486771f39d
+    projectPath: Library\Artifacts\1b\1b19adb002eea0cce0ee75486771f39d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\1b\1b46c2613ff62893f550b338ef63c663
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\1b\1b46c2613ff62893f550b338ef63c663
+    projectPath: Library\Artifacts\1b\1b46c2613ff62893f550b338ef63c663
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\1d\1d8c1d582aef0cad9fcd4bfea759be57
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\1d\1d8c1d582aef0cad9fcd4bfea759be57
+    projectPath: Library\Artifacts\1d\1d8c1d582aef0cad9fcd4bfea759be57
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Library\ShaderCache\0\0b5c61d02eb8a69c085c91345527a7d7.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\0\0b5c61d02eb8a69c085c91345527a7d7.bin
     projectPath: Library\ShaderCache\0\0b5c61d02eb8a69c085c91345527a7d7.bin
+=======
+  - path: Team5 - TGP\Library\Artifacts\1e\1e3d888723bf2b9d6f31240e6e9595f1
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\1e\1e3d888723bf2b9d6f31240e6e9595f1
+    projectPath: Library\Artifacts\1e\1e3d888723bf2b9d6f31240e6e9595f1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\1e\1edcb8b61a78ae81d345ff19c78d616d
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\1e\1edcb8b61a78ae81d345ff19c78d616d
+    projectPath: Library\Artifacts\1e\1edcb8b61a78ae81d345ff19c78d616d
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\20\2014bfda4ae2d48b65fe7ee23feea6dc
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\20\2014bfda4ae2d48b65fe7ee23feea6dc
+    projectPath: Library\Artifacts\20\2014bfda4ae2d48b65fe7ee23feea6dc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Library\ShaderCache\0\0e7d794311e7685b8d7d167887c2513a.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\0\0e7d794311e7685b8d7d167887c2513a.bin
     projectPath: Library\ShaderCache\0\0e7d794311e7685b8d7d167887c2513a.bin
@@ -7455,9 +7669,45 @@ MonoBehaviour:
   - path: Team5 - TGP\Library\ShaderCache\1\1b797e6ff666c66d6005c3fc09c26a56.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\1\1b797e6ff666c66d6005c3fc09c26a56.bin
     projectPath: Library\ShaderCache\1\1b797e6ff666c66d6005c3fc09c26a56.bin
+=======
+  - path: Team5 - TGP\Library\Artifacts\21\214a9761f535a9e6fca9a8dbe890d207
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\21\214a9761f535a9e6fca9a8dbe890d207
+    projectPath: Library\Artifacts\21\214a9761f535a9e6fca9a8dbe890d207
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\21\21db35605f0f96e47508a989cd9ef98c
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\21\21db35605f0f96e47508a989cd9ef98c
+    projectPath: Library\Artifacts\21\21db35605f0f96e47508a989cd9ef98c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\24\24ad97fc8c91b1b5b6230592039935d7
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\24\24ad97fc8c91b1b5b6230592039935d7
+    projectPath: Library\Artifacts\24\24ad97fc8c91b1b5b6230592039935d7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\24\24c6ea1de51f8425abc3162c0cfec6f8
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\24\24c6ea1de51f8425abc3162c0cfec6f8
+    projectPath: Library\Artifacts\24\24c6ea1de51f8425abc3162c0cfec6f8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\25\253de406a9b1dbc6f921d3a1f8c4d522
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\25\253de406a9b1dbc6f921d3a1f8c4d522
+    projectPath: Library\Artifacts\25\253de406a9b1dbc6f921d3a1f8c4d522
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\27\27f04edd950eaedeae1b6914b8e59273
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\27\27f04edd950eaedeae1b6914b8e59273
+    projectPath: Library\Artifacts\27\27f04edd950eaedeae1b6914b8e59273
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Library\ShaderCache\2\21a8c738c304279aa86a4f8b40639cad.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\2\21a8c738c304279aa86a4f8b40639cad.bin
     projectPath: Library\ShaderCache\2\21a8c738c304279aa86a4f8b40639cad.bin
@@ -7479,9 +7729,57 @@ MonoBehaviour:
   - path: Team5 - TGP\Library\ShaderCache\2\287eb89b88586b968b32c8a29e682654.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\2\287eb89b88586b968b32c8a29e682654.bin
     projectPath: Library\ShaderCache\2\287eb89b88586b968b32c8a29e682654.bin
+=======
+  - path: Team5 - TGP\Library\Artifacts\29\297e462c39cdce8d55903268c99e5186
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\29\297e462c39cdce8d55903268c99e5186
+    projectPath: Library\Artifacts\29\297e462c39cdce8d55903268c99e5186
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\30\308d0bae1ed271b8ecffe7b2c5b0da9a
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\30\308d0bae1ed271b8ecffe7b2c5b0da9a
+    projectPath: Library\Artifacts\30\308d0bae1ed271b8ecffe7b2c5b0da9a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\34\34fdd0cedc287c02b1e07914c1541081
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\34\34fdd0cedc287c02b1e07914c1541081
+    projectPath: Library\Artifacts\34\34fdd0cedc287c02b1e07914c1541081
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\38\385d61267d7da80a06e743e2e7ea7930
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\38\385d61267d7da80a06e743e2e7ea7930
+    projectPath: Library\Artifacts\38\385d61267d7da80a06e743e2e7ea7930
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\3e\3e4125757925321731ab5118ce9a599b
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\3e\3e4125757925321731ab5118ce9a599b
+    projectPath: Library\Artifacts\3e\3e4125757925321731ab5118ce9a599b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\42\42603bb412757e0a1c364254e4e6e5f9
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\42\42603bb412757e0a1c364254e4e6e5f9
+    projectPath: Library\Artifacts\42\42603bb412757e0a1c364254e4e6e5f9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\49\492e6979aada1aa324464c62ba2b5c5f
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\49\492e6979aada1aa324464c62ba2b5c5f
+    projectPath: Library\Artifacts\49\492e6979aada1aa324464c62ba2b5c5f
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\4c\4cdc72cf4ad8420f7a51612a8772b712
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\4c\4cdc72cf4ad8420f7a51612a8772b712
+    projectPath: Library\Artifacts\4c\4cdc72cf4ad8420f7a51612a8772b712
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Library\ShaderCache\2\2d2f59027d947c421735d33e73cd2a5d.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\2\2d2f59027d947c421735d33e73cd2a5d.bin
     projectPath: Library\ShaderCache\2\2d2f59027d947c421735d33e73cd2a5d.bin
@@ -7503,9 +7801,51 @@ MonoBehaviour:
   - path: Team5 - TGP\Library\ShaderCache\4\4a411df8869cd6cc67734955683a084a.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\4\4a411df8869cd6cc67734955683a084a.bin
     projectPath: Library\ShaderCache\4\4a411df8869cd6cc67734955683a084a.bin
+=======
+  - path: Team5 - TGP\Library\Artifacts\4e\4e0b30483361426255c5c318cba255b7
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\4e\4e0b30483361426255c5c318cba255b7
+    projectPath: Library\Artifacts\4e\4e0b30483361426255c5c318cba255b7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\4e\4e38e693d2b1754901cb255da83e52d9
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\4e\4e38e693d2b1754901cb255da83e52d9
+    projectPath: Library\Artifacts\4e\4e38e693d2b1754901cb255da83e52d9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\4f\4f16b4e84cfdf672d0cdd90e3844fe16
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\4f\4f16b4e84cfdf672d0cdd90e3844fe16
+    projectPath: Library\Artifacts\4f\4f16b4e84cfdf672d0cdd90e3844fe16
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\50\505cc4fd220eca5b6112095329e06446
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\50\505cc4fd220eca5b6112095329e06446
+    projectPath: Library\Artifacts\50\505cc4fd220eca5b6112095329e06446
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\52\52c2fb3150b615083f33524cb6a2ded2
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\52\52c2fb3150b615083f33524cb6a2ded2
+    projectPath: Library\Artifacts\52\52c2fb3150b615083f33524cb6a2ded2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\55\558c9bc2eb9148114f53e8f71992f1cc
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\55\558c9bc2eb9148114f53e8f71992f1cc
+    projectPath: Library\Artifacts\55\558c9bc2eb9148114f53e8f71992f1cc
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\55\55b81ed51a89cc40b506d0842dc19639
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\55\55b81ed51a89cc40b506d0842dc19639
+    projectPath: Library\Artifacts\55\55b81ed51a89cc40b506d0842dc19639
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Library\ShaderCache\4\4e834d39b7512ee2d2640878907f62e7.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\4\4e834d39b7512ee2d2640878907f62e7.bin
     projectPath: Library\ShaderCache\4\4e834d39b7512ee2d2640878907f62e7.bin
@@ -7515,15 +7855,57 @@ MonoBehaviour:
   - path: Team5 - TGP\Library\ShaderCache\4\4fa2ff1573ebbcb6aa92b5f734b9fb1d.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\4\4fa2ff1573ebbcb6aa92b5f734b9fb1d.bin
     projectPath: Library\ShaderCache\4\4fa2ff1573ebbcb6aa92b5f734b9fb1d.bin
+=======
+  - path: Team5 - TGP\Library\Artifacts\56\5612a019548734279c0bd365c8a024b0
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\56\5612a019548734279c0bd365c8a024b0
+    projectPath: Library\Artifacts\56\5612a019548734279c0bd365c8a024b0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\58\58dc602882211bef5d93a19908fbb4d1
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\58\58dc602882211bef5d93a19908fbb4d1
+    projectPath: Library\Artifacts\58\58dc602882211bef5d93a19908fbb4d1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\59\594f4a2e37ef953c90ba62089b41c4c9
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\59\594f4a2e37ef953c90ba62089b41c4c9
+    projectPath: Library\Artifacts\59\594f4a2e37ef953c90ba62089b41c4c9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\5a\5a67af1035025f424adcdfd3c50186ee
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\5a\5a67af1035025f424adcdfd3c50186ee
+    projectPath: Library\Artifacts\5a\5a67af1035025f424adcdfd3c50186ee
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\60\6080c7912cb62f27d0688bb55f4cda73
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\60\6080c7912cb62f27d0688bb55f4cda73
+    projectPath: Library\Artifacts\60\6080c7912cb62f27d0688bb55f4cda73
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Library\ShaderCache\5\5c70c0cce488b43584077270024a7316.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\5\5c70c0cce488b43584077270024a7316.bin
     projectPath: Library\ShaderCache\5\5c70c0cce488b43584077270024a7316.bin
+=======
+  - path: Team5 - TGP\Library\Artifacts\6e\6ecd813a881406d86b502537b07ad28b
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\6e\6ecd813a881406d86b502537b07ad28b
+    projectPath: Library\Artifacts\6e\6ecd813a881406d86b502537b07ad28b
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\72\7275df4593e74d642fe0c5452aaa2a91
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\72\7275df4593e74d642fe0c5452aaa2a91
+    projectPath: Library\Artifacts\72\7275df4593e74d642fe0c5452aaa2a91
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Library\ShaderCache\6\69384873936f5557ab7431f9228e7cf9.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\6\69384873936f5557ab7431f9228e7cf9.bin
     projectPath: Library\ShaderCache\6\69384873936f5557ab7431f9228e7cf9.bin
@@ -7545,15 +7927,63 @@ MonoBehaviour:
   - path: Team5 - TGP\Library\ShaderCache\6\6cdf7d879c2463005502574d000a78a8.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\6\6cdf7d879c2463005502574d000a78a8.bin
     projectPath: Library\ShaderCache\6\6cdf7d879c2463005502574d000a78a8.bin
+=======
+  - path: Team5 - TGP\Library\Artifacts\72\72878fae4a96370ce15a85aa117ffd8b
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\72\72878fae4a96370ce15a85aa117ffd8b
+    projectPath: Library\Artifacts\72\72878fae4a96370ce15a85aa117ffd8b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\73\734364cf1b176eee174fe11322470787
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\73\734364cf1b176eee174fe11322470787
+    projectPath: Library\Artifacts\73\734364cf1b176eee174fe11322470787
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\74\74318191d534eb4608f275644282ae65
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\74\74318191d534eb4608f275644282ae65
+    projectPath: Library\Artifacts\74\74318191d534eb4608f275644282ae65
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\75\753f3c394c42ce410e8df6fb54347273
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\75\753f3c394c42ce410e8df6fb54347273
+    projectPath: Library\Artifacts\75\753f3c394c42ce410e8df6fb54347273
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\79\79081be6874e7b0b558f86fbe2bcb725
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\79\79081be6874e7b0b558f86fbe2bcb725
+    projectPath: Library\Artifacts\79\79081be6874e7b0b558f86fbe2bcb725
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\7a\7a2afbc3d9274c3f116465ef2df4b1c6
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\7a\7a2afbc3d9274c3f116465ef2df4b1c6
+    projectPath: Library\Artifacts\7a\7a2afbc3d9274c3f116465ef2df4b1c6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Library\ShaderCache\6\6cf2b055c5aec6eeb802a6fe7061fec3.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\6\6cf2b055c5aec6eeb802a6fe7061fec3.bin
     projectPath: Library\ShaderCache\6\6cf2b055c5aec6eeb802a6fe7061fec3.bin
+=======
+  - path: Team5 - TGP\Library\Artifacts\7c\7c39585f85e42f67b618502e42f6c18e
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\7c\7c39585f85e42f67b618502e42f6c18e
+    projectPath: Library\Artifacts\7c\7c39585f85e42f67b618502e42f6c18e
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\7e\7e46f62d4aee2f1217dca73b8f773da9
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\7e\7e46f62d4aee2f1217dca73b8f773da9
+    projectPath: Library\Artifacts\7e\7e46f62d4aee2f1217dca73b8f773da9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Library\ShaderCache\6\6ecc26396acdc5abe2f5eef8a660f779.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\6\6ecc26396acdc5abe2f5eef8a660f779.bin
     projectPath: Library\ShaderCache\6\6ecc26396acdc5abe2f5eef8a660f779.bin
@@ -7563,9 +7993,27 @@ MonoBehaviour:
   - path: Team5 - TGP\Library\ShaderCache\7\71df8c8051c3d82e44f66f8961b21e2f.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\7\71df8c8051c3d82e44f66f8961b21e2f.bin
     projectPath: Library\ShaderCache\7\71df8c8051c3d82e44f66f8961b21e2f.bin
+=======
+  - path: Team5 - TGP\Library\Artifacts\83\832f2350f73aaa00139584fd58acff19
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\83\832f2350f73aaa00139584fd58acff19
+    projectPath: Library\Artifacts\83\832f2350f73aaa00139584fd58acff19
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\83\83bc4b0eefd9ef4ea829e1b5a38bb32a
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\83\83bc4b0eefd9ef4ea829e1b5a38bb32a
+    projectPath: Library\Artifacts\83\83bc4b0eefd9ef4ea829e1b5a38bb32a
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\83\83cd0ee1893ae4523b314ceaa556d89c
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\83\83cd0ee1893ae4523b314ceaa556d89c
+    projectPath: Library\Artifacts\83\83cd0ee1893ae4523b314ceaa556d89c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Library\ShaderCache\7\762680d7d7be54249ae7cd92e2259f81.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\7\762680d7d7be54249ae7cd92e2259f81.bin
     projectPath: Library\ShaderCache\7\762680d7d7be54249ae7cd92e2259f81.bin
@@ -7599,9 +8047,69 @@ MonoBehaviour:
   - path: Team5 - TGP\Library\ShaderCache\a\a7ea55db149573f7dd5d80235d15402e.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\a\a7ea55db149573f7dd5d80235d15402e.bin
     projectPath: Library\ShaderCache\a\a7ea55db149573f7dd5d80235d15402e.bin
+=======
+  - path: Team5 - TGP\Library\Artifacts\84\84ad0e0a14f7675a073e2d850b836ceb
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\84\84ad0e0a14f7675a073e2d850b836ceb
+    projectPath: Library\Artifacts\84\84ad0e0a14f7675a073e2d850b836ceb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\85\85800250453ec1260b9c1802c883bc9d
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\85\85800250453ec1260b9c1802c883bc9d
+    projectPath: Library\Artifacts\85\85800250453ec1260b9c1802c883bc9d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\89\89c00aee6e32d108ee2533fb8990cff2
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\89\89c00aee6e32d108ee2533fb8990cff2
+    projectPath: Library\Artifacts\89\89c00aee6e32d108ee2533fb8990cff2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\8b\8b1afc364dbe67e10f53b6e6031045a8
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\8b\8b1afc364dbe67e10f53b6e6031045a8
+    projectPath: Library\Artifacts\8b\8b1afc364dbe67e10f53b6e6031045a8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\8f\8f3ed435f0eebf191ee35d23afdc6d74
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\8f\8f3ed435f0eebf191ee35d23afdc6d74
+    projectPath: Library\Artifacts\8f\8f3ed435f0eebf191ee35d23afdc6d74
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\8f\8f63e02533715eb7e7a615a04a6cdd8a
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\8f\8f63e02533715eb7e7a615a04a6cdd8a
+    projectPath: Library\Artifacts\8f\8f63e02533715eb7e7a615a04a6cdd8a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\91\91a1baf48d2790466e84867f266258a1
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\91\91a1baf48d2790466e84867f266258a1
+    projectPath: Library\Artifacts\91\91a1baf48d2790466e84867f266258a1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\95\9523d77e366bc85ab2060ad49826f9d0
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\95\9523d77e366bc85ab2060ad49826f9d0
+    projectPath: Library\Artifacts\95\9523d77e366bc85ab2060ad49826f9d0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\95\95a648d43f6e0d1d48cae450601d9133
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\95\95a648d43f6e0d1d48cae450601d9133
+    projectPath: Library\Artifacts\95\95a648d43f6e0d1d48cae450601d9133
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\97\9721ff8ebc95e378e38e84309a6a71bc
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\97\9721ff8ebc95e378e38e84309a6a71bc
+    projectPath: Library\Artifacts\97\9721ff8ebc95e378e38e84309a6a71bc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Library\ShaderCache\a\a82d77ee42a8059e366ffa1612975fe7.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\a\a82d77ee42a8059e366ffa1612975fe7.bin
     projectPath: Library\ShaderCache\a\a82d77ee42a8059e366ffa1612975fe7.bin
@@ -7611,9 +8119,33 @@ MonoBehaviour:
   - path: Team5 - TGP\Library\ShaderCache\a\a8f8a66d44d506d3333f05907cd8b1c7.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\a\a8f8a66d44d506d3333f05907cd8b1c7.bin
     projectPath: Library\ShaderCache\a\a8f8a66d44d506d3333f05907cd8b1c7.bin
+=======
+  - path: Team5 - TGP\Library\Artifacts\98\98f660ac376fab4c174ce731ed98cfc0
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\98\98f660ac376fab4c174ce731ed98cfc0
+    projectPath: Library\Artifacts\98\98f660ac376fab4c174ce731ed98cfc0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\9a\9a0be8fc191e6b962eedb7faa48053c1
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\9a\9a0be8fc191e6b962eedb7faa48053c1
+    projectPath: Library\Artifacts\9a\9a0be8fc191e6b962eedb7faa48053c1
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\9f\9fe8560d97a80b8c706b16c3ef2c3290
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\9f\9fe8560d97a80b8c706b16c3ef2c3290
+    projectPath: Library\Artifacts\9f\9fe8560d97a80b8c706b16c3ef2c3290
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\a2\a2ebdef960c85a87ca3a6cbfdfab53b2
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\a2\a2ebdef960c85a87ca3a6cbfdfab53b2
+    projectPath: Library\Artifacts\a2\a2ebdef960c85a87ca3a6cbfdfab53b2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\Library\ShaderCache\a\a9ac312b2050ed43e62761adfb82db32.bin
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\Library\ShaderCache\a\a9ac312b2050ed43e62761adfb82db32.bin
     projectPath: Library\ShaderCache\a\a9ac312b2050ed43e62761adfb82db32.bin
@@ -7767,9 +8299,117 @@ MonoBehaviour:
   - path: Team5 - TGP\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
     projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.FileListAbsolute.txt
+=======
+  - path: Team5 - TGP\Library\Artifacts\a2\a2fd481a225700b69c4394bcc8275cf6
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\a2\a2fd481a225700b69c4394bcc8275cf6
+    projectPath: Library\Artifacts\a2\a2fd481a225700b69c4394bcc8275cf6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\a5\a55a3bfe3f653ac6910443a730ed0833
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\a5\a55a3bfe3f653ac6910443a730ed0833
+    projectPath: Library\Artifacts\a5\a55a3bfe3f653ac6910443a730ed0833
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\a6\a641355117968c0eb674e09a16ca9778
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\a6\a641355117968c0eb674e09a16ca9778
+    projectPath: Library\Artifacts\a6\a641355117968c0eb674e09a16ca9778
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\b0\b0efbbdea12de3b2127ae6e490752a74
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\b0\b0efbbdea12de3b2127ae6e490752a74
+    projectPath: Library\Artifacts\b0\b0efbbdea12de3b2127ae6e490752a74
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\b2\b2950e67afc0d738b90cef5bc91c42c9
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\b2\b2950e67afc0d738b90cef5bc91c42c9
+    projectPath: Library\Artifacts\b2\b2950e67afc0d738b90cef5bc91c42c9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\b4\b48f3ed11adb3a10a3e62a562a81682c
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\b4\b48f3ed11adb3a10a3e62a562a81682c
+    projectPath: Library\Artifacts\b4\b48f3ed11adb3a10a3e62a562a81682c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\b4\b4bd7159a63a4ca8ffe4d2c4221eaddb
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\b4\b4bd7159a63a4ca8ffe4d2c4221eaddb
+    projectPath: Library\Artifacts\b4\b4bd7159a63a4ca8ffe4d2c4221eaddb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\b4\b4c91d32d65a57f96cc8255a9530674b
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\b4\b4c91d32d65a57f96cc8255a9530674b
+    projectPath: Library\Artifacts\b4\b4c91d32d65a57f96cc8255a9530674b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\b7\b7433e214b6905eec1e0e462f2838e14
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\b7\b7433e214b6905eec1e0e462f2838e14
+    projectPath: Library\Artifacts\b7\b7433e214b6905eec1e0e462f2838e14
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\ba\ba7933a1f8866b8b13f78939b457aea7
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\ba\ba7933a1f8866b8b13f78939b457aea7
+    projectPath: Library\Artifacts\ba\ba7933a1f8866b8b13f78939b457aea7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\be\be445b3b1397e90949bf6888a1dd9e6f
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\be\be445b3b1397e90949bf6888a1dd9e6f
+    projectPath: Library\Artifacts\be\be445b3b1397e90949bf6888a1dd9e6f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\c5\c51069e82190d9fbf8a0f56c0f9e5349
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\c5\c51069e82190d9fbf8a0f56c0f9e5349
+    projectPath: Library\Artifacts\c5\c51069e82190d9fbf8a0f56c0f9e5349
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\c8\c897b3da4785a788d02d75052f9f55c5
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\c8\c897b3da4785a788d02d75052f9f55c5
+    projectPath: Library\Artifacts\c8\c897b3da4785a788d02d75052f9f55c5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\c9\c9b331d2f6d6020e96741fd78d178cec
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\c9\c9b331d2f6d6020e96741fd78d178cec
+    projectPath: Library\Artifacts\c9\c9b331d2f6d6020e96741fd78d178cec
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\ce\ce59ed12e06d5bc9c9852d330d7d1dba
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\ce\ce59ed12e06d5bc9c9852d330d7d1dba
+    projectPath: Library\Artifacts\ce\ce59ed12e06d5bc9c9852d330d7d1dba
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\d1\d155d8ecdf49a7a19a3cb028fceb7da5
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\d1\d155d8ecdf49a7a19a3cb028fceb7da5
+    projectPath: Library\Artifacts\d1\d155d8ecdf49a7a19a3cb028fceb7da5
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\d1\d1c09701ce98e246ca759cc0fc0b9fd7
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\d1\d1c09701ce98e246ca759cc0fc0b9fd7
+    projectPath: Library\Artifacts\d1\d1c09701ce98e246ca759cc0fc0b9fd7
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\d3\d346389fb651002ee821f4cdb7eed330
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\d3\d346389fb651002ee821f4cdb7eed330
+    projectPath: Library\Artifacts\d3\d346389fb651002ee821f4cdb7eed330
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
@@ -7809,9 +8449,63 @@ MonoBehaviour:
   - path: Team5 - TGP\obj\Debug\AstarPathfindingProjectEditor.csproj.CopyComplete
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\obj\Debug\AstarPathfindingProjectEditor.csproj.CopyComplete
     projectPath: obj\Debug\AstarPathfindingProjectEditor.csproj.CopyComplete
+=======
+  - path: Team5 - TGP\Library\Artifacts\d3\d359920662f53ead75672abe72dccdf0
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\d3\d359920662f53ead75672abe72dccdf0
+    projectPath: Library\Artifacts\d3\d359920662f53ead75672abe72dccdf0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\d4\d4e6e395ced79c339310af28edbbe065
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\d4\d4e6e395ced79c339310af28edbbe065
+    projectPath: Library\Artifacts\d4\d4e6e395ced79c339310af28edbbe065
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\dc\dc33a8718336b58ed7d1eaba84caf742
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\dc\dc33a8718336b58ed7d1eaba84caf742
+    projectPath: Library\Artifacts\dc\dc33a8718336b58ed7d1eaba84caf742
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\e2\e2a0a716bdb299c8235eb38d95a184fb
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\e2\e2a0a716bdb299c8235eb38d95a184fb
+    projectPath: Library\Artifacts\e2\e2a0a716bdb299c8235eb38d95a184fb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\Artifacts\e4\e4661234e5e6fce3fe8b2878dd519172
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\e4\e4661234e5e6fce3fe8b2878dd519172
+    projectPath: Library\Artifacts\e4\e4661234e5e6fce3fe8b2878dd519172
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\e8\e80431594580c9cda844c18585bda929
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\e8\e80431594580c9cda844c18585bda929
+    projectPath: Library\Artifacts\e8\e80431594580c9cda844c18585bda929
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\ea\eaedf0e32277cf4de744a8e8831af9ed
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\ea\eaedf0e32277cf4de744a8e8831af9ed
+    projectPath: Library\Artifacts\ea\eaedf0e32277cf4de744a8e8831af9ed
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\ed\ed089d137c7e852e08713271b618845e
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\ed\ed089d137c7e852e08713271b618845e
+    projectPath: Library\Artifacts\ed\ed089d137c7e852e08713271b618845e
+>>>>>>> Level
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\f1\f130a28644c630e52ac2616a7e9323a1
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\f1\f130a28644c630e52ac2616a7e9323a1
+    projectPath: Library\Artifacts\f1\f130a28644c630e52ac2616a7e9323a1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+<<<<<<< HEAD
   - path: Team5 - TGP\obj\Debug\AstarPathfindingProjectEditor.csproj.FileListAbsolute.txt
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\obj\Debug\AstarPathfindingProjectEditor.csproj.FileListAbsolute.txt
     projectPath: obj\Debug\AstarPathfindingProjectEditor.csproj.FileListAbsolute.txt
@@ -7965,12 +8659,63 @@ MonoBehaviour:
     indexStatus: 0
     workTreeStatus: 5
 >>>>>>> PlayerCharacter
+=======
+  - path: Team5 - TGP\Library\Artifacts\f1\f15d757be811ca1fbb52254b002fc41f
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\f1\f15d757be811ca1fbb52254b002fc41f
+    projectPath: Library\Artifacts\f1\f15d757be811ca1fbb52254b002fc41f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\f1\f1745d7e225d3cff15ba84df6c174138
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\f1\f1745d7e225d3cff15ba84df6c174138
+    projectPath: Library\Artifacts\f1\f1745d7e225d3cff15ba84df6c174138
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\f1\f1f76e3d1a4a27e22aff39d9a481b2a0
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\f1\f1f76e3d1a4a27e22aff39d9a481b2a0
+    projectPath: Library\Artifacts\f1\f1f76e3d1a4a27e22aff39d9a481b2a0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\f2\f25dc7fb2808fa8d1c398c1d9920b7f4
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\f2\f25dc7fb2808fa8d1c398c1d9920b7f4
+    projectPath: Library\Artifacts\f2\f25dc7fb2808fa8d1c398c1d9920b7f4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\f4\f46e193ae4052fab743727769114d78a
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\f4\f46e193ae4052fab743727769114d78a
+    projectPath: Library\Artifacts\f4\f46e193ae4052fab743727769114d78a
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\f7\f783a40714643722b3f20efb3a6f68c9
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\f7\f783a40714643722b3f20efb3a6f68c9
+    projectPath: Library\Artifacts\f7\f783a40714643722b3f20efb3a6f68c9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\fe\fe91f3b45986c4ca066e4c5304081f47
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\fe\fe91f3b45986c4ca066e4c5304081f47
+    projectPath: Library\Artifacts\fe\fe91f3b45986c4ca066e4c5304081f47
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Team5 - TGP\Library\Artifacts\fe\feadc1fbbce37bdaa8b62bb8ac379e4f
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\Artifacts\fe\feadc1fbbce37bdaa8b62bb8ac379e4f
+    projectPath: Library\Artifacts\fe\feadc1fbbce37bdaa8b62bb8ac379e4f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+>>>>>>> Level
   - path: Team5 - TGP\Library\EditorInstance.json
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\EditorInstance.json
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   - path: Team5 - TGP\Library\gfu\cache\gitlocks.yaml
     fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\gitlocks.yaml
@@ -7997,6 +8742,17 @@ MonoBehaviour:
   - path: Team5 - TGP\obj\Debug\com.unity.multiplayer-hlapi.Runtime.csproj.FileListAbsolute.txt
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\obj\Debug\com.unity.multiplayer-hlapi.Runtime.csproj.FileListAbsolute.txt
     projectPath: obj\Debug\com.unity.multiplayer-hlapi.Runtime.csproj.FileListAbsolute.txt
+=======
+  - path: Team5 - TGP\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+>>>>>>> Level
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -8009,7 +8765,11 @@ MonoBehaviour:
     workTreeStatus: 3
   - path: Team5 - TGP\Library\gfu\cache\repoinfo.yaml
 <<<<<<< HEAD
+<<<<<<< HEAD
     fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\gfu\cache\repoinfo.yaml
+=======
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\gfu\cache\repoinfo.yaml
+>>>>>>> Level
     projectPath: Library\gfu\cache\repoinfo.yaml
 =======
     indexStatus: 1
@@ -8019,6 +8779,7 @@ MonoBehaviour:
     projectPath: obj\Debug\com.unity.multiplayer-hlapi.Runtime.dll
 >>>>>>> AI
     originalPath: 
+<<<<<<< HEAD
     indexStatus: 1
     workTreeStatus: 1
   - path: Team5 - TGP\obj\Debug\com.unity.multiplayer-weaver.Editor.csproj.CopyComplete
@@ -8072,13 +8833,32 @@ MonoBehaviour:
   - path: Team5 - TGP\obj\Debug\PackageToolsEditor.csproj.FileListAbsolute.txt
     fullPath: C:\Git\Team5_TGP\Team5 - TGP\obj\Debug\PackageToolsEditor.csproj.FileListAbsolute.txt
     projectPath: obj\Debug\PackageToolsEditor.csproj.FileListAbsolute.txt
+=======
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\GridBrush\UnityEditor.Tilemaps.GridBrush.asset
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\GridBrush\UnityEditor.Tilemaps.GridBrush.asset
+    projectPath: Library\GridBrush\UnityEditor.Tilemaps.GridBrush.asset
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Team5 - TGP\Library\SceneVisibilityState.asset
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+>>>>>>> Level
     originalPath: 
 <<<<<<< HEAD
     indexStatus: 0
     workTreeStatus: 3
 <<<<<<< HEAD
   - path: Team5 - TGP\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
 =======
     indexStatus: 1
@@ -8088,6 +8868,7 @@ MonoBehaviour:
     projectPath: obj\Debug\PackageToolsEditor.csprojAssemblyReference.cache
 >>>>>>> AI
     originalPath: 
+<<<<<<< HEAD
     indexStatus: 1
     workTreeStatus: 1
   - path: Team5 - TGP\obj\Debug\PackageToolsEditor.dll
@@ -8327,8 +9108,216 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> PlayerCharacter
+=======
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+    projectPath: Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+    projectPath: Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+    projectPath: Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.Advertisements.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.Monetization.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.Monetization.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+>>>>>>> Level
   - path: Team5 - TGP\Library\SourceAssetDB
-    fullPath: G:\Desktop\Work\Year 2 - Sem 2\Team5_TGP\Team5 - TGP\Library\SourceAssetDB
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
 =======
   - path: Team5 - TGP\obj\Debug\Unity.RenderPipelines.Universal.Shaders.csproj.CopyComplete
@@ -8336,6 +9325,7 @@ MonoBehaviour:
     projectPath: obj\Debug\Unity.RenderPipelines.Universal.Shaders.csproj.CopyComplete
 >>>>>>> AI
     originalPath: 
+<<<<<<< HEAD
     indexStatus: 1
     workTreeStatus: 1
   - path: Team5 - TGP\obj\Debug\Unity.RenderPipelines.Universal.Shaders.csproj.FileListAbsolute.txt
@@ -8826,3 +9816,13 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+=======
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Team5 - TGP\Temp\UnityLockfile
+    fullPath: C:\Users\cammy_000\Documents\GitHub\Team5_TGP\Team5 - TGP\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+>>>>>>> Level
