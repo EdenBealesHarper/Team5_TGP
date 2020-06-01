@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,12 +14,24 @@ public class UI_HUD : MonoBehaviour
     private Sprite[] healthFill = new Sprite[3];
 
     private Powers_Main powers;
+    private float previousFireTime;
 
     [SerializeField]
     private GameObject[] powersDisplay; // todo make dynamic if necessary
+    [SerializeField]
+    private GameObject fireFill;
 
     private Sprite[] powerSprites = new Sprite[2]; //todo get actual images
 
+    [SerializeField]
+    private Button[] pauseButtons = new Button[3];
+
+    private bool effectsDirty;
+
+    [SerializeField]
+    private GameObject effectsDisplay;
+    private Dictionary<string, GameObject> effectImages = new Dictionary<string, GameObject>();
+    private List<GameObject> currentEffects = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
@@ -38,10 +50,13 @@ public class UI_HUD : MonoBehaviour
             powerSprites[0] = Resources.Load<Sprite>("UI/blank");
             powerSprites[1] = Resources.Load<Sprite>("UI/occupied");
 
-            previousHealth = 0;
-            UpdateHealth();
+            effectImages.Add("burning", Resources.Load<GameObject>("UI/Effect_Fire"));
 
-            UpdatePowers();
+            previousHealth = 0f;
+            previousFireTime = powers.fireMax;
+            effectsDirty = true;
+
+            InitialisePauseScreen();
         }
         else Debug.Log("Player character not found");
     }
@@ -49,8 +64,11 @@ public class UI_HUD : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        CheckPaused();
         UpdateHealth();
         UpdatePowers();
+        UpdateEffects();
+        UpdateFire();
     }
 
     private void UpdateHealth()
@@ -68,12 +86,14 @@ public class UI_HUD : MonoBehaviour
             {
                 healthBar.sprite = healthFill[2];
             }
-            else if (percentageHealth <= 0.5f && (previousHealth <= 0.2f || previousHealth > 0.5f))
+            else if (percentageHealth > 0.2f && percentageHealth <= 0.5f && (previousHealth <= 0.2f || previousHealth > 0.5f))
             {
                 healthBar.sprite = healthFill[1];
             }
-            else
+            else if (percentageHealth > 0.5f && previousHealth <= 0.5f)
+            {
                 healthBar.sprite = healthFill[0];
+            }
 
             healthBar.fillAmount = percentageHealth;
 
@@ -110,5 +130,87 @@ public class UI_HUD : MonoBehaviour
         }
     }
 
-    // TODO effects
+    private void UpdateFire()
+    {
+        if (previousFireTime != powers.fireTime)
+        {
+            float firePercentage = (float)powers.fireTime / powers.fireMax;
+
+            if (firePercentage >= 1f && previousFireTime > powers.fireMax)
+            {
+                // do nothing
+            }
+            else if (firePercentage >= 1f && previousFireTime < powers.fireMax) // increasing past max
+            {
+                fireFill.GetComponent<RectTransform>().anchorMax = new Vector2(1f, 1f);
+                fireFill.GetComponent<Image>().color = new Color(0.95f, 0f, 0f, 0.7f);
+            }
+            else if (firePercentage < 1f && previousFireTime >= powers.fireMax) // decreasing from max
+            {
+                fireFill.GetComponent<Image>().color = new Color(0.75f, 0f, 0f, 0.7f);
+            }
+            else
+                fireFill.GetComponent<RectTransform>().anchorMax = new Vector2(firePercentage,1f);
+
+            previousFireTime = powers.fireTime;
+        }
+    }
+
+    // TODO proper effects system; give effects individual sprites
+    private void UpdateEffects()
+    {
+        // on fire
+        if (powers.onFire && !currentEffects.Contains(effectImages["burning"]))
+        {
+            currentEffects.Add(effectImages["burning"]);
+            effectsDirty = true;
+        }
+        else if (!powers.onFire && currentEffects.Contains(effectImages["burning"]))
+        {
+            currentEffects.Remove(effectImages["burning"]);
+            effectsDirty = true;
+        }
+
+        if (effectsDirty)
+        {
+            // clear
+            foreach (Transform child in effectsDisplay.transform)
+            {
+                Destroy(child.gameObject);
+            }
+
+            // refill
+            if (currentEffects.Count > 0)
+            {
+                for (int i = 0; i < currentEffects.Count; i++)
+                {
+                    Instantiate(currentEffects[i], effectsDisplay.transform);
+                }
+            }
+
+            effectsDirty = false;
+        }
+    }
+
+    #region pause functions
+    private void CheckPaused()
+    {
+        if (GameManager.Instance().isPaused() != pauseButtons[0].gameObject.activeInHierarchy)
+        {
+            pauseButtons[0].transform.parent.gameObject.SetActive(GameManager.Instance().isPaused());
+        }
+    }
+
+    private void InitialisePauseScreen()
+    {
+        // resume
+        pauseButtons[0].onClick.AddListener(() => GameManager.Instance().SetPause(false));
+
+        // main menu
+        pauseButtons[1].onClick.AddListener(GameManager.Instance().GameMenu);
+
+        //quit
+        pauseButtons[2].onClick.AddListener(GameManager.Instance().GameQuit);
+    }
+    #endregion
 }

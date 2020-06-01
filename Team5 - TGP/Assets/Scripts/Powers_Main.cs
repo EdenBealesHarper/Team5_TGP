@@ -96,6 +96,7 @@ public class Powers_Main : MonoBehaviour
         if (fireTime >= fireMax)
         {
             //Deal Damage and set on fire
+            // GetComponent<Health>().TakeDamage(Time.deltaTime);
             onFire = true;
         }
         else 
