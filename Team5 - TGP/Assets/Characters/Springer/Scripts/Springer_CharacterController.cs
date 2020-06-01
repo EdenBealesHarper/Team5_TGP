@@ -16,25 +16,16 @@ public class Springer_CharacterController : MonoBehaviour
 
     public float SpeedModifier = 1f;               //Used to adjust the speed, multiplies current speed by the modifier
 
-    [SerializeField]
-<<<<<<< HEAD
     public float JumpForce = 400f;                  // Amount of force added when the player jumps.
-=======
-    private float JumpForce = 400f;                  // Amount of force added when the player jumps.
     [SerializeField]
     private float DoubleJumpMultiplier_Falling  = 6;
     [SerializeField]
     private float DoubleJumpMultiplier_Jumping = 1.5f;
->>>>>>> PlayerCharacter
 
     public float FallMultiplier = 2.5f;
 
     public float LowJumpMultiplier = 2f;
 
-<<<<<<< HEAD
-    [Range(0, 1)] [SerializeField]
-    public float m_CrouchSpeed = .36f;  // Amount of maxSpeed applied to crouching movement. 1 = 100%
-=======
     [SerializeField]
     private float WeaponTimer = 0.0f;               //How long it takes the player to return to non gun mode.
 
@@ -44,7 +35,6 @@ public class Springer_CharacterController : MonoBehaviour
 
 
 
->>>>>>> PlayerCharacter
 
     [SerializeField]
     private bool bAirControl = false;                 // Whether or not a player can steer while jumping;
@@ -102,18 +92,11 @@ public class Springer_CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-
-
         Anim.ResetTrigger("Jump");
         CalculateFacingDirection();
 
-
-
-        WeaponManager.FireWeapon(Input.GetButton("Fire1"));
-        WeaponMode(Input.GetButton("Fire1"));
-
+        //WeaponManager.FireWeapon(Input.GetButton("Fire1"));
+        //WeaponMode(Input.GetButton("Fire1"));
        
         Move(Input.GetAxis("Horizontal"), Input.GetButton("Jump"));
     }

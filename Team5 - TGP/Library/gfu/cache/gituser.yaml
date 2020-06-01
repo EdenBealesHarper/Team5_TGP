@@ -9,23 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1697640569, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: GitHub.Unity.45:GitHub.Unity:GitUserCache
   cacheType: 8
-<<<<<<< HEAD
-<<<<<<< HEAD
-  lastUpdatedAtString: 2020-05-17T12:25:05.506+01:00
-  initializedAtString: 2020-05-17T10:38:32.303+01:00
+  lastUpdatedAtString: 2020-06-01T14:44:58.216+01:00
+  initializedAtString: 2020-06-01T14:44:58.210+01:00
   gitName: Eden
   gitEmail: eden.bealesharper@gmail.com
-=======
-  lastUpdatedAtString: 2020-05-18T14:38:04.358+01:00
-  initializedAtString: 2020-05-18T04:28:37.970+01:00
-=======
-  lastUpdatedAtString: 2020-05-27T05:17:44.738+01:00
-  initializedAtString: 2020-05-27T05:17:44.738+01:00
->>>>>>> PlayerCharacter
-  gitName: RinKail
-  gitEmail: 35337657+RinKail@users.noreply.github.com
->>>>>>> PlayerCharacter

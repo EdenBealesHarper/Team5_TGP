@@ -8,25 +8,13 @@ public class Health : MonoBehaviour
     [SerializeField]
     protected float TotalHealth;
 
-<<<<<<< HEAD
-    void Start()
-    {
-        TotalHealth = 10f; // TODO placeholder
-        CurrentHealth = TotalHealth;
-    }
-=======
->>>>>>> PlayerCharacter
 
     private void Start()
     {
         CurrentHealth = TotalHealth;
     }
 
-<<<<<<< HEAD
-    public void TakeDamage(float Damage)
-=======
   public virtual void TakeDamage(float Damage)
->>>>>>> PlayerCharacter
     {
         CurrentHealth -= Damage;
         if (CurrentHealth <= 0)
