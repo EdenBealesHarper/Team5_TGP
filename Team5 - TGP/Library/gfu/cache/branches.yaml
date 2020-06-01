@@ -14,20 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cacheType: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastUpdatedAtString: 2020-05-18T14:27:52.484+01:00
   initializedAtString: 2020-05-18T05:20:20.268+01:00
 =======
   lastUpdatedAtString: 2020-05-28T03:57:24.138+01:00
   initializedAtString: 2020-05-28T03:57:23.074+01:00
 >>>>>>> PlayerCharacter
+=======
+  lastUpdatedAtString: 2020-05-31T23:15:15.417+01:00
+  initializedAtString: 2020-05-31T23:15:15.259+01:00
+>>>>>>> AI
   localBranches:
   - name: master
     tracking: origin/master
-  - name: PlayerCharacter
-    tracking: origin/PlayerCharacter
   remoteBranches:
-  - name: origin/HEAD
-    tracking: '[None]'
   - name: origin/master
     tracking: '[None]'
   - name: origin/PlayerCharacter
@@ -45,40 +46,33 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - master
-    - PlayerCharacter
     values:
     - name: master
       remote:
         name: origin
         url: https://github.com/EdenBealesHarper/Team5_TGP.git
       trackingBranch: master
-    - name: PlayerCharacter
-      remote:
-        name: origin
-        url: https://github.com/EdenBealesHarper/Team5_TGP.git
-      trackingBranch: PlayerCharacter
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - HEAD
       - master
       - PlayerCharacter
       - UI
     subKeyValues:
     - Values:
-      - name: HEAD
-        remote:
-          name: origin
-          url: https://github.com/EdenBealesHarper/Team5_TGP.git
-        trackingBranch: 
       - name: master
         remote:
           name: origin
           url: https://github.com/EdenBealesHarper/Team5_TGP.git
         trackingBranch: 
       - name: PlayerCharacter
+        remote:
+          name: origin
+          url: https://github.com/EdenBealesHarper/Team5_TGP.git
+        trackingBranch: 
+      - name: UI
         remote:
           name: origin
           url: https://github.com/EdenBealesHarper/Team5_TGP.git
