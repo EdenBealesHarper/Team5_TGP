@@ -52,14 +52,18 @@ public class Springer_WeaponManager : MonoBehaviour
 
     private void Start()
     {
-        MR = MeshObject.GetComponent<MeshRenderer>();
-        MF = MeshObject.GetComponent<MeshFilter>();
+       
         SetWeapon(0);
     }
 
     private void Awake()
     {
-       
+        MR = MeshObject.GetComponent<MeshRenderer>();
+        MF = MeshObject.GetComponent<MeshFilter>();
+        if (AvailableWeapons.Length > 0)
+        {
+            SetWeapon(0);
+        }
     }
 
     private void Update()
@@ -112,11 +116,14 @@ public class Springer_WeaponManager : MonoBehaviour
         //gameObject ProjectileRef = Instantiate(Projectile)
         //GetTargetPosition();
 
-
+        
         
 
         if (bCanFire && Input)
         {
+            Debug.Log("Fire");
+
+
             switch (WeaponMode)
             {
                 case EWeaponType.Beam:
@@ -184,6 +191,8 @@ public class Springer_WeaponManager : MonoBehaviour
 
     void SetWeapon(int Index)
     {
+        Debug.Log("Set Weapon: " + "(" + ActiveWeapon + "), Weapon Name: " + AvailableWeapons[ActiveWeapon].WeaponName);
+
         ActiveWeapon = Index;
         MF.mesh = AvailableWeapons[ActiveWeapon].WeaponMesh;
         Projectile = AvailableWeapons[ActiveWeapon].Projectile;
