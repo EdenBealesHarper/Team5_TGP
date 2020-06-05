@@ -148,7 +148,7 @@ public class Powers_Main : MonoBehaviour
 
     public void doubleJump()
     {
-        
+        CharControl.JumpCount = 2;
     }
 }
 
