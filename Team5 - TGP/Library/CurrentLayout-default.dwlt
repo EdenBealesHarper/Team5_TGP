@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 65
+  controlID: 133
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 16
+  controlID: 40
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 17
+  controlID: 41
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -376,20 +376,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Characters/Springer
+    - Assets/Characters/Springer/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Characters/Springer
+  - Assets/Characters/Springer/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Users\sam-j\Documents\GitHub\Team5_TGP\Team5 - TGP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f64a0000
-    m_LastClickedID: 19190
-    m_ExpandedIDs: 00000000f04a0000f24a0000f44a0000f64a0000684b000000ca9a3b
+    m_SelectedIDs: ea430000
+    m_LastClickedID: 17386
+    m_ExpandedIDs: 000000007243000074430000764300007843000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -417,7 +417,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f04a0000f24a0000f44a0000f64a0000
+    m_ExpandedIDs: 0000000072430000744300007643000078430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -540,9 +540,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: ca360000
       m_LastClickedID: 0
-      m_ExpandedIDs: 34ddffff90e7ffff96e7ffffc4e7ffffc8e7ffffd8e7ffffdee7ffffeee7fffffae7fffffee7ffff4c490000
+      m_ExpandedIDs: 6cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -602,9 +602,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.3633137, y: 0.86128235, z: -4.091928}
+    m_Target: {x: -2.1716654, y: 0.9536591, z: -16.407871}
     speed: 2
-    m_Value: {x: -5.3633137, y: 0.86128235, z: -4.091928}
+    m_Value: {x: -2.1716654, y: 0.9536591, z: -16.407871}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -650,9 +650,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.14507784, y: 0.05399069, z: -0.007931037, w: -0.98791736}
+    m_Target: {x: -0.11107704, y: 0.008046661, z: -0.00090198556, w: -0.9937819}
     speed: 2
-    m_Value: {x: -0.14506534, y: 0.055472333, z: -0.00814862, w: -0.98783225}
+    m_Value: {x: -0.1110767, y: 0.008046635, z: -0.00090198277, w: -0.9937788}
   m_Size:
     m_Target: 0.82342833
     speed: 2
@@ -662,8 +662,8 @@ MonoBehaviour:
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.8
-    m_SpeedNormalized: 0.40000015
+    m_Speed: 1
+    m_SpeedNormalized: 0.52000016
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
