@@ -15,10 +15,4 @@ public class Weapon : ScriptableObject
 
     public int Capacity;
    public float FireRate;
-
-
-
-
-
-  
 }
