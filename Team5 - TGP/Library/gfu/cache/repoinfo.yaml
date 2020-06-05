@@ -13,8 +13,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
+<<<<<<< Updated upstream
   lastUpdatedAtString: 2020-06-01T00:45:53.887+01:00
   initializedAtString: 2020-06-01T00:45:53.887+01:00
+=======
+<<<<<<< Updated upstream
+  lastUpdatedAtString: 2020-06-01T14:38:08.278+01:00
+  initializedAtString: 2020-06-01T14:38:08.278+01:00
+=======
+  lastUpdatedAtString: 2020-06-01T14:54:39.422+01:00
+  initializedAtString: 2020-06-01T14:54:39.422+01:00
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
   currentGitRemote:
     name: origin
     url: https://github.com/EdenBealesHarper/Team5_TGP.git
