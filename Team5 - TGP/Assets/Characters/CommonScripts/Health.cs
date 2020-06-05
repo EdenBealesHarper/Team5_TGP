@@ -35,6 +35,6 @@ public class Health : MonoBehaviour
 
     void OnDeath()
     {
-
+        Destroy(gameObject);
     }
 }

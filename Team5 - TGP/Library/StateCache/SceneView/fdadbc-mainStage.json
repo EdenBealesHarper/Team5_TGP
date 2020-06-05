@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":5.400765419006348,"y":-0.857306957244873,"z":-27.0888671875},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":7.8091044425964359,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-2.1716654300689699,"y":0.9536591172218323,"z":-16.40787124633789},"rotation":{"x":-0.11107704043388367,"y":0.00804666057229042,"z":-0.0009019855642691255,"w":-0.9937819242477417},"size":0.8234283328056336,"orthographic":false}
+>>>>>>> PlayerCharacter

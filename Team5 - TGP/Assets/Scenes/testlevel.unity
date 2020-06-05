@@ -1855,7 +1855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f810ce5542dd319409ec8a0c4efe2ee3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerObject: {fileID: 1202436173}
+  PlayerObject: {fileID: 2425458803636837536}
   MoveSpeed: 100
   CameraOffset: {x: 0, y: 0, z: -10}
   MaxAimOffset: {x: 0, y: 0, z: 0}

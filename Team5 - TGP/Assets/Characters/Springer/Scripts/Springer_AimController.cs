@@ -18,8 +18,10 @@ public class Springer_AimController : MonoBehaviour
 
     public AimData[] AimObjects = new AimData[2];
 
-   
 
+    public GameObject WeaponVisor;
+
+    public GameObject AnimVisor;
 
     private Vector3 MousePos;
 
@@ -70,6 +72,8 @@ public class Springer_AimController : MonoBehaviour
                 AimObjects[i].AnimatedCounterpart.SetActive(false);
 
             }
+            WeaponVisor.SetActive(true);
+            AnimVisor.SetActive(false);
         }
         else if (!bActiveWeapon)
         {
@@ -78,7 +82,10 @@ public class Springer_AimController : MonoBehaviour
                 AimObjects[i].Object.SetActive(false);
                 AimObjects[i].AnimatedCounterpart.SetActive(true);
             }
+            WeaponVisor.SetActive(false);
+            AnimVisor.SetActive(true);
         }
+       
     }
     public void ToggleWeaponState(bool bNewState)
     {
@@ -91,6 +98,8 @@ public class Springer_AimController : MonoBehaviour
                 AimObjects[i].AnimatedCounterpart.SetActive(false);
 
             }
+            WeaponVisor.SetActive(true);
+            AnimVisor.SetActive(false);
         }
         else if (!bActiveWeapon)
         {
@@ -99,6 +108,8 @@ public class Springer_AimController : MonoBehaviour
                 AimObjects[i].Object.SetActive(false);
                 AimObjects[i].AnimatedCounterpart.SetActive(true);
             }
+            WeaponVisor.SetActive(false);
+            AnimVisor.SetActive(true);
         }
     }
 

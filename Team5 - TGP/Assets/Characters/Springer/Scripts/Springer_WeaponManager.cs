@@ -7,7 +7,7 @@ public class Springer_WeaponManager : MonoBehaviour
 
 
     [SerializeField]
-    Weapon[] AvailableWeapons;
+    List<Weapon> AvailableWeapons = new List<Weapon>();
 
     [SerializeField]
     GameObject MeshObject;
@@ -52,14 +52,18 @@ public class Springer_WeaponManager : MonoBehaviour
 
     private void Start()
     {
-        MR = MeshObject.GetComponent<MeshRenderer>();
-        MF = MeshObject.GetComponent<MeshFilter>();
+       
         SetWeapon(0);
     }
 
     private void Awake()
     {
-       
+        MR = MeshObject.GetComponent<MeshRenderer>();
+        MF = MeshObject.GetComponent<MeshFilter>();
+        if (AvailableWeapons.Count > 0)
+        {
+            SetWeapon(0);
+        }
     }
 
     private void Update()
@@ -112,11 +116,14 @@ public class Springer_WeaponManager : MonoBehaviour
         //gameObject ProjectileRef = Instantiate(Projectile)
         //GetTargetPosition();
 
-
+        
         
 
         if (bCanFire && Input)
         {
+            Debug.Log("Fire");
+
+
             switch (WeaponMode)
             {
                 case EWeaponType.Beam:
@@ -161,9 +168,9 @@ public class Springer_WeaponManager : MonoBehaviour
 
     }
 
-    public void EquipWeapon()
+    public void EquipWeapon(Weapon NewWeapon)
     {
-
+        AvailableWeapons.Add(NewWeapon);
     }
 
     public void DropWeapon()
@@ -173,7 +180,7 @@ public class Springer_WeaponManager : MonoBehaviour
 
     void SwitchWeapon(int Direction)
     {
-        ActiveWeapon += ((Direction + ActiveWeapon) % AvailableWeapons.Length);
+        ActiveWeapon += ((Direction + ActiveWeapon) % AvailableWeapons.Count);
          MF.mesh = AvailableWeapons[ActiveWeapon].WeaponMesh;
         Projectile = AvailableWeapons[ActiveWeapon].Projectile;
         WeaponMode = AvailableWeapons[ActiveWeapon].WeaponType;
@@ -184,6 +191,8 @@ public class Springer_WeaponManager : MonoBehaviour
 
     void SetWeapon(int Index)
     {
+        Debug.Log("Set Weapon: " + "(" + ActiveWeapon + "), Weapon Name: " + AvailableWeapons[ActiveWeapon].WeaponName);
+
         ActiveWeapon = Index;
         MF.mesh = AvailableWeapons[ActiveWeapon].WeaponMesh;
         Projectile = AvailableWeapons[ActiveWeapon].Projectile;
