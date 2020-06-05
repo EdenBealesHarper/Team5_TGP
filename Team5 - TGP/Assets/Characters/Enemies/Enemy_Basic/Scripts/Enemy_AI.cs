@@ -9,6 +9,8 @@ public class Enemy_AI : MonoBehaviour
 
     public float speed = 200f;
     public float nextWaypointDistance = 3f;
+    public bool enableDetectionRange = true;
+    public float detectionRange = 10f;
 
     public Transform enemyGFX;
 
@@ -33,7 +35,6 @@ public class Enemy_AI : MonoBehaviour
         if (seeker.IsDone())
             seeker.StartPath(rb.position, target.position, OnPathComplete);
     }
-
 
     void OnPathComplete(Path p)
     {
@@ -64,9 +65,15 @@ public class Enemy_AI : MonoBehaviour
         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
         Vector2 force = direction * speed * Time.deltaTime;
 
-        rb.AddForce(force);
-
         float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
+
+        if (enableDetectionRange == true)
+        {
+            if (IsTargetInDetRange())
+                rb.AddForce(force);
+        }
+        else
+            rb.AddForce(force);
 
         if (distance < nextWaypointDistance)
         {
@@ -81,6 +88,18 @@ public class Enemy_AI : MonoBehaviour
         else if (rb.velocity.x <= -0.01f)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
+        }
+    }
+
+    bool IsTargetInDetRange()
+    {
+        if (Vector2.Distance(target.position, rb.position) < detectionRange)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 }

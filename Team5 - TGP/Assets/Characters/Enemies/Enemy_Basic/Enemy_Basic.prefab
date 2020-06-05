@@ -1577,13 +1577,17 @@ MonoBehaviour:
   MaxSpeed: 10
   SpeedModifier: 1
   JumpForce: 270
+  DoubleJumpMultiplier_Falling: 6
+  DoubleJumpMultiplier_Jumping: 1.5
   FallMultiplier: 2.5
   LowJumpMultiplier: 2
-  m_CrouchSpeed: 0.36
+  WeaponTimer: 0
   bAirControl: 1
   WhatIsGround:
     serializedVersion: 2
     m_Bits: 256
+  JumpCount: 0
+  MaxJumpCount: 1
   bIsWeaponActive: 0
   LocalScale: 1
 --- !u!114 &6770429297915286182
@@ -1629,6 +1633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e1156353dd0998458b57b887bf94d78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TotalHealth: 0
 --- !u!1 &6770429297951665840
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,10 +1,6 @@
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\AstarPathfindingProjectEditor.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\AstarPathfindingProjectEditor.pdb
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\Boo.Lang.dll
-C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\GitHub.Api.45.dll
-C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\GitHub.Logging.dll
-C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\GitHub.Unity.45.dll
-C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\GitHub.UnityShim.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\ICSharpCode.NRefactory.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\Microsoft.CSharp.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
@@ -12,7 +8,6 @@ C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\mscorlib.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\netstandard.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\nunit.framework.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\Pathfinding.Ionic.Zip.Reduced.dll
-C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\sfw.net.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\System.AppContext.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\System.Collections.Concurrent.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\System.Collections.dll
@@ -200,7 +195,6 @@ C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\Unity.Cecil.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\Unity.SerializationLogic.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\ExCSS.Unity.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
-C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\Mono.Posix.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\Boo.Lang.Compiler.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
 C:\Git\Team5_TGP\Team5 - TGP\Temp\bin\Debug\Boo.Lang.Parser.dll
