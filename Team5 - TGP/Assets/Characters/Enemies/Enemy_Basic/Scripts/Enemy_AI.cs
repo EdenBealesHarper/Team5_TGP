@@ -14,6 +14,8 @@ public class Enemy_AI : MonoBehaviour
 
     public Transform enemyGFX;
 
+    //private Animator Anim;
+
     Path path;
     int currentWaypoint = 0;
     bool reachedEndOfPath = false;
@@ -73,7 +75,9 @@ public class Enemy_AI : MonoBehaviour
                 rb.AddForce(force);
         }
         else
+        {
             rb.AddForce(force);
+        }
 
         if (distance < nextWaypointDistance)
         {
@@ -102,4 +106,30 @@ public class Enemy_AI : MonoBehaviour
             return false;
         }
     }
+
+    //public void Move(float Movement)
+    //{
+    //     // The Speed animator parameter is set to the absolute value of the horizontal input.
+    //     // if (!bIsWeaponActive) Anim.SetFloat("Speed", Mathf.Abs(Movement));
+    //     // else Anim.SetFloat("Speed", Movement);
+
+    //    Anim.SetFloat("Speed", Mathf.Abs(Movement));
+    //    Anim.SetInteger("Run", (int)(Movement * 10));
+
+    //    // Move the character
+    //    rb.velocity = new Vector2((Movement * MaxSpeed) * SpeedModifier, rb.velocity.y);
+
+    //    // If the input is moving the player right and the player is facing left...
+    //    if (Movement > 0 && !FacingRight)
+    //    {
+    //        // ... flip the player.
+    //        Flip();
+    //    }
+    //    // Otherwise if the input is moving the player left and the player is facing right...
+    //    else if (Movement < 0 && FacingRight)
+    //    {
+    //        // ... flip the player.
+    //        Flip();
+    //    }
+    //}
 }
