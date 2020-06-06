@@ -7,6 +7,9 @@ public class Level_Convey : MonoBehaviour
     [SerializeField]
     bool Left;
 
+    [SerializeField]
+    float conveyForce = 50.0f;
+
     private bool playerColliding;
     private GameObject Player;
     private Rigidbody2D playerRB;
@@ -42,12 +45,12 @@ public class Level_Convey : MonoBehaviour
             if (Left)
             {
                 Debug.Log("Player move left");
-                playerRB.AddForce(new Vector2(-50.0f, 0.0f));
+                playerRB.AddForce(new Vector2(-conveyForce, 0.0f));
             }
             else if (!Left)
             {
                 Debug.Log("Player move right");
-                playerRB.AddForce(new Vector2(50.0f, 0.0f));
+                playerRB.AddForce(new Vector2(conveyForce, 0.0f));
             }
         }
     }
