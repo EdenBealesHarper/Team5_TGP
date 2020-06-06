@@ -21,7 +21,7 @@ public class UI_HUD : MonoBehaviour
     [SerializeField]
     private GameObject fireFill;
 
-    private Sprite[] powerSprites = new Sprite[2]; //todo get actual images
+    private Dictionary<string, Sprite> powerSprites = new Dictionary<string, Sprite>();
 
     [SerializeField]
     private Button[] pauseButtons = new Button[3];
@@ -47,8 +47,11 @@ public class UI_HUD : MonoBehaviour
             healthFill[1] = Resources.Load<Sprite>("UI/healthHalf");
             healthFill[2] = Resources.Load<Sprite>("UI/healthTwenty");
 
-            powerSprites[0] = Resources.Load<Sprite>("UI/blank");
-            powerSprites[1] = Resources.Load<Sprite>("UI/occupied");
+            powerSprites.Add("blank",Resources.Load<Sprite>("UI/blank"));
+            powerSprites.Add("occupied", Resources.Load<Sprite>("UI/occupied")); //fallback in case icon doesn't exist yet
+            powerSprites.Add("ENGINE", Resources.Load<Sprite>("UI/iconENGINE"));
+            powerSprites.Add("CHARGEJUMP", Resources.Load<Sprite>("UI/iconCHARGEJUMP"));
+            powerSprites.Add("DOUBLEJUMP", Resources.Load<Sprite>("UI/iconDOUBLEJUMP"));
 
             effectImages.Add("burning", Resources.Load<GameObject>("UI/Effect_Fire"));
 
@@ -113,17 +116,22 @@ public class UI_HUD : MonoBehaviour
                 powersDisplay[lastPowerIndex].transform.parent.gameObject.SetActive(true);
             }
 
-            // for now, just change sprite to indicate if there is an upgrade slotted
+            
             if (powers.slottedUpgrades.Count > 0 && powers.dirty)
             {
                 for (int i = 0; i <= lastPowerIndex; i++)
                 {
                     if (i < powers.slottedUpgrades.Count && powers.slottedUpgrades[i] != null)
                     {
-                        powersDisplay[i].GetComponent<Image>().sprite = powerSprites[1];
+                        if (powerSprites.ContainsKey(powers.slottedUpgrades[i]))
+                        {
+                            powersDisplay[i].GetComponent<Image>().sprite = powerSprites[powers.slottedUpgrades[i]];
+                        }
+                        else
+                            powersDisplay[i].GetComponent<Image>().sprite = powerSprites["occupied"];
                     }
                     else
-                        powersDisplay[i].GetComponent<Image>().sprite = powerSprites[0];
+                        powersDisplay[i].GetComponent<Image>().sprite = powerSprites["blank"];
                 }
                 powers.dirty = false;
             }
