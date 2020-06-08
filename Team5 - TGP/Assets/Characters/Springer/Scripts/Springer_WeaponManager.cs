@@ -130,18 +130,18 @@ public class Springer_WeaponManager : MonoBehaviour
                     
                     break;
                 case EWeaponType.Burst:
-                    CurrentCapacity -= FireCost;
+                   // CurrentCapacity -= FireCost;
                     WeaponTimer = 0.0f;
                     bCanFire = false;
                     break;
                 case EWeaponType.RapidFire:
                     Create_SingleShot();
-                    CurrentCapacity -= FireCost;
+                   // CurrentCapacity -= FireCost;
                     bCanFire = false;
                     WeaponTimer = FireRate;
                     break;
                 case EWeaponType.Single:
-                    CurrentCapacity -= FireCost;
+                    //CurrentCapacity -= FireCost;
                     Create_SingleShot();
                     bCanFire = false;
                    

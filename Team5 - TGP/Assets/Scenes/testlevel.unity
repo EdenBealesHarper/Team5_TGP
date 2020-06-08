@@ -1085,6 +1085,16 @@ PrefabInstance:
       propertyPath: Cam
       value: 
       objectReference: {fileID: 1644377546}
+    - target: {fileID: 7843714168337068002, guid: b4cd7d74805db79438beecbb18728777,
+        type: 3}
+      propertyPath: JumpForce
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7843714168337068002, guid: b4cd7d74805db79438beecbb18728777,
+        type: 3}
+      propertyPath: MaxJumpCount
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7843714168337068013, guid: b4cd7d74805db79438beecbb18728777,
         type: 3}
       propertyPath: m_Name

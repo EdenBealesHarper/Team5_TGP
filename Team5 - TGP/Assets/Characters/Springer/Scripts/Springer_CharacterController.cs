@@ -57,6 +57,9 @@ public class Springer_CharacterController : MonoBehaviour
     [SerializeField]
     private int MaxJumpCount = 1;   //The maximum amount of times the player can jump
 
+    [SerializeField]
+    private int JumpHeatCost;
+
 
     [SerializeField]
     private bool bIsWeaponActive;
@@ -68,11 +71,13 @@ public class Springer_CharacterController : MonoBehaviour
     private Springer_AimController AimController;
     private FollowCamera FollowCam;
     private Springer_WeaponManager WeaponManager;
+    private Powers_Main Powers;
 
    public float LocalScale;
 
     private void Awake()
     {
+
         // Setting up references.
         GroundCheck = transform.Find("FloorCheck");
         CeilingCheck = transform.Find("CeilingCheck");
@@ -81,11 +86,14 @@ public class Springer_CharacterController : MonoBehaviour
         AimController = MeshObject.GetComponent<Springer_AimController>();
         FollowCam = Cam.GetComponent<FollowCamera>();
         WeaponManager = GetComponent<Springer_WeaponManager>();
+        Powers = GetComponent<Powers_Main>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
+
+
         MaxJumpCount = 2;  
     }
 
@@ -167,9 +175,14 @@ public class Springer_CharacterController : MonoBehaviour
 
             if (bGrounded)
             {
-                rb.AddForce(new Vector2(0f, JumpForce));
+                //rb.AddForce(new Vector2(0f, JumpForce));
+                
             }
-            else if (rb.velocity.y < 0)
+
+
+
+            rb.velocity = Vector2.up * JumpForce;
+            /* else if (rb.velocity.y < 0)
             {
                 rb.AddForce(new Vector2(0f, (JumpForce * DoubleJumpMultiplier_Falling)));
             }
@@ -177,10 +190,14 @@ public class Springer_CharacterController : MonoBehaviour
             {
                 rb.AddForce(new Vector2(0f, JumpForce * DoubleJumpMultiplier_Jumping));
             }
+             * 
+             * 
+             */
 
             bGrounded = false;
             Anim.SetBool("Grounded", false);
             Anim.SetTrigger("Jump");
+            Powers.fireTime += JumpHeatCost;
            
 
 
