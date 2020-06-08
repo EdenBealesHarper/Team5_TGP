@@ -1,24 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/MainMenu.unity
-=======
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-- path: Assets/Scenes/SampleScene.unity
-=======
-=======
->>>>>>> Stashed changes
-- path: Assets/Scenes/HUD.unity
-  isLoaded: 1
-  isActive: 0
-  isSubScene: 0
-<<<<<<< Updated upstream
-- path: Assets/Scenes/testlevel.unity
->>>>>>> Stashed changes
-=======
 - path: Assets/Scenes/Level1.unity
->>>>>>> Stashed changes
->>>>>>> Level
   isLoaded: 1
   isActive: 1
   isSubScene: 0

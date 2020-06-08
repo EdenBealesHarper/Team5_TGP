@@ -15,21 +15,15 @@ public class Powers_Main : MonoBehaviour
     public bool onFire = false;
 
     private Springer_CharacterController CharControl;
+    private Springer_WeaponManager WeaponManager;
 
     public bool dirty;
 
     void Start()
     {
         CharControl = GetComponent<Springer_CharacterController>();
+        WeaponManager = GetComponent<Springer_WeaponManager>();
         dirty = false;
-
-        knownUpgrades.Add("ENGINE");
-        knownUpgrades.Add("CHARGEJUMP");
-        knownUpgrades.Add("DOUBLEJUMP");
-
-        slottedUpgrades.Add("ENGINE");
-        slottedUpgrades.Add("CHARGEJUMP");
-        slottedUpgrades.Add("DOUBLEJUMP");
     }
 
     void Update()
@@ -59,9 +53,7 @@ public class Powers_Main : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        print("Hmm Colliding?");
-
-        if(other.gameObject.tag == "UPGRADE")
+        if (other.gameObject.tag == "UPGRADE")
         {
             if (!knownUpgrades.Contains(other.gameObject.name))
             {
