@@ -26,6 +26,11 @@ public class UI_HUD : MonoBehaviour
     [SerializeField]
     private Button[] pauseButtons = new Button[3];
 
+    [SerializeField]
+    private Button[] restartButtons = new Button[3];
+    [SerializeField]
+    private Text restartText;
+
     private bool effectsDirty;
 
     [SerializeField]
@@ -59,7 +64,7 @@ public class UI_HUD : MonoBehaviour
             previousFireTime = powers.fireMax;
             effectsDirty = true;
 
-            InitialisePauseScreen();
+            InitialiseMenus();
         }
         else Debug.Log("Player character not found");
     }
@@ -67,6 +72,7 @@ public class UI_HUD : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        CheckLevelEnd();
         CheckPaused();
         UpdateHealth();
         UpdatePowers();
@@ -164,7 +170,7 @@ public class UI_HUD : MonoBehaviour
         }
     }
 
-    // TODO proper effects system; give effects individual sprites
+    // TODO proper effects system not stuck in ui
     private void UpdateEffects()
     {
         // on fire
@@ -200,7 +206,6 @@ public class UI_HUD : MonoBehaviour
         }
     }
 
-    #region pause functions
     private void CheckPaused()
     {
         if (GameManager.Instance().isPaused() != pauseButtons[0].gameObject.activeInHierarchy)
@@ -209,16 +214,36 @@ public class UI_HUD : MonoBehaviour
         }
     }
 
-    private void InitialisePauseScreen()
+    private void InitialiseMenus()
     {
         // resume
         pauseButtons[0].onClick.AddListener(() => GameManager.Instance().SetPause(false));
 
         // main menu
         pauseButtons[1].onClick.AddListener(GameManager.Instance().GameMenu);
+        restartButtons[1].onClick.AddListener(GameManager.Instance().GameMenu);
 
         //quit
         pauseButtons[2].onClick.AddListener(GameManager.Instance().GameQuit);
+        restartButtons[2].onClick.AddListener(GameManager.Instance().GameQuit);
+
+        //restart
+        restartButtons[0].onClick.AddListener(GameManager.Instance().ReloadLevel);
     }
-    #endregion
+
+    private void CheckLevelEnd()
+    {
+        // other conditions could go here too
+        if (health.GetCurrentHealth() <= 0 && !restartButtons[0].gameObject.activeInHierarchy)
+        {
+            restartButtons[0].transform.parent.gameObject.SetActive(true);
+            restartText.text = "GAME OVER";
+        }
+    }
+
+    public void EndLevel()
+    {
+        restartButtons[0].transform.parent.gameObject.SetActive(true);
+        restartText.text = "LEVEL CLEARED";
+    }
 }

@@ -20,6 +20,9 @@ public class Springer_WeaponManager : MonoBehaviour
     [SerializeField]
     GameObject Projectile;
 
+    [SerializeField]
+    private AudioClip FireSFX;
+
     int WeaponIndex = 0;
 
     int DirectionModifier = 1;
@@ -121,8 +124,7 @@ public class Springer_WeaponManager : MonoBehaviour
 
         if (bCanFire && Input)
         {
-            Debug.Log("Fire");
-
+            AudioManager.Instance().PlaySFXPlayer(FireSFX);
 
             switch (WeaponMode)
             {

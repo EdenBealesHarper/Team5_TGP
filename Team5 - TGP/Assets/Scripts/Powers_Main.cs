@@ -19,6 +19,13 @@ public class Powers_Main : MonoBehaviour
 
     public bool dirty;
 
+    [SerializeField]
+    private AudioClip pickupSuccessSFX;
+    [SerializeField]
+    private AudioClip pickupFailSFX;
+    [SerializeField]
+    private AudioClip chargeJumpSFX;
+
     void Start()
     {
         CharControl = GetComponent<Springer_CharacterController>();
@@ -72,16 +79,19 @@ public class Powers_Main : MonoBehaviour
             if (!slottedUpgrades.Contains(upgradeName))
             {
                 slottedUpgrades.Add(upgradeName);
+                AudioManager.Instance().PlaySFXWorld(pickupSuccessSFX);
                 dirty = true;
             }
             else
             {
                 print("Upgrade Already Slotted");
+                AudioManager.Instance().PlaySFXWorld(pickupFailSFX);
             }
         }
         else
         {
             print("Sorry, you don't know that upgrade");
+            AudioManager.Instance().PlaySFXWorld(pickupFailSFX);
         }
     }
 
@@ -89,8 +99,6 @@ public class Powers_Main : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            print("Zoomin");
-
             fireTime++;
 
             CharControl.SpeedModifier = 1.5f;
@@ -110,7 +118,7 @@ public class Powers_Main : MonoBehaviour
         if (fireTime >= fireMax)
         {
             //Deal Damage and set on fire
-            // GetComponent<Health>().TakeDamage(Time.deltaTime);
+            GetComponent<Health>().TakeDamage(0.1f);
             onFire = true;
         }
         else 
@@ -121,10 +129,10 @@ public class Powers_Main : MonoBehaviour
 
     public void chargeJump()
     {
+        AudioManager.Instance().PlaySFXPlayer(chargeJumpSFX);
+
         if (Input.GetKey(KeyCode.LeftControl))
         {
-            print("Charging Jump");
-
             if (CharControl.JumpForce <= 600f)
             {
                 CharControl.JumpForce++;
@@ -132,8 +140,6 @@ public class Powers_Main : MonoBehaviour
         }
         else if (Input.GetKeyUp(KeyCode.LeftControl))
         {
-            print("Release");
-
             CharControl.JumpForce = 400f;
         }
     }

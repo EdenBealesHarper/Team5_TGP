@@ -5,12 +5,12 @@ using UnityEngine;
 public class WeaponPickup : MonoBehaviour
 {
     public Weapon heldWeapon;
+    public AudioClip sfx;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("Yeet");
-
         collision.GetComponent<Springer_WeaponManager>().EquipWeapon(heldWeapon);
+        AudioManager.Instance().PlaySFXWorld(sfx);
 
         Destroy(this.gameObject);
     }

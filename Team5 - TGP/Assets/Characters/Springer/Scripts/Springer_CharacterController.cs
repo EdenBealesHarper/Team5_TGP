@@ -57,13 +57,14 @@ public class Springer_CharacterController : MonoBehaviour
     [SerializeField]
     private int MaxJumpCount = 1;   //The maximum amount of times the player can jump
 
+    [SerializeField]
+    private AudioClip JumpSFX;
 
     [SerializeField]
     private bool bIsWeaponActive;
 
 
     private bool bJumpHeld = false;
-
     
     private Springer_AimController AimController;
     private FollowCamera FollowCam;
@@ -181,8 +182,8 @@ public class Springer_CharacterController : MonoBehaviour
             bGrounded = false;
             Anim.SetBool("Grounded", false);
             Anim.SetTrigger("Jump");
-           
 
+            AudioManager.Instance().PlaySFXPlayer(JumpSFX);
 
              JumpCount++;
         }

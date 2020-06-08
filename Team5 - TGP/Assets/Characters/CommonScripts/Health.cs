@@ -8,6 +8,10 @@ public class Health : MonoBehaviour
     [SerializeField]
     protected float TotalHealth;
 
+    [SerializeField]
+    protected AudioClip injuredSFX;
+    [SerializeField]
+    protected AudioClip deathSFX;
 
     private void Start()
     {
@@ -22,6 +26,13 @@ public class Health : MonoBehaviour
             //ToDo On Death event
             OnDeath();
         }
+        else if (injuredSFX != null)
+        {
+            if (gameObject.tag == "Player")
+                AudioManager.Instance().PlaySFXPlayer(injuredSFX);
+            else
+                AudioManager.Instance().PlaySFXEnemy(injuredSFX);
+        }
     }
 
     public float GetCurrentHealth()
@@ -35,6 +46,14 @@ public class Health : MonoBehaviour
 
     void OnDeath()
     {
-        Destroy(gameObject);
+        if (gameObject.tag == "Player")
+        {
+            AudioManager.Instance().PlaySFXPlayer(deathSFX);
+        }
+        else
+        {
+            AudioManager.Instance().PlaySFXEnemy(deathSFX);
+            Destroy(gameObject);
+        }
     }
 }

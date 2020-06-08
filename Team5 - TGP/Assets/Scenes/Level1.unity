@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 494379425}
   - component: {fileID: 494379426}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: WeaponBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -269,6 +269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heldWeapon: {fileID: 11400000, guid: fbe881868d76c734cbdf9964efcb7e3a, type: 2}
+  sfx: {fileID: 8300000, guid: b20e4bb20a1aa4c5caa1761668f5b6b0, type: 3}
 --- !u!1 &504473761
 GameObject:
   m_ObjectHideFlags: 0
@@ -66118,6 +66119,11 @@ PrefabInstance:
       propertyPath: TotalHealth
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 5580678556772448904, guid: b4cd7d74805db79438beecbb18728777,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7843714168337068002, guid: b4cd7d74805db79438beecbb18728777,
         type: 3}
       propertyPath: Cam
@@ -66193,7 +66199,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b4cd7d74805db79438beecbb18728777, type: 3}
 --- !u!1 &1591721434
 GameObject:
