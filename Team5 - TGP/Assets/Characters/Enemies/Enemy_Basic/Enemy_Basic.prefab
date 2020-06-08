@@ -749,6 +749,8 @@ MonoBehaviour:
     Object: {fileID: 220725372957642708}
     AnimatedCounterpart: {fileID: 220725373660683541}
     Offset: {x: 0.005, y: -0.01, z: 0}
+  WeaponVisor: {fileID: 0}
+  AnimVisor: {fileID: 0}
   bActiveWeapon: 0
 --- !u!1 &220725372854927354
 GameObject:
@@ -2559,7 +2561,7 @@ GameObject:
   - component: {fileID: 220725374202878198}
   - component: {fileID: 220725374202878193}
   m_Layer: 0
-  m_Name: Enemy_Basic_Custom
+  m_Name: Enemy_Basic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2624,7 +2626,8 @@ MonoBehaviour:
   speed: 300
   nextWaypointDistance: 2
   enableDetectionRange: 1
-  detectionRange: 8
+  detectionRange: 9
+  attackRange: 2
   enemyGFX: {fileID: 220725372822890911}
 --- !u!50 &220725374202878193
 Rigidbody2D:

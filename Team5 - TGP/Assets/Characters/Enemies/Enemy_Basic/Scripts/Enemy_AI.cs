@@ -11,6 +11,7 @@ public class Enemy_AI : MonoBehaviour
     public float nextWaypointDistance = 3f;
     public bool enableDetectionRange = true;
     public float detectionRange = 10f;
+    public float attackRange = 3f;
 
     public Transform enemyGFX;
 
@@ -51,18 +52,16 @@ public class Enemy_AI : MonoBehaviour
     void Update()
     {
         if (path == null)
-        {
             return;
-        }
         if (currentWaypoint >= path.vectorPath.Count)
         {
             reachedEndOfPath = true;
             return;
         }
         else
-        {
             reachedEndOfPath = false;
-        }
+
+        CheckRange();
 
         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
         Vector2 force = direction * speed * Time.deltaTime;
@@ -75,24 +74,15 @@ public class Enemy_AI : MonoBehaviour
                 rb.AddForce(force);
         }
         else
-        {
             rb.AddForce(force);
-        }
 
         if (distance < nextWaypointDistance)
-        {
             currentWaypoint++;
-        }
 
         if (rb.velocity.x >= 0.01f)
-        {
             transform.localScale = new Vector3(1f, 1f, 1f);
-
-        }
         else if (rb.velocity.x <= -0.01f)
-        {
             transform.localScale = new Vector3(-1f, 1f, 1f);
-        }
     }
 
     bool IsTargetInDetRange()
@@ -107,29 +97,16 @@ public class Enemy_AI : MonoBehaviour
         }
     }
 
-    //public void Move(float Movement)
-    //{
-    //     // The Speed animator parameter is set to the absolute value of the horizontal input.
-    //     // if (!bIsWeaponActive) Anim.SetFloat("Speed", Mathf.Abs(Movement));
-    //     // else Anim.SetFloat("Speed", Movement);
+    //--------------------------------------------------------
+    void Attack()
+    {
+        Debug.Log("ATTACK IN RANGE!");
+    }
+    //--------------------------------------------------------
 
-    //    Anim.SetFloat("Speed", Mathf.Abs(Movement));
-    //    Anim.SetInteger("Run", (int)(Movement * 10));
-
-    //    // Move the character
-    //    rb.velocity = new Vector2((Movement * MaxSpeed) * SpeedModifier, rb.velocity.y);
-
-    //    // If the input is moving the player right and the player is facing left...
-    //    if (Movement > 0 && !FacingRight)
-    //    {
-    //        // ... flip the player.
-    //        Flip();
-    //    }
-    //    // Otherwise if the input is moving the player left and the player is facing right...
-    //    else if (Movement < 0 && FacingRight)
-    //    {
-    //        // ... flip the player.
-    //        Flip();
-    //    }
-    //}
+    void CheckRange()
+    {
+        if ((target.transform.position - rb.transform.position).sqrMagnitude < attackRange * attackRange)
+            Attack();
+    }
 }
