@@ -1,34 +1,55 @@
 fileFormatVersion: 2
-guid: b0ef3a560a30063449928a6bb4394270
+guid: 8a362edbfb283c04590f12ffec7a9b53
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7177955761529999898
-    second: Level1Pallet_0
+      213: 8800716416543820616
+    second: Level1PalletNew_0
   - first:
-      213: -8917542955391365844
-    second: Level1Pallet_1
+      213: -4811421219998276629
+    second: Level1PalletNew_1
   - first:
-      213: -5874372016639132513
-    second: Level1Pallet_2
+      213: -413286360840140804
+    second: Level1PalletNew_2
   - first:
-      213: 5081899889257549646
-    second: Level1Pallet_3
+      213: 404978565480971556
+    second: Level1PalletNew_3
   - first:
-      213: 3285394922630371555
-    second: Level1Pallet_4
+      213: -4205703059688367462
+    second: Level1PalletNew_4
   - first:
-      213: 416935771415115125
-    second: Level1Pallet_5
+      213: 8227546849422749274
+    second: Level1PalletNew_5
   - first:
-      213: -1709311791351091506
-    second: Level1Pallet_6
+      213: -4390052750302895625
+    second: Level1PalletNew_6
   - first:
-      213: -6303243973977565153
-    second: Level1Pallet_7
+      213: -3450377982109949562
+    second: Level1PalletNew_7
   - first:
-      213: -7177398938265600148
-    second: Level1Pallet_8
+      213: -5714544702712706268
+    second: Level1PalletNew_8
+  - first:
+      213: -8279370992889925172
+    second: Level1PalletNew_9
+  - first:
+      213: 1005305071137916137
+    second: Level1PalletNew_10
+  - first:
+      213: 1888032842148379803
+    second: Level1PalletNew_11
+  - first:
+      213: 3312343406315037572
+    second: Level1PalletNew_12
+  - first:
+      213: -688751137901537849
+    second: Level1PalletNew_13
+  - first:
+      213: 8170977729560662158
+    second: Level1PalletNew_14
+  - first:
+      213: 6799575927643104799
+    second: Level1PalletNew_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -114,7 +135,91 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Level1Pallet_0
+      name: Level1PalletNew_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b0b01e3fc622a70800000000000000
+      internalID: 8800716416543820616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1PalletNew_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3e93574e56a3db0800000000000000
+      internalID: -4811421219998276629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1PalletNew_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf70c979e36b34af0800000000000000
+      internalID: -413286360840140804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1PalletNew_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42df3211cd5ce9500800000000000000
+      internalID: 404978565480971556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1PalletNew_4
       rect:
         serializedVersion: 2
         x: 0
@@ -128,14 +233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a12d6731cb83d9360800000000000000
-      internalID: 7177955761529999898
+      spriteID: a9a5088995752a5c0800000000000000
+      internalID: -4205703059688367462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level1Pallet_1
+      name: Level1PalletNew_5
       rect:
         serializedVersion: 2
         x: 64
@@ -149,14 +254,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2d4c92ede58e3480800000000000000
-      internalID: -8917542955391365844
+      spriteID: a5e2ab4a44e1e2270800000000000000
+      internalID: 8227546849422749274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level1Pallet_2
+      name: Level1PalletNew_6
       rect:
         serializedVersion: 2
         x: 128
@@ -170,14 +275,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9cbabd46c90a7ea0800000000000000
-      internalID: -5874372016639132513
+      spriteID: 7f128f878466313c0800000000000000
+      internalID: -4390052750302895625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level1Pallet_3
+      name: Level1PalletNew_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681e183918bcd10d0800000000000000
+      internalID: -3450377982109949562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1PalletNew_8
       rect:
         serializedVersion: 2
         x: 0
@@ -191,14 +317,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4f0b433609868640800000000000000
-      internalID: 5081899889257549646
+      spriteID: 42b08bdaedbd1b0b0800000000000000
+      internalID: -5714544702712706268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level1Pallet_4
+      name: Level1PalletNew_9
       rect:
         serializedVersion: 2
         x: 64
@@ -212,14 +338,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e8514e7641189d20800000000000000
-      internalID: 3285394922630371555
+      spriteID: cc17f1da2f3c91d80800000000000000
+      internalID: -8279370992889925172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level1Pallet_5
+      name: Level1PalletNew_10
       rect:
         serializedVersion: 2
         x: 128
@@ -233,14 +359,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 575f95500e049c500800000000000000
-      internalID: 416935771415115125
+      spriteID: 9e40318c2af83fd00800000000000000
+      internalID: 1005305071137916137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level1Pallet_6
+      name: Level1PalletNew_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c7680edd3a33a10800000000000000
+      internalID: 1888032842148379803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1PalletNew_12
       rect:
         serializedVersion: 2
         x: 0
@@ -254,14 +401,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecea12a6bfd4748e0800000000000000
-      internalID: -1709311791351091506
+      spriteID: 483e38b47cec7fd20800000000000000
+      internalID: 3312343406315037572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level1Pallet_7
+      name: Level1PalletNew_13
       rect:
         serializedVersion: 2
         x: 64
@@ -275,14 +422,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f18127e60016688a0800000000000000
-      internalID: -6303243973977565153
+      spriteID: 7c59bbe3d701176f0800000000000000
+      internalID: -688751137901537849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Level1Pallet_8
+      name: Level1PalletNew_14
       rect:
         serializedVersion: 2
         x: 128
@@ -296,8 +443,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6fb96171b1c46c90800000000000000
-      internalID: -7177398938265600148
+      spriteID: e80571e04f4256170800000000000000
+      internalID: 8170977729560662158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1PalletNew_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16e67ec742fc5e50800000000000000
+      internalID: 6799575927643104799
       vertices: []
       indices: 
       edges: []

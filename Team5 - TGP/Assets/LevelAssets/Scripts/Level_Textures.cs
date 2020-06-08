@@ -15,7 +15,14 @@ public class Level_Textures : MonoBehaviour
         URC,
         LLC,
         LRC,
+        TWOS,
+        TWOU,
+        THREEUP,
+        THREERIGHT,
+        THREELEFT,
+        THREEDOWN,
         FULL,
+        SOLO,
     }
 
     class tileData
@@ -26,7 +33,7 @@ public class Level_Textures : MonoBehaviour
     }
 
     [SerializeField]
-    Tile[] tileSet = new Tile[9];
+    Tile[] tileSet = new Tile[16];
 
     private BoundsInt bounds;
     private Tilemap tilemap;
@@ -45,41 +52,37 @@ public class Level_Textures : MonoBehaviour
             Vector3Int pos = new Vector3Int(allTiles[i].posX, allTiles[i].posY, 0);
 
             if (direction == TileDirection.UP)
-            {
                 tilemap.SetTile(pos, tileSet[1]);
-            }
             else if (direction == TileDirection.LEFT)
-            {
                 tilemap.SetTile(pos, tileSet[3]);
-            }
             else if (direction == TileDirection.RIGHT)
-            {
                 tilemap.SetTile(pos, tileSet[5]);
-            }
             else if (direction == TileDirection.DOWN)
-            {
                 tilemap.SetTile(pos, tileSet[7]);
-            }
             else if (direction == TileDirection.ULC)
-            {
                 tilemap.SetTile(pos, tileSet[0]);
-            }
             else if (direction == TileDirection.URC)
-            {
                 tilemap.SetTile(pos, tileSet[2]);
-            }
             else if (direction == TileDirection.LLC)
-            {
                 tilemap.SetTile(pos, tileSet[6]);
-            }
             else if (direction == TileDirection.LRC)
-            {
                 tilemap.SetTile(pos, tileSet[8]);
-            }
+            else if(direction == TileDirection.TWOS)
+                tilemap.SetTile(pos, tileSet[14]);
+            else if (direction == TileDirection.TWOU)
+                tilemap.SetTile(pos, tileSet[13]);
+            else if (direction == TileDirection.THREEUP)
+                tilemap.SetTile(pos, tileSet[9]);
+            else if (direction == TileDirection.THREELEFT)
+                tilemap.SetTile(pos, tileSet[12]);
+            else if (direction == TileDirection.THREERIGHT)
+                tilemap.SetTile(pos, tileSet[10]);
+            else if (direction == TileDirection.THREEDOWN)
+                tilemap.SetTile(pos, tileSet[11]);
+            else if (direction == TileDirection.FULL)
+                tilemap.SetTile(pos, tileSet[15]);
             else
-            {
                 tilemap.SetTile(pos, tileSet[4]);
-            }
         }
             
     }
@@ -110,7 +113,7 @@ public class Level_Textures : MonoBehaviour
 
     TileDirection CalculateNearby(tileData tile)
     {
-        TileDirection direction = TileDirection.FULL;
+        TileDirection direction = TileDirection.SOLO;
         List<int> values = new List<int>();
 
         if (tilemap.GetTile(new Vector3Int(tile.posX, tile.posY + 1, 0)) == null)
@@ -143,7 +146,24 @@ public class Level_Textures : MonoBehaviour
                 direction = TileDirection.LLC;
             else if (values.Contains(4) && values.Contains(1))
                 direction = TileDirection.ULC;
+            else if (values.Contains(1) && values.Contains(3))
+                direction = TileDirection.TWOS;
+            else if (values.Contains(2) && values.Contains(4))
+                direction = TileDirection.TWOU;
         }
+        else if (values.Count == 3)
+        {
+            if (values.Contains(1) && values.Contains(2) && values.Contains(4))
+                direction = TileDirection.THREEUP;
+            else if (values.Contains(1) && values.Contains(2) && values.Contains(3))
+                direction = TileDirection.THREERIGHT;
+            else if (values.Contains(2) && values.Contains(3) && values.Contains(4))
+                direction = TileDirection.THREEDOWN;
+            else if (values.Contains(3) && values.Contains(4) && values.Contains(1))
+                direction = TileDirection.THREELEFT;
+        }
+        else if (values.Count == 4)
+            direction = TileDirection.FULL;
         return direction;
     }
     // Update is called once per frame
