@@ -44,12 +44,12 @@ public class Level_Convey : MonoBehaviour
         {
             if (Left)
             {
-                Debug.Log("Player move left");
+                //Debug.Log("Player move left");
                 playerRB.AddForce(new Vector2(-conveyForce, 0.0f));
             }
             else if (!Left)
             {
-                Debug.Log("Player move right");
+                //Debug.Log("Player move right");
                 playerRB.AddForce(new Vector2(conveyForce, 0.0f));
             }
         }
