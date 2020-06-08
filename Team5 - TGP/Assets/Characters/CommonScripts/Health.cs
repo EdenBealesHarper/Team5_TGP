@@ -46,14 +46,14 @@ public class Health : MonoBehaviour
 
     void OnDeath()
     {
-        if (gameObject.tag == "Player")
+        if (deathSFX != null)
         {
-            AudioManager.Instance().PlaySFXPlayer(deathSFX);
+            if (gameObject.tag == "Player")
+                AudioManager.Instance().PlaySFXPlayer(deathSFX);
+            else
+                AudioManager.Instance().PlaySFXEnemy(deathSFX);
         }
-        else
-        {
-            AudioManager.Instance().PlaySFXEnemy(deathSFX);
+        else if (gameObject.tag != "Player")
             Destroy(gameObject);
-        }
     }
 }
