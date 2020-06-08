@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":381.0290222167969,"y":211.17848205566407,"z":-112.74552154541016},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":403.0011291503906,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":24.896360397338868,"y":13.705059051513672,"z":-6.911125183105469},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":36.31357955932617,"orthographic":true}
+>>>>>>> Level
