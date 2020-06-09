@@ -1080,6 +1080,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5629369599066143376, guid: b4cd7d74805db79438beecbb18728777,
+        type: 3}
+      propertyPath: slottedUpgrades.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5629369599066143376, guid: b4cd7d74805db79438beecbb18728777,
+        type: 3}
+      propertyPath: slottedUpgrades.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5629369599066143376, guid: b4cd7d74805db79438beecbb18728777,
+        type: 3}
+      propertyPath: ChargedJumpForce
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5629369599066143376, guid: b4cd7d74805db79438beecbb18728777,
+        type: 3}
+      propertyPath: ChargedJumpIncrement
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5629369599066143376, guid: b4cd7d74805db79438beecbb18728777,
+        type: 3}
+      propertyPath: ChargedJumpMovementPenalty
+      value: 0.75
+      objectReference: {fileID: 0}
     - target: {fileID: 7843714168337068002, guid: b4cd7d74805db79438beecbb18728777,
         type: 3}
       propertyPath: Cam

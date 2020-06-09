@@ -178,13 +178,19 @@ public class Springer_WeaponManager : MonoBehaviour
 
     }
 
-    void SwitchWeapon(int Direction)
+  public  void SwitchWeapon(int Direction)
     {
-        ActiveWeapon += ((Direction + ActiveWeapon) % AvailableWeapons.Count);
-         MF.mesh = AvailableWeapons[ActiveWeapon].WeaponMesh;
-        Projectile = AvailableWeapons[ActiveWeapon].Projectile;
-        WeaponMode = AvailableWeapons[ActiveWeapon].WeaponType;
+        
+        if ((ActiveWeapon + Direction) >= AvailableWeapons.Count)
+        {
+            ActiveWeapon = 0;
+        }
+        else if ((ActiveWeapon - Direction) < 0)
+        {
+            ActiveWeapon = AvailableWeapons.Count - 1;
+        }
 
+        SetWeapon(ActiveWeapon);
 
 
     }

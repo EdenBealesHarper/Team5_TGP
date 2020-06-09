@@ -107,6 +107,9 @@ public class Springer_CharacterController : MonoBehaviour
         WeaponMode(Input.GetButton("Fire1"));
        
         Move(Input.GetAxis("Horizontal"), Input.GetButton("Jump"));
+
+        if (Input.GetButtonDown("SwitchWeaponUp")) WeaponManager.SwitchWeapon(1);
+        if (Input.GetButtonDown("SwitchWeaponDown")) WeaponManager.SwitchWeapon(-1);
     }
 
     private void FixedUpdate()

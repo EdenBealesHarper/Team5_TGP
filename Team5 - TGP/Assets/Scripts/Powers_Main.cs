@@ -9,6 +9,18 @@ public class Powers_Main : MonoBehaviour
     public List<string> slottedUpgrades = new List<string>();
     public List<string> knownUpgrades = new List<string>();
 
+    [SerializeField]
+    private float ChargedJumpForce;             //Maximum jump force for charged jump.
+    [SerializeField]
+    private float ChargedJumpIncrement;         //How much the jump gets charged per frame.
+    [SerializeField]
+    private float ChargedJumpMovementPenalty;   //how much the player movespeed is reduced when charging the jump.
+
+
+    
+    private float InitialJumpForce;             //Gets the initial jump force that the player is given.
+    private float InitialMaxMoveSpeed;             //Get the intial max move speed the player is given.
+
     public int fireTime = 0;
     public int fireMax = 1000;
 
@@ -21,6 +33,8 @@ public class Powers_Main : MonoBehaviour
     void Start()
     {
         CharControl = GetComponent<Springer_CharacterController>();
+        InitialJumpForce = CharControl.JumpForce;
+        InitialMaxMoveSpeed = CharControl.MaxSpeed;
         dirty = false;
 
         knownUpgrades.Add("ENGINE");
@@ -133,16 +147,23 @@ public class Powers_Main : MonoBehaviour
         {
             print("Charging Jump");
 
-            if (CharControl.JumpForce <= 600f)
+            //While the key is held, charges the jump force up until it's maximum.
+
+            if (CharControl.JumpForce <= ChargedJumpForce)
             {
-                CharControl.JumpForce++;
+                CharControl.JumpForce += ChargedJumpIncrement;
+                //Reduces the movement speed of the player while charging.
+                CharControl.MaxSpeed = InitialMaxMoveSpeed * ChargedJumpMovementPenalty;
             }
         }
         else if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             print("Release");
 
-            CharControl.JumpForce = 400f;
+
+            //Returns JumpForce and Movespeed to normal values.
+            CharControl.JumpForce = InitialJumpForce;
+            CharControl.MaxSpeed = InitialMaxMoveSpeed;
         }
     }
 
