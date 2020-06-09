@@ -58,12 +58,8 @@ public class Springer_CharacterController : MonoBehaviour
     private int MaxJumpCount = 1;   //The maximum amount of times the player can jump
 
     [SerializeField]
-<<<<<<< HEAD
-    private AudioClip JumpSFX;
-=======
     private int JumpHeatCost;
 
->>>>>>> PlayerCharacter
 
     [SerializeField]
     private bool bIsWeaponActive;
@@ -111,8 +107,8 @@ public class Springer_CharacterController : MonoBehaviour
        
         Move(Input.GetAxis("Horizontal"), Input.GetButton("Jump"));
 
-        if (Input.GetButtonDown("SwitchWeaponUp")) WeaponManager.SwitchWeapon(1);
-        if (Input.GetButtonDown("SwitchWeaponDown")) WeaponManager.SwitchWeapon(-1);
+        if (Input.mouseScrollDelta.y > 0) WeaponManager.SwitchWeapon(1);
+        if (Input.mouseScrollDelta.y < 0) WeaponManager.SwitchWeapon(-1);
     }
 
     private void FixedUpdate()
@@ -202,16 +198,10 @@ public class Springer_CharacterController : MonoBehaviour
 
             bGrounded = false;
             Anim.SetBool("Grounded", false);
-<<<<<<< HEAD
-            Anim.SetTrigger("Jump");
-
-            AudioManager.Instance().PlaySFXPlayer(JumpSFX);
-=======
             Anim.SetTrigger("Jump");
             Powers.fireTime += JumpHeatCost;
            
 
->>>>>>> PlayerCharacter
 
              JumpCount++;
         }

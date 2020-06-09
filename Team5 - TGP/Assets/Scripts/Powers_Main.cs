@@ -41,12 +41,8 @@ public class Powers_Main : MonoBehaviour
     void Start()
     {
         CharControl = GetComponent<Springer_CharacterController>();
-<<<<<<< HEAD
-        WeaponManager = GetComponent<Springer_WeaponManager>();
-=======
         InitialJumpForce = CharControl.JumpForce;
         InitialMaxMoveSpeed = CharControl.MaxSpeed;
->>>>>>> PlayerCharacter
         dirty = false;
     }
 
@@ -150,15 +146,11 @@ public class Powers_Main : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftControl))
         {
-<<<<<<< HEAD
-            if (CharControl.JumpForce <= 600f)
-=======
             print("Charging Jump");
 
             //While the key is held, charges the jump force up until it's maximum.
 
             if (CharControl.JumpForce <= ChargedJumpForce)
->>>>>>> PlayerCharacter
             {
                 CharControl.JumpForce += ChargedJumpIncrement;
                 //Reduces the movement speed of the player while charging.
@@ -167,16 +159,12 @@ public class Powers_Main : MonoBehaviour
         }
         else if (Input.GetKeyUp(KeyCode.LeftControl))
         {
-<<<<<<< HEAD
-            CharControl.JumpForce = 400f;
-=======
             print("Release");
 
 
             //Returns JumpForce and Movespeed to normal values.
             CharControl.JumpForce = InitialJumpForce;
             CharControl.MaxSpeed = InitialMaxMoveSpeed;
->>>>>>> PlayerCharacter
         }
     }
 
