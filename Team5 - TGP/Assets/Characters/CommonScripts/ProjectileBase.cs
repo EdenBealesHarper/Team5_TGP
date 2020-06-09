@@ -41,7 +41,7 @@ public class ProjectileBase : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       if (collision.gameObject.tag == "CanBeDamaged")
+       if (collision.gameObject.tag == "CanBeDamaged" || collision.gameObject.tag == "Player")
         {
             DamageTarget(collision.gameObject.GetComponent<Health>());
         }

@@ -21,6 +21,7 @@ public class Health : MonoBehaviour
   public virtual void TakeDamage(float Damage)
     {
         CurrentHealth -= Damage;
+        Debug.Log("Damaged");
         if (CurrentHealth <= 0)
         {
             //ToDo On Death event
@@ -53,7 +54,7 @@ public class Health : MonoBehaviour
             else
                 AudioManager.Instance().PlaySFXEnemy(deathSFX);
         }
-        else if (gameObject.tag != "Player")
-            Destroy(gameObject);
+        Destroy(gameObject);
+
     }
 }

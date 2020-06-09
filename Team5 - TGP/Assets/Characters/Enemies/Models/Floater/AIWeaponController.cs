@@ -40,7 +40,7 @@ public class AIWeaponController : MonoBehaviour
     void Update()
     {
         FindTarget();
-        if (FireTimer <= 0)
+        if ( bCanFire && FireTimer <= 0)
         {
             FireWeapon();
             FireTimer = FireRate;
@@ -57,7 +57,12 @@ public class AIWeaponController : MonoBehaviour
         if (Vector2.Distance(transform.position, Target.transform.position) < ActiveRange)
         {
             Cannon.transform.LookAt(Target.transform.position);
+            bCanFire = true;
 
+        }
+        else
+        {
+            bCanFire = false;
         }
     }
 

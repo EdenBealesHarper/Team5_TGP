@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - UPGRADE
+  - CanBeDamaged
   layers:
   - Default
   - TransparentFX
