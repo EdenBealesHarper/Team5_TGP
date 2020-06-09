@@ -132,18 +132,18 @@ public class Springer_WeaponManager : MonoBehaviour
                     
                     break;
                 case EWeaponType.Burst:
-                    CurrentCapacity -= FireCost;
+                   // CurrentCapacity -= FireCost;
                     WeaponTimer = 0.0f;
                     bCanFire = false;
                     break;
                 case EWeaponType.RapidFire:
                     Create_SingleShot();
-                    CurrentCapacity -= FireCost;
+                   // CurrentCapacity -= FireCost;
                     bCanFire = false;
                     WeaponTimer = FireRate;
                     break;
                 case EWeaponType.Single:
-                    CurrentCapacity -= FireCost;
+                    //CurrentCapacity -= FireCost;
                     Create_SingleShot();
                     bCanFire = false;
                    
@@ -180,13 +180,19 @@ public class Springer_WeaponManager : MonoBehaviour
 
     }
 
-    void SwitchWeapon(int Direction)
+  public  void SwitchWeapon(int Direction)
     {
-        ActiveWeapon += ((Direction + ActiveWeapon) % AvailableWeapons.Count);
-         MF.mesh = AvailableWeapons[ActiveWeapon].WeaponMesh;
-        Projectile = AvailableWeapons[ActiveWeapon].Projectile;
-        WeaponMode = AvailableWeapons[ActiveWeapon].WeaponType;
+        
+        if ((ActiveWeapon + Direction) >= AvailableWeapons.Count)
+        {
+            ActiveWeapon = 0;
+        }
+        else if ((ActiveWeapon - Direction) < 0)
+        {
+            ActiveWeapon = AvailableWeapons.Count - 1;
+        }
 
+        SetWeapon(ActiveWeapon);
 
 
     }
