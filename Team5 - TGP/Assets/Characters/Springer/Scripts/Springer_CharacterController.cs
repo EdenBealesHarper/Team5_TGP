@@ -55,7 +55,7 @@ public class Springer_CharacterController : MonoBehaviour
 
     public int JumpCount = 0;             // How many times the player has jumped after last touching the floor
     [SerializeField]
-    private int MaxJumpCount = 1;   //The maximum amount of times the player can jump
+    public int MaxJumpCount = 1;   //The maximum amount of times the player can jump
 
     [SerializeField]
     private int JumpHeatCost;
@@ -91,9 +91,6 @@ public class Springer_CharacterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-
-        MaxJumpCount = 2;  
     }
 
     // Update is called once per frame
