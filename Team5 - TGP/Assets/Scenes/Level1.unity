@@ -67233,7 +67233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f8c5d141739c964792577b70ec81cb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNumber: 3
+  levelNumber: 2
 --- !u!50 &1541767741
 Rigidbody2D:
   serializedVersion: 4

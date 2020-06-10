@@ -28,8 +28,6 @@ public class UI_HUD : MonoBehaviour
 
     [SerializeField]
     private Button[] restartButtons = new Button[3];
-    [SerializeField]
-    private Text restartText;
 
     private bool effectsDirty;
 
@@ -72,7 +70,7 @@ public class UI_HUD : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CheckLevelEnd();
+        CheckGameOver();
         CheckPaused();
         UpdateHealth();
         UpdatePowers();
@@ -231,19 +229,9 @@ public class UI_HUD : MonoBehaviour
         restartButtons[0].onClick.AddListener(GameManager.Instance().ReloadLevel);
     }
 
-    private void CheckLevelEnd()
+    public void CheckGameOver()
     {
-        // other conditions could go here too
         if (health.GetCurrentHealth() <= 0 && !restartButtons[0].gameObject.activeInHierarchy)
-        {
             restartButtons[0].transform.parent.gameObject.SetActive(true);
-            restartText.text = "GAME OVER";
-        }
-    }
-
-    public void EndLevel()
-    {
-        restartButtons[0].transform.parent.gameObject.SetActive(true);
-        restartText.text = "LEVEL CLEARED";
     }
 }

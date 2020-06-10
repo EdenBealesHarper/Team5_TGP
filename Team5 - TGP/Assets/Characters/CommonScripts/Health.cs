@@ -5,9 +5,9 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField]
-    protected float TotalHealth = 200;
+    protected float TotalHealth;
     [SerializeField]
-    protected float CurrentHealth = 200;
+    protected float CurrentHealth;
 
     [SerializeField]
     protected AudioClip injuredSFX;
@@ -48,14 +48,16 @@ public class Health : MonoBehaviour
 
     void OnDeath()
     {
-        if (deathSFX != null)
+        if (gameObject.tag == "Player") 
         {
-            if (gameObject.tag == "Player")
+            if (deathSFX != null)
                 AudioManager.Instance().PlaySFXPlayer(deathSFX);
-            else
-                AudioManager.Instance().PlaySFXEnemy(deathSFX);
         }
-        Destroy(gameObject);
-
+        else
+        {
+            if (deathSFX != null)
+                AudioManager.Instance().PlaySFXEnemy(deathSFX);
+            Destroy(gameObject);
+        }
     }
 }

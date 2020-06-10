@@ -5,12 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-    public int sceneNumber;
+    public int levelNumber;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        print("Made it Here");
-
-        SceneManager.LoadScene(sceneBuildIndex: sceneNumber);
+        GameManager.Instance().LoadLevel(levelNumber);
     }
 }
