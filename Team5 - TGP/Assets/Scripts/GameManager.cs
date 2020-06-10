@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
     public void GameQuit()
     {
         Application.Quit();
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false;
     }
 
     public void GameMenu()
