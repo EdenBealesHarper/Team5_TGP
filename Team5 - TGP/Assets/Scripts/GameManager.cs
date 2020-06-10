@@ -7,14 +7,22 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
     private static bool paused = false;
-
-    private static AudioClip[] backgroundMusic = new AudioClip[2];
+    private static int levelCount;
+    private static AudioClip[] backgroundMusic;
 
     // Start is called before the first frame update
     void Start()
     {
+        levelCount = SceneManager.sceneCountInBuildSettings - 1; // ignore hud, main menu at 0
+        backgroundMusic = new AudioClip[levelCount];
+
         backgroundMusic[0] = Resources.Load<AudioClip>("Audio/MusicMainMenu");
-        backgroundMusic[1] = Resources.Load<AudioClip>("Audio/MusicLevel1");
+        for (int i = 1; i < levelCount; i++)
+        {
+            AudioClip bgm = Resources.Load<AudioClip>("Audio/MusicLevel" + i);
+            if (bgm)
+                backgroundMusic[i] = bgm;
+        }
 
         //singleton. there can only be one
         DontDestroyOnLoad(this);
@@ -63,7 +71,10 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(levelNumber + 1);
         SceneManager.LoadScene(1, LoadSceneMode.Additive);
 
-        AudioManager.Instance().PlayBGM(backgroundMusic[levelNumber]);
+        AudioClip nextLevelBGM = backgroundMusic[levelNumber];
+        if (nextLevelBGM)
+            AudioManager.Instance().PlayBGM(nextLevelBGM);
+
     }
     public void LoadLevel(string levelName)
     {

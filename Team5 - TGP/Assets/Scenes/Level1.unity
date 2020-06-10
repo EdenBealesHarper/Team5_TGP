@@ -303,8 +303,8 @@ GameObject:
   - component: {fileID: 609726101}
   - component: {fileID: 609726105}
   - component: {fileID: 609726104}
-  - component: {fileID: 609726103}
   - component: {fileID: 609726102}
+  - component: {fileID: 609726103}
   m_Layer: 8
   m_Name: Level1_Floor
   m_TagString: Untagged
@@ -67145,12 +67145,12 @@ PrefabInstance:
     - target: {fileID: 7843714168337068014, guid: b4cd7d74805db79438beecbb18728777,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.04
+      value: -6.14
       objectReference: {fileID: 0}
     - target: {fileID: 7843714168337068014, guid: b4cd7d74805db79438beecbb18728777,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.82
+      value: -2.51
       objectReference: {fileID: 0}
     - target: {fileID: 7843714168337068014, guid: b4cd7d74805db79438beecbb18728777,
         type: 3}
