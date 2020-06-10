@@ -2445,6 +2445,8 @@ MonoBehaviour:
   enableDetectionRange: 1
   detectionRange: 15
   attackRange: 3.5
+  attackCooldown: 2
+  attackDamage: 20
   enemyGFX: {fileID: 3599146801220951717}
   weaponController: {fileID: 2427431484006101545}
 --- !u!50 &3599146801220951713
@@ -2507,5 +2509,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TotalHealth: 100
+  CurrentHealth: 0
   injuredSFX: {fileID: 8300000, guid: 619803a1fcfaa4c29871b9dbc54bcaca, type: 3}
   deathSFX: {fileID: 8300000, guid: 55be93baccc4c4824847cbc8846fa90e, type: 3}

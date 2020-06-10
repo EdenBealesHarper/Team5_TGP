@@ -52,11 +52,11 @@ public class AI_Walker : MonoBehaviour
 
 
 
-   public void DoAttack()
+   public void DoAttack(int damage)
     {
         Anim.SetTrigger("Attack");
         bAttackTriggered = true;
-        TargetHealth.TakeDamage(10);
+        TargetHealth.TakeDamage(damage);
 
     }
 }

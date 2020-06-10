@@ -12,8 +12,8 @@ public class Enemy_AI : MonoBehaviour
     public bool enableDetectionRange = true;
     public float detectionRange = 10f;
     public float attackRange = 3f;
-    //public bool enableStayAtRange = false;
-    //public float stayAtRange = 10f;
+    public float attackCooldown = 1f;
+    public int attackDamage = 20;
 
     public Transform enemyGFX;
     public AI_Walker weaponController;
@@ -21,6 +21,7 @@ public class Enemy_AI : MonoBehaviour
     Path path;
     int currentWaypoint = 0;
     bool reachedEndOfPath = false;
+    float attackTime = 0f;
 
     Seeker seeker;
     Rigidbody2D rb;
@@ -62,6 +63,12 @@ public class Enemy_AI : MonoBehaviour
         else
             reachedEndOfPath = false;
 
+        if (attackTime > 0)
+            attackTime -= Time.deltaTime;
+
+        if (attackTime < 0)
+            attackTime = 0;
+
         CheckRange();
 
         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
@@ -96,8 +103,13 @@ public class Enemy_AI : MonoBehaviour
 
     void Attack()
     {
-        Debug.Log("ATTACK IN RANGE!");
-        weaponController.DoAttack();
+        int i = 0;
+        if (attackTime == 0)
+        {
+            Debug.Log("Attack " + (i+1));
+            weaponController.DoAttack(attackDamage);
+            attackTime = attackCooldown;
+        }
     }
 
     void CheckRange()
