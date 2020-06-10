@@ -70,7 +70,9 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(levelName);
         SceneManager.LoadScene(1, LoadSceneMode.Additive);
 
-        AudioManager.Instance().PlayBGM(backgroundMusic[SceneManager.GetSceneByName(levelName).buildIndex - 1]);
+        AudioClip nextLevelBGM = backgroundMusic[SceneManager.GetSceneByName(levelName).buildIndex - 1];
+        if (nextLevelBGM)
+            AudioManager.Instance().PlayBGM(nextLevelBGM);
     }
 
     public void ReloadLevel()
