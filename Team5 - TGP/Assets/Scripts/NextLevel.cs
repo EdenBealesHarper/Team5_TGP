@@ -9,6 +9,8 @@ public class NextLevel : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        print("Made it Here");
+
         SceneManager.LoadScene(sceneBuildIndex: sceneNumber);
     }
 }

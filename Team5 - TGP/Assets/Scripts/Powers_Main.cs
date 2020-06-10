@@ -38,6 +38,8 @@ public class Powers_Main : MonoBehaviour
     [SerializeField]
     private AudioClip chargeJumpSFX;
 
+    private int damageTick = 100;
+
     void Start()
     {
         CharControl = GetComponent<Springer_CharacterController>();
@@ -68,6 +70,36 @@ public class Powers_Main : MonoBehaviour
                         break;
                     }
             }
+        }
+
+        ManageFire();
+    }
+
+    void ManageFire()
+    {
+        damageTick++;
+
+        if (fireTime > 0)
+        {
+            fireTime--;
+        }
+
+        if (fireTime >= fireMax)
+        {
+            //Deal Damage and set on fire
+            onFire = true;
+        }
+        else
+        {
+            onFire = false;
+        }
+
+        if (damageTick >= 100 && onFire)
+        {
+            print("Damaged By Fire");
+
+            GetComponent<Health>().TakeDamage(1f);
+            damageTick = 0;
         }
     }
 
@@ -112,31 +144,13 @@ public class Powers_Main : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            fireTime++;
+            fireTime += 2;
 
             CharControl.SpeedModifier = 1.5f;
         }
         else if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             CharControl.SpeedModifier = 1.0f;
-        }
-        else
-        {
-            if (fireTime > 0)
-            {
-                fireTime--;
-            }
-        }
-
-        if (fireTime >= fireMax)
-        {
-            //Deal Damage and set on fire
-            GetComponent<Health>().TakeDamage(0.1f);
-            onFire = true;
-        }
-        else 
-        {
-            onFire = false;
         }
     }
 

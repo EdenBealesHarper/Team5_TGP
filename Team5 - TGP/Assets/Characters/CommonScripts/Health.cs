@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    protected float CurrentHealth;
     [SerializeField]
-    protected float TotalHealth;
+    protected float TotalHealth = 200;
+    [SerializeField]
+    protected float CurrentHealth = 200;
 
     [SerializeField]
     protected AudioClip injuredSFX;
@@ -22,7 +23,7 @@ public class Health : MonoBehaviour
     {
         CurrentHealth -= Damage;
         Debug.Log("Damaged");
-        if (CurrentHealth <= 0)
+        if (CurrentHealth <= 0.0f)
         {
             //ToDo On Death event
             OnDeath();
