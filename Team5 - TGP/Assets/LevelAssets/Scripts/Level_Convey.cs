@@ -8,7 +8,7 @@ public class Level_Convey : MonoBehaviour
     bool Left;
 
     [SerializeField]
-    float conveyForce = 50.0f;
+    float conveyForce = 200.0f;
 
     private bool playerColliding;
     private GameObject Player;

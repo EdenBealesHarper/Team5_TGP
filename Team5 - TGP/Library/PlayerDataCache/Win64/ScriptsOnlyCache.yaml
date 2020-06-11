@@ -81,6 +81,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/HUD.unity:
     - Class: 1
@@ -1509,7 +1511,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerEnumHistory
   - hash:
       serializedVersion: 2
-      Hash: 7fce5a772a7bb56f76dc472d937edead
+      Hash: 78141513fb003aa8a9dde9752e94d927
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy_AI
@@ -1729,4 +1731,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/HUD.unity
   - Assets/Scenes/Level1.unity
   - Assets/Scenes/Level2.unity
-  playerPath: C:/Users/cammy_000/Documents/Team5 - TGP.exe
+  playerPath: C:/Users/cammy_000/Documents/UnityBuilds/TGP/Team5 - TGP.exe

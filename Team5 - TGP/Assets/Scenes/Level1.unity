@@ -66438,7 +66438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Left: 1
-  conveyForce: 50
+  conveyForce: 360
 --- !u!483693784 &809541332
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -67089,7 +67089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eba6d5b52af82a45aeb76dcae0a3a18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deltDamage: 0
+  deltDamage: 1
 --- !u!1001 &1380131305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67145,12 +67145,12 @@ PrefabInstance:
     - target: {fileID: 7843714168337068014, guid: b4cd7d74805db79438beecbb18728777,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.14
+      value: -7.6
       objectReference: {fileID: 0}
     - target: {fileID: 7843714168337068014, guid: b4cd7d74805db79438beecbb18728777,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.51
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 7843714168337068014, guid: b4cd7d74805db79438beecbb18728777,
         type: 3}
@@ -67501,7 +67501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Left: 0
-  conveyForce: 100
+  conveyForce: 500
 --- !u!483693784 &1591721439
 TilemapRenderer:
   m_ObjectHideFlags: 0
