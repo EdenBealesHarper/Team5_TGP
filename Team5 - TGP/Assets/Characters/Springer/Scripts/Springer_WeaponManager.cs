@@ -186,11 +186,14 @@ public class Springer_WeaponManager : MonoBehaviour
   public  void SwitchWeapon(int Direction)
     {
         
+       
+
+
         if ((ActiveWeapon + Direction) >= AvailableWeapons.Count)
         {
             ActiveWeapon = 0;
         }
-        else if ((ActiveWeapon - Direction) < 0)
+        else if ((ActiveWeapon + Direction) < 0)
         {
             ActiveWeapon = AvailableWeapons.Count - 1;
         }
@@ -198,6 +201,8 @@ public class Springer_WeaponManager : MonoBehaviour
         {
             ActiveWeapon += Direction;
         }
+
+        
 
         SetWeapon(ActiveWeapon);
 
