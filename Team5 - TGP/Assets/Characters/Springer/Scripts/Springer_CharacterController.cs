@@ -66,6 +66,8 @@ public class Springer_CharacterController : MonoBehaviour
 
 
     private bool bJumpHeld = false;
+    private bool bWeaponInput = false;
+
     
     private Springer_AimController AimController;
     private FollowCamera FollowCam;
@@ -73,6 +75,8 @@ public class Springer_CharacterController : MonoBehaviour
     private Powers_Main Powers;
 
    public float LocalScale;
+
+
 
     private void Awake()
     {
@@ -104,9 +108,31 @@ public class Springer_CharacterController : MonoBehaviour
        
         Move(Input.GetAxis("Horizontal"), Input.GetButton("Jump"));
 
-        if (Input.mouseScrollDelta.y > 0) WeaponManager.SwitchWeapon(1);
-        if (Input.mouseScrollDelta.y < 0) WeaponManager.SwitchWeapon(-1);
+        if (Input.mouseScrollDelta.y > 0 && CanUpdateWeapon(true)) WeaponManager.SwitchWeapon(1);
+        else if (Input.mouseScrollDelta.y < 0 && CanUpdateWeapon(true)) WeaponManager.SwitchWeapon(-1);
+        else CanUpdateWeapon(false);
     }
+
+
+    bool CanUpdateWeapon(bool Input)
+    {
+        if (!bWeaponInput && Input)
+        {
+            bWeaponInput = true;
+            return true;
+           
+        }
+        else if (!Input)
+        {
+            bWeaponInput = false;
+            return false;
+        }
+        return false;
+            
+
+    }
+
+
 
     private void FixedUpdate()
     {

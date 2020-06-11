@@ -172,7 +172,10 @@ public class Springer_WeaponManager : MonoBehaviour
 
     public void EquipWeapon(Weapon NewWeapon)
     {
-        AvailableWeapons.Add(NewWeapon);
+       if (!HasWeapon(NewWeapon))
+        {
+            AvailableWeapons.Add(NewWeapon);
+        }
     }
 
     public void DropWeapon()
@@ -224,6 +227,14 @@ public class Springer_WeaponManager : MonoBehaviour
         return !(CurrentCapacity <= 0);
     }
 
+    bool HasWeapon(Weapon Item)
+    {
+        for (int i = 0; i < AvailableWeapons.Count; i++)
+        {
+            if (AvailableWeapons[i] == Item) return true;
 
+        }
+        return false;
+    }
     
 }
