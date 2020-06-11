@@ -446,7 +446,7 @@ MonoBehaviour:
   MeshObject: {fileID: 7953121841967233142}
   ProjectilePosition: {fileID: 5580678556941514835}
   Projectile: {fileID: 0}
-  FireSFX: {fileID: 0}
+  FireSFX: {fileID: 8300000, guid: c786c0b7715c045159e1a655bf5ae4d8, type: 3}
 --- !u!114 &5580678556772448904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,8 +461,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TotalHealth: 200
   CurrentHealth: 200
-  injuredSFX: {fileID: 0}
-  deathSFX: {fileID: 0}
+  injuredSFX: {fileID: 8300000, guid: 619803a1fcfaa4c29871b9dbc54bcaca, type: 3}
+  deathSFX: {fileID: 8300000, guid: 55be93baccc4c4824847cbc8846fa90e, type: 3}
 --- !u!1001 &5580678556468167906
 PrefabInstance:
   m_ObjectHideFlags: 0

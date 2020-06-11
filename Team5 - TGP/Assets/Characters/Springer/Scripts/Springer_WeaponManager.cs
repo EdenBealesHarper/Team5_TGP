@@ -191,6 +191,10 @@ public class Springer_WeaponManager : MonoBehaviour
         {
             ActiveWeapon = AvailableWeapons.Count - 1;
         }
+        else
+        {
+            ActiveWeapon += Direction;
+        }
 
         SetWeapon(ActiveWeapon);
 

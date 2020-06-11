@@ -9,9 +9,12 @@ public class WeaponPickup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        collision.GetComponent<Springer_WeaponManager>().EquipWeapon(heldWeapon);
-        AudioManager.Instance().PlaySFXWorld(sfx);
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.GetComponent<Springer_WeaponManager>().EquipWeapon(heldWeapon);
+            AudioManager.Instance().PlaySFXWorld(sfx);
 
-        Destroy(this.gameObject);
+            Destroy(this.gameObject);
+        }
     }
 }
